@@ -1,4 +1,5 @@
 # Role Catalogue generated from RBAC Matrix v4.3.1 at 2019/07/11 14:41:52
+# (Manually updated 2019/07/26 to swap SPGADBI013 for SPGADBI015 in SPGADBT005)
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:RBAC v4.3.1
@@ -2930,7 +2931,7 @@ description:AP Vacancy Tracker API Admin
 level1:false
 level2:false
 level3:false
-uibusinessinteractioncollection:SPGADBI013
+uibusinessinteractioncollection:SPGADBI015
 uibusinessinteractioncollection:HPBI012
 objectclass:NDRole
 objectclass:top
