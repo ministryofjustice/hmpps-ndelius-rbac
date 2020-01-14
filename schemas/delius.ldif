@@ -75,7 +75,7 @@ olcObjectClasses: ( 1.1.1.1.25 NAME 'NDUser' SUP top AUXILIARY MUST userSector M
   userHomeArea $
   startDate $
   endDate ) )
-olcObjectClasses: ( 1.1.1.1.26 NAME 'NDClient' SUP top AUXILIARY MUST userSector MAY (
+olcObjectClasses: ( 1.1.1.1.26 NAME 'NDClient' SUP top AUXILIARY MAY (
   resourceId $
   registeredRedirectUri $
   authorizedGrantType ) )
