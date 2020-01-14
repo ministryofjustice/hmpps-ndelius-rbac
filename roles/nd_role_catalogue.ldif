@@ -1,8 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.3.1 at 2019/07/11 14:41:52
-# (Manually updated 2019/07/26 to swap SPGADBI013 for SPGADBI015 in SPGADBT005)
+# Role Catalogue generated from RBAC Matrix v4.5.2 at 2020/01/07 18:20:44
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.3.1
+description:RBAC v4.5.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2712,6 +2711,8 @@ uibusinessinteractioncollection:SPGBI900
 uibusinessinteractioncollection:SPGBI901
 uibusinessinteractioncollection:SPGBI902
 uibusinessinteractioncollection:SPGBI904
+uibusinessinteractioncollection:SPGBI906
+uibusinessinteractioncollection:SPGBI907
 objectclass:NDRole
 objectclass:top
 cn:SPGBT001
@@ -2850,6 +2851,8 @@ uibusinessinteractioncollection:SPGBI111
 uibusinessinteractioncollection:SPGBI900
 uibusinessinteractioncollection:SPGBI901
 uibusinessinteractioncollection:SPGBI902
+uibusinessinteractioncollection:SPGBI906
+uibusinessinteractioncollection:SPGBI907
 objectclass:NDRole
 objectclass:top
 cn:SPGBT003
@@ -2937,6 +2940,17 @@ objectclass:NDRole
 objectclass:top
 cn:SPGADBT005
 
+dn:cn=SPGADBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:SPGReserved BIs
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:SPGADBI013
+uibusinessinteractioncollection:SPGADBI014
+objectclass:NDRole
+objectclass:top
+cn:SPGADBT006
+
 dn:cn=SPGBT900,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:DMS System Interface
 level1:false
@@ -2948,6 +2962,79 @@ uibusinessinteractioncollection:SPGBI1002
 objectclass:NDRole
 objectclass:top
 cn:SPGBT900
+
+dn:cn=GDPRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:GDPR Duplicates
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:GDPRBI001
+uibusinessinteractioncollection:GDPRBI002
+uibusinessinteractioncollection:GDPRBI003
+objectclass:NDRole
+objectclass:top
+cn:GDPRBT001
+
+dn:cn=GDPRBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:GDPR Deletions
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:GDPRBI004
+uibusinessinteractioncollection:GDPRBI005
+uibusinessinteractioncollection:GDPRBI006
+uibusinessinteractioncollection:GDPRBI007
+objectclass:NDRole
+objectclass:top
+cn:GDPRBT002
+
+dn:cn=GDPRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:GDPR Retention
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:GDPRBI008
+uibusinessinteractioncollection:GDPRBI009
+uibusinessinteractioncollection:GDPRBI010
+objectclass:NDRole
+objectclass:top
+cn:GDPRBT003
+
+dn:cn=LHDCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:HDC Digital View Only
+level1:true
+level2:false
+level3:false
+uibusinessinteractioncollection:SEBI200
+uibusinessinteractioncollection:SEBI203
+objectclass:NDRole
+objectclass:top
+cn:LHDCBT001
+
+dn:cn=LHDCBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:HDC Digital Update
+level1:true
+level2:false
+level3:false
+uibusinessinteractioncollection:SEBI200
+uibusinessinteractioncollection:SEBI203
+uibusinessinteractioncollection:SEBI201
+uibusinessinteractioncollection:SEBI202
+objectclass:NDRole
+objectclass:top
+cn:LHDCBT002
+
+dn:cn=LHDCBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:HDC Digital Licence vary
+level1:true
+level2:false
+level3:false
+uibusinessinteractioncollection:SEBI203
+uibusinessinteractioncollection:SEBI202
+uibusinessinteractioncollection:SEBI204
+objectclass:NDRole
+objectclass:top
+cn:LHDCBT003
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
