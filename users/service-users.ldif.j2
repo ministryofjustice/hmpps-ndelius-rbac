@@ -1,11 +1,11 @@
-dn: {{ base_service_users }}
+dn: {{ ldap_config.base_service_users }}
 objectclass: javaContainer
 objectclass: top
 
 # OASys API client
 {% set oasys_username=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/oasys_user', region=region) %}
 {% set oasys_password=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/oasys_user_password', region=region) %}
-dn: cn={{ oasys_username }},{{ base_service_users }}
+dn: cn={{ oasys_username }},{{ ldap_config.base_service_users }}
 sn: {{ oasys_username }}
 cn: {{ oasys_username }}
 userPassword: {{ oasys_password }}
@@ -21,7 +21,7 @@ objectclass: top
 # IAPS API client
 {% set iaps_username=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/iaps_user', region=region) %}
 {% set iaps_password=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/iaps_user_password', region=region) %}
-dn: cn={{ iaps_username }},{{ base_service_users }}
+dn: cn={{ iaps_username }},{{ ldap_config.base_service_users }}
 sn: {{ iaps_username }}
 cn: {{ iaps_username }}
 userPassword: {{ iaps_password }}
@@ -50,7 +50,7 @@ businesscategory: SEBI021
 # DSS/OFFLOC import client
 {% set dss_username=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/dss_user', region=region) %}
 {% set dss_password=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/dss_user_password', region=region) %}
-dn: cn={{ dss_username }},{{ base_service_users }}
+dn: cn={{ dss_username }},{{ ldap_config.base_service_users }}
 sn: {{ dss_username }}
 cn: {{ dss_username }}
 userPassword: {{ dss_password }}
@@ -63,7 +63,7 @@ businesscategory: DSBI004
 # NOMIS Case Notes API client
 {% set casenotes_username=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/casenotes_user', region=region) %}
 {% set casenotes_password=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/casenotes_password', region=region) %}
-dn: cn={{ casenotes_username }},{{ base_service_users }}
+dn: cn={{ casenotes_username }},{{ ldap_config.base_service_users }}
 sn: {{ casenotes_username }}
 cn: {{ casenotes_username }}
 userPassword: {{ casenotes_password }}
@@ -75,7 +75,7 @@ objectclass: top
 # Approved Premises Tracker API client
 {% set aptracker_username=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/aptracker_user', region=region) %}
 {% set aptracker_password=lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/apacheds/apacheds/aptracker_password', region=region) %}
-dn: cn={{ aptracker_username }},{{ base_service_users }}
+dn: cn={{ aptracker_username }},{{ ldap_config.base_service_users }}
 sn: {{ aptracker_username }}
 cn: {{ aptracker_username }}
 userPassword: {{ aptracker_password }}
@@ -87,7 +87,7 @@ businesscategory: read,write
 # TODO add AP tracker client roles and remove businesscategory
 
 # Password Manager test user, for verifying LDAP connectivity and functionality
-dn: cn=pwm-test,{{ base_users }}
+dn: cn=pwm-test,{{ ldap_config.base_users }}
 cn: pwm-test
 sn: pwm-test
 userPassword: {{ lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/pwm/pwm/config_password', region=region) }}
@@ -98,7 +98,7 @@ objectclass: person
 objectclass: top
 
 # Password Manager admin user
-dn: cn=pwm-admin,{{ base_users }}
+dn: cn=pwm-admin,{{ ldap_config.base_users }}
 cn: pwm-admin
 sn: pwm-admin
 pwmAdmin: TRUE
@@ -111,7 +111,7 @@ objectclass: top
 
 # CRC clients to support SPG messaging
 {% for user in ['ALF','SPG','C01','C02','C03','C04','C05','C06','C07','C08','C09','C10','C11','C12','C13','C14','C15','C16','C17','C18','C19','C20','C21'] %}
-dn: cn={{ user }},{{ base_users }}
+dn: cn={{ user }},{{ ldap_config.base_users }}
 cn: {{ user }}
 givenname: {{ user }}
 sn: {{ user }}
@@ -126,36 +126,36 @@ objectclass: organizationalPerson
 objectclass: person
 objectclass: top
 
-dn: cn=SPGBT000,cn={{ user }},{{ base_users }}
-aliasedobjectname: cn=SPGBT000,{{ base_roles }}
+dn: cn=SPGBT000,cn={{ user }},{{ ldap_config.base_users }}
+aliasedobjectname: cn=SPGBT000,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
 cn: SPGBT000
 
-dn: cn=SPGBT001,cn={{ user }},{{ base_users }}
-aliasedobjectname: cn=SPGBT001,{{ base_roles }}
+dn: cn=SPGBT001,cn={{ user }},{{ ldap_config.base_users }}
+aliasedobjectname: cn=SPGBT001,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
 cn: SPGBT001
 
-dn: cn=SPGBT003,cn={{ user }},{{ base_users }}
-aliasedobjectname: cn=SPGBT003,{{ base_roles }}
+dn: cn=SPGBT003,cn={{ user }},{{ ldap_config.base_users }}
+aliasedobjectname: cn=SPGBT003,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
 cn: SPGBT003
 
-dn: cn=SPGBT010,cn={{ user }},{{ base_users }}
-aliasedobjectname: cn=SPGBT010,{{ base_roles }}
+dn: cn=SPGBT010,cn={{ user }},{{ ldap_config.base_users }}
+aliasedobjectname: cn=SPGBT010,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
 cn: SPGBT010
 
-dn: cn=SPGBT900,cn={{ user }},{{ base_users }}
-aliasedobjectname: cn=SPGBT900,{{ base_roles }}
+dn: cn=SPGBT900,cn={{ user }},{{ ldap_config.base_users }}
+aliasedobjectname: cn=SPGBT900,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
