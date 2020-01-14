@@ -1,0 +1,31 @@
+dn:cn={{ username }},{{ base_users }}
+cn:{{ username }}
+uid:{{ username }}
+mail:{{ username }}
+description:{{ username}}
+givenname:{{ username }}
+sn:{{ username }}
+userPassword: {{ password }}
+userhomearea:N01
+userSector:public
+objectclass:NDUser
+objectclass:inetOrgPerson
+objectclass:organizationalPerson
+objectclass:person
+objectclass:top
+
+dn:cn=UserPreferences,cn={{ username }},{{ base_users }}
+locale:en
+objectclass:UserPreferences
+objectclass:top
+cn:UserPreferences
+
+{% from 'all-roles.j2' import all_roles %}
+{% for role in all_roles %}
+dn:cn={{ role }},cn={{ username }},{{ base_users }}
+aliasedobjectname:cn={{ role }},{{ base_roles }}
+cn: {{ role }}
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+{% endfor %}

@@ -1,0 +1,81 @@
+dn: cn=delius,cn=schema,cn=config
+cn: delius
+objectClass: olcSchemaConfig
+olcAttributeTypes: ( 1.1.1.1.1 NAME 'tipOfTheDay' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.2 NAME 'showThroughcareKeyDates' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.3 NAME 'bypassDiaryPicklist' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.4 NAME 'verboseHelp' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.5 NAME 'openLastOffender' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.6 NAME 'lastReferralDetails' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.7 NAME 'mostRecentlyViewedOffenders' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.8 NAME 'staffSortingType' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.9 NAME 'area' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.10 NAME 'locale' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.11 NAME 'colourPreferences' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.12 NAME 'autoComplete' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.13 NAME 'enforcementLetterStaff' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.14 NAME 'contactLogInfoBar' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.15 NAME 'contactLogSorting' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.16 NAME 'contactLogDefaultStaff' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.17 NAME 'staffNameFormat' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.18 NAME 'showStaffGrade' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.19 NAME 'UIBusinessInteractionCollection' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.20 NAME 'userHomeArea' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.26 NAME 'defaultCourt' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.27 NAME 'Level1' SYNTAX 1.3.6.1.4.1.1466.115.121.1.7 EQUALITY booleanMatch )
+olcAttributeTypes: ( 1.1.1.1.28 NAME 'Level2' SYNTAX 1.3.6.1.4.1.1466.115.121.1.7 EQUALITY booleanMatch )
+olcAttributeTypes: ( 1.1.1.1.29 NAME 'Level3' SYNTAX 1.3.6.1.4.1.1466.115.121.1.7 EQUALITY booleanMatch )
+olcAttributeTypes: ( 1.1.1.1.30 NAME 'Sector' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.31 NAME 'AdminLevel' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.32 NAME 'userSector' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.40 NAME 'defaultTeam' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.41 NAME 'defaultStaff' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.44 NAME 'defaultPremisesGrouping' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.45 NAME 'defaultPremises' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.46 NAME 'startDate' SYNTAX 1.3.6.1.4.1.1466.115.121.1.24 EQUALITY generalizedTimeMatch ORDERING generalizedTimeOrderingMatch )
+olcAttributeTypes: ( 1.1.1.1.47 NAME 'endDate' SYNTAX 1.3.6.1.4.1.1466.115.121.1.24 EQUALITY generalizedTimeMatch ORDERING generalizedTimeOrderingMatch )
+olcAttributeTypes: ( 1.1.1.1.48 NAME 'resourceId' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.49 NAME 'registeredRedirectUri' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.50 NAME 'authorizedGrantType' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcObjectClasses: ( 1.1.1.1.21 NAME 'UserPreferences' SUP top STRUCTURAL MUST cn MAY (
+  area $
+  autoComplete $
+  bypassDiaryPicklist $
+  colourPreferences $
+  contactLogDefaultStaff $
+  contactLogInfoBar $
+  contactLogSorting $
+  enforcementLetterStaff $
+  lastReferralDetails $
+  locale $
+  mostRecentlyViewedOffenders $
+  openLastOffender $
+  showStaffGrade $
+  showThroughcareKeyDates $
+  staffNameFormat $
+  staffSortingType $
+  tipOfTheDay $
+  verboseHelp $
+  defaultCourt $
+  defaultTeam $
+  defaultStaff $
+  defaultPremisesGrouping $
+  defaultPremises ) )
+olcObjectClasses: ( 1.1.1.1.22 NAME 'NDRole' SUP top STRUCTURAL MUST cn MAY (
+  AdminLevel $
+  Level1 $
+  Level2 $
+  Level3 $
+  Sector $
+  description $
+  UIBusinessInteractionCollection ) )
+olcObjectClasses: ( 1.1.1.1.23 NAME 'NDRoleAssociation' SUP top AUXILIARY MUST cn )
+olcObjectClasses: ( 1.1.1.1.24 NAME 'NDRoleGroup' SUP top STRUCTURAL MUST cn )
+olcObjectClasses: ( 1.1.1.1.25 NAME 'NDUser' SUP top AUXILIARY MUST userSector MAY (
+  userHomeArea $
+  startDate $
+  endDate ) )
+olcObjectClasses: ( 1.1.1.1.26 NAME 'NDClient' SUP top AUXILIARY MUST userSector MAY (
+  resourceId $
+  registeredRedirectUri $
+  authorizedGrantType ) )
