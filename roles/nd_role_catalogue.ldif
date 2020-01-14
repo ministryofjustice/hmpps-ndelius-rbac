@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.2.2 at 2019/04/12 09:01:12
+# Role Catalogue generated from RBAC Matrix v4.3.1 at 2019/07/11 14:41:52
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.2.2
+description:RBAC v4.3.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2924,6 +2924,17 @@ uibusinessinteractioncollection:HPBI012
 objectclass:NDRole
 objectclass:top
 cn:SPGADBT004
+
+dn:cn=SPGADBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:AP Vacancy Tracker API Admin
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:SPGADBI013
+uibusinessinteractioncollection:HPBI012
+objectclass:NDRole
+objectclass:top
+cn:SPGADBT005
 
 dn:cn=SPGBT900,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:DMS System Interface
