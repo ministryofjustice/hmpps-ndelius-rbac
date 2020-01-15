@@ -101,6 +101,34 @@ objectclass: organizationalPerson
 objectclass: person
 objectclass: top
 
+dn: cn=UMBT001,cn=UserManagement-UI,cn=EISUsers,ou=Users,dc=bcl,dc=local
+objectclass: top
+objectclass: alias
+objectclass: NDRoleAssociation
+cn: UMBT001
+aliasedObjectName: cn=UMBT001,cn=ndRoleCatalogue,ou=Users,dc=bcl,dc=local
+
+dn: cn=UMBT002,cn=UserManagement-UI,cn=EISUsers,ou=Users,dc=bcl,dc=local
+objectclass: top
+objectclass: alias
+objectclass: NDRoleAssociation
+cn: UMBT002
+aliasedObjectName: cn=UMBT002,cn=ndRoleCatalogue,ou=Users,dc=bcl,dc=local
+
+# National Delius client
+dn: cn=NDelius,cn=EISUsers,ou=Users,dc=bcl,dc=local
+cn: NDelius
+sn: NDelius
+description: National Delius client to support pre-authenticated grant-type
+resourceId: NDelius
+authorizedGrantType: preauthenticated
+authorizedGrantType: refresh_token
+objectclass: NDClient
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+
 # Password Manager test user, for verifying LDAP connectivity and functionality
 dn: cn=pwm-test,{{ ldap_config.base_users }}
 cn: pwm-test
