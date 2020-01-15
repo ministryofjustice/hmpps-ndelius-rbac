@@ -86,6 +86,21 @@ objectclass: top
 businesscategory: read,write
 # TODO add AP tracker client roles and remove businesscategory
 
+# User Management front-end OAuth client
+dn: cn=UserManagement-UI,{{ ldap_config.base_service_users }}
+sn: UserManagement-UI
+cn: UserManagement-UI
+description: Front-end web client for the User Management Tool
+resourceId: NDelius
+authorizedGrantType: authorization_code
+authorizedGrantType: refresh_token
+registeredRedirectUri: /umt/
+objectclass: NDClient
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+
 # Password Manager test user, for verifying LDAP connectivity and functionality
 dn: cn=pwm-test,{{ ldap_config.base_users }}
 cn: pwm-test
