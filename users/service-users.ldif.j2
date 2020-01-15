@@ -101,22 +101,22 @@ objectclass: organizationalPerson
 objectclass: person
 objectclass: top
 
-dn: cn=UMBT001,cn=UserManagement-UI,cn=EISUsers,ou=Users,dc=bcl,dc=local
+dn: cn=UMBT001,cn=UserManagement-UI,{{ ldap_config.base_service_users }}
 objectclass: top
 objectclass: alias
 objectclass: NDRoleAssociation
 cn: UMBT001
-aliasedObjectName: cn=UMBT001,cn=ndRoleCatalogue,ou=Users,dc=bcl,dc=local
+aliasedObjectName: cn=UMBT001,{{ ldap_config.base_roles }}
 
-dn: cn=UMBT002,cn=UserManagement-UI,cn=EISUsers,ou=Users,dc=bcl,dc=local
+dn: cn=UMBT002,cn=UserManagement-UI,{{ ldap_config.base_service_users }}
 objectclass: top
 objectclass: alias
 objectclass: NDRoleAssociation
 cn: UMBT002
-aliasedObjectName: cn=UMBT002,cn=ndRoleCatalogue,ou=Users,dc=bcl,dc=local
+aliasedObjectName: cn=UMBT002,{{ ldap_config.base_roles }}
 
 # National Delius client
-dn: cn=NDelius,cn=EISUsers,ou=Users,dc=bcl,dc=local
+dn: cn=NDelius,{{ ldap_config.base_service_users }}
 cn: NDelius
 sn: NDelius
 description: National Delius client to support pre-authenticated grant-type
