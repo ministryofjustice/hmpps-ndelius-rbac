@@ -5,38 +5,6 @@
     path: '{{ workspace }}/users'
     state: directory
 
-- name: Assume our parent role
-  delegate_to: localhost
-  become: no
-  run_once: true
-  sts_assume_role:
-    role_arn: "arn:aws:iam::{{ parent_account_id }}:role/{{ role_name }}"
-    role_session_name: "{{ 9999999999999999999999 | random | to_uuid }}"
-    region: "{{ region }}"
-  register: parent_assumed_role
-  no_log: true
-
-- name: Assume our child role, for fetching SSM params
-  delegate_to: localhost
-  become: no
-  run_once: true
-  sts_assume_role:
-    role_arn: "arn:aws:iam::{{ hosted_zones[0].account_id }}:role/{{ role_name }}"
-    role_session_name: "{{ 9999999999999999999999 | random | to_uuid }}"
-    region: "{{ region }}"
-  environment:
-    AWS_ACCESS_KEY_ID: "{{ parent_assumed_role.sts_creds.access_key }}"
-    AWS_SECRET_ACCESS_KEY: "{{ parent_assumed_role.sts_creds.secret_key }}"
-    AWS_SESSION_TOKEN: "{{ parent_assumed_role.sts_creds.session_token }}"
-  register: assumed_role
-  no_log: true
-
-- name: Set AWS facts
-  set_fact:
-    aws_access_key: "{{ assumed_role.sts_creds.access_key }}"
-    aws_secret_key: "{{ assumed_role.sts_creds.secret_key }}"
-    aws_security_token: "{{ assumed_role.sts_creds.session_token }}"
-
 - name: Upload LDIF files from templates
   template:
     src: '{{ item }}.j2'
