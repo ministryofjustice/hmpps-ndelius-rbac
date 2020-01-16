@@ -46,7 +46,7 @@
     - users/test-users.ldif
 
 - name: Remove existing users
-  shell: "grep '^dn:' {{ workspace }}/{{ item }} | sed 's/^dn://' | ldapdelete -H ldapi:// -Y EXTERNAL -Q -r -c"
+  shell: "grep '^dn:' {{ workspace }}/{{ item }} | sed 's/^dn://' | ldapdelete -H ldapi:// -Y EXTERNAL -Q -M -r -c"
   register: remove_users
   failed_when: remove_users.rc not in [0,32] # 32=NO_OBJECT (entry already doesn't exist so nothing to delete)
   with_items:

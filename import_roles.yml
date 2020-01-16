@@ -32,7 +32,7 @@
     - 'FALSE'
 
 - name: Remove existing roles and groups
-  shell: 'ldapdelete -H ldapi:// -Y EXTERNAL -Q -r -c "{{ item }}"'
+  shell: 'ldapdelete -H ldapi:// -Y EXTERNAL -Q -M -r -c "{{ item }}"'
   with_items:
     - 'cn=ndrolegroups,{{ ldap_config.base_users }}'
     - 'cn=ndrolecatalogue,{{ ldap_config.base_users }}'
