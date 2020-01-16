@@ -1,0 +1,51 @@
+---
+
+- name: Uplift LDAP
+  hosts: ldap
+  become: yes
+  tasks:
+    - name: Set facts
+      set_fact:
+        workspace: '/root/uplift/{{ ldap_config.rbac_version }}'
+        ssm_prefix: '/{{ environment_name }}/{{ project_name }}/apacheds/apacheds/'
+        rbac_url: 'https://raw.githubusercontent.com/ministryofjustice/hmpps-ndelius-rbac/{{ ldap_config.rbac_version }}'
+
+    - name: Block inbound access until uplift is finished
+      iptables:
+        chain: INPUT
+        protocol: tcp
+        source: '!127.0.0.1'
+        destination_port: '389'
+        jump: REJECT
+        state: present
+
+    - name: Ensure LDAP service is running so we can take a backup
+      service:
+        name: slapd
+        state: started
+
+    - name: Backup the data to S3
+      shell: backup_ldap
+
+    - name: Import schemas
+      include: import_schemas.yml
+
+    - name: Import roles
+      include: import_roles.yml
+
+    - name: Import users/clients
+      include: import_users.yml
+
+    - name: Remove workspace
+      file:
+        path: '{{ workspace }}'
+        state: absent
+
+    - name: Re-enable inbound access
+      iptables:
+        chain: INPUT
+        protocol: tcp
+        source: '!127.0.0.1'
+        destination_port: '389'
+        jump: REJECT
+        state: absent
