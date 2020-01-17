@@ -5,6 +5,10 @@
     path: '{{ workspace }}/users'
     state: directory
 
+- name: Set SSM prefix for use in templates
+  set_fact:
+    ssm_prefix: '/{{ environment_name }}/{{ project_name }}/apacheds/apacheds/'
+
 - name: Upload LDIF files from templates
   template:
     src: '{{ item }}.j2'
