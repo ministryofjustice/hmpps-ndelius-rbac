@@ -79,12 +79,38 @@ dn: cn={{ aptracker_username }},{{ ldap_config.base_service_users }}
 sn: {{ aptracker_username }}
 cn: {{ aptracker_username }}
 userPassword: {{ aptracker_password }}
+description: Approved Premises Tracker API
+resourceId: NDelius
+authorizedGrantType: client_credentials
+authorizedGrantType: refresh_token
+registeredRedirectUri: /aptracker-api/
+objectclass: NDClient
 objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
 objectclass: top
-businesscategory: read,write
-# TODO add AP tracker client roles and remove businesscategory
+
+dn: cn=APBT001,{{ aptracker_username }},{{ ldap_config.base_service_users }}
+cn: APBT001
+aliasedObjectName: cn=APBT001,{{ ldap_config.base_roles }}
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
+dn: cn=APBT002,{{ aptracker_username }},{{ ldap_config.base_service_users }}
+cn: APBT002
+aliasedObjectName: cn=APBT002,{{ ldap_config.base_roles }}
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
+dn: cn=SPGADBT005,{{ aptracker_username }},{{ ldap_config.base_service_users }}
+cn: SPGADBT005
+aliasedObjectName: cn=SPGADBT005,{{ ldap_config.base_roles }}
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
 
 # User Management front-end OAuth client
 dn: cn=UserManagement-UI,{{ ldap_config.base_service_users }}
