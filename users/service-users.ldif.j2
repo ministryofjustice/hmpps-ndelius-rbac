@@ -104,13 +104,27 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
 
-dn: cn=SPGADBT005,{{ aptracker_username }},{{ ldap_config.base_service_users }}
+# Approved Premises Tracker API front-end (error screens)
+dn: cn=APTracker-UI,{{ ldap_config.base_service_users }}
+sn: APTracker-UI
+cn: APTracker-UI
+description: Front-end web client for the Approved Premises Tracker API, to support user authentication on the error screens
+resourceId: NDelius
+authorizedGrantType: authorization_code
+authorizedGrantType: refresh_token
+registeredRedirectUri: /aptracker-api/errors
+objectclass: NDClient
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+
+dn: cn=SPGADBT005,APTracker-UI,{{ ldap_config.base_service_users }}
 cn: SPGADBT005
 aliasedObjectName: cn=SPGADBT005,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
-
 
 # User Management front-end OAuth client
 dn: cn=UserManagement-UI,{{ ldap_config.base_service_users }}
