@@ -1,0 +1,46 @@
+---
+
+- name: Create workspace
+  file:
+    path: '{{ workspace }}/roles'
+    state: directory
+
+- name: Upload role catalogues
+  copy:
+    src: '{{ item }}'
+    dest: '{{ workspace }}/{{ item }}'
+  with_items:
+    - roles/nd_role_catalogue.ldif
+    - roles/nd_role_groups.ldif
+
+- name: Replace base context in role catalogues
+  replace:
+    path: '{{ workspace }}/{{ item }}'
+    regexp: '(?i)cn=Users,dc=pcms,dc=internal'
+    replace: '{{ ldap_config.base_users }}'
+  with_items:
+    - roles/nd_role_catalogue.ldif
+    - roles/nd_role_groups.ldif
+
+- name: Ensure boolean values in role catalogue are uppercase
+  replace:
+    path: '{{ workspace }}/roles/nd_role_catalogue.ldif'
+    regexp: '(?i)^(.+?:\s*?){{ item }}\s*?$'
+    replace: '\1{{ item }}'
+  with_items:
+    - 'TRUE'
+    - 'FALSE'
+
+- name: Remove existing roles and groups
+  shell: 'ldapdelete -H ldapi:// -Y EXTERNAL -Q -M -r -c "{{ item }}"'
+  with_items:
+    - 'cn=ndrolegroups,{{ ldap_config.base_users }}'
+    - 'cn=ndrolecatalogue,{{ ldap_config.base_users }}'
+  register: remove_roles
+  failed_when: remove_roles.rc not in [0,32] # 32=NO_OBJECT (entry already doesn't exist so nothing to delete)
+
+- name: Import roles
+  shell: 'ldapadd -H ldapi:// -Y EXTERNAL -Q -f {{ workspace }}/roles/{{ item }}'
+  with_items:
+    - nd_role_catalogue.ldif
+    - nd_role_groups.ldif

@@ -1,0 +1,40 @@
+---
+
+- name: Create workspace
+  file:
+    path: '{{ workspace }}/schemas'
+    state: directory
+
+- name: Upload new schema files
+  copy:
+    src: '{{ item }}'
+    dest: '{{ workspace }}/{{ item }}'
+  with_items:
+    - schemas/delius.ldif
+    - schemas/pwm.ldif
+
+- name: Find existing schema filenames
+  find:
+    paths: /etc/openldap/slapd.d/cn=config/cn=schema
+    patterns: 'cn={*}delius.ldif,cn={*}pwm.ldif'
+  register: existing_schema_files
+
+- name: Stop LDAP service
+  service:
+    name: slapd
+    state: stopped
+
+- name: Backup and remove existing schema files
+  shell: 'mv {{ item.path }} {{ workspace }}/schemas/{{ item.path | basename }}.bak'
+  with_items: '{{ existing_schema_files.files }}'
+
+- name: Start LDAP service
+  service:
+    name: slapd
+    state: started
+
+- name: Import new schemas
+  shell: 'ldapadd -Y EXTERNAL -H ldapi:/// -f {{ workspace }}/{{ item }}'
+  with_items:
+    - schemas/delius.ldif
+    - schemas/pwm.ldif
