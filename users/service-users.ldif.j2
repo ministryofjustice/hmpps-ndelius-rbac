@@ -90,14 +90,14 @@ objectclass: organizationalPerson
 objectclass: person
 objectclass: top
 
-dn: cn=APBT001,{{ aptracker_username }},{{ ldap_config.base_service_users }}
+dn: cn=APBT001,cn={{ aptracker_username }},{{ ldap_config.base_service_users }}
 cn: APBT001
 aliasedObjectName: cn=APBT001,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
 
-dn: cn=APBT002,{{ aptracker_username }},{{ ldap_config.base_service_users }}
+dn: cn=APBT002,cn={{ aptracker_username }},{{ ldap_config.base_service_users }}
 cn: APBT002
 aliasedObjectName: cn=APBT002,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
@@ -119,7 +119,7 @@ objectclass: organizationalPerson
 objectclass: person
 objectclass: top
 
-dn: cn=SPGADBT005,APTracker-UI,{{ ldap_config.base_service_users }}
+dn: cn=SPGADBT005,cn=APTracker-UI,{{ ldap_config.base_service_users }}
 cn: SPGADBT005
 aliasedObjectName: cn=SPGADBT005,{{ ldap_config.base_roles }}
 objectclass: NDRoleAssociation
