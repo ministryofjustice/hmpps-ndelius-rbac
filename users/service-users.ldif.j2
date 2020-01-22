@@ -3,8 +3,8 @@ objectclass: javaContainer
 objectclass: top
 
 # OASys API client
-{% set oasys_username=lookup('aws_ssm', ssm_prefix+'oasys_user', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
-{% set oasys_password=lookup('aws_ssm', ssm_prefix+'oasys_user_password', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
+{% set oasys_username=lookup('aws_ssm', ssm_prefix+'oasys_user', region=region) %}
+{% set oasys_password=lookup('aws_ssm', ssm_prefix+'oasys_user_password', region=region) %}
 dn: cn={{ oasys_username }},{{ ldap_config.base_service_users }}
 sn: {{ oasys_username }}
 cn: {{ oasys_username }}
@@ -19,8 +19,8 @@ objectclass: person
 objectclass: top
 
 # IAPS API client
-{% set iaps_username=lookup('aws_ssm', ssm_prefix+'iaps_user', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
-{% set iaps_password=lookup('aws_ssm', ssm_prefix+'iaps_user_password', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
+{% set iaps_username=lookup('aws_ssm', ssm_prefix+'iaps_user', region=region) %}
+{% set iaps_password=lookup('aws_ssm', ssm_prefix+'iaps_user_password', region=region) %}
 dn: cn={{ iaps_username }},{{ ldap_config.base_service_users }}
 sn: {{ iaps_username }}
 cn: {{ iaps_username }}
@@ -48,8 +48,8 @@ businesscategory: CLBI044
 businesscategory: SEBI021
 
 # DSS/OFFLOC import client
-{% set dss_username=lookup('aws_ssm', ssm_prefix+'dss_user', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
-{% set dss_password=lookup('aws_ssm', ssm_prefix+'dss_user_password', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
+{% set dss_username=lookup('aws_ssm', ssm_prefix+'dss_user', region=region) %}
+{% set dss_password=lookup('aws_ssm', ssm_prefix+'dss_user_password', region=region) %}
 dn: cn={{ dss_username }},{{ ldap_config.base_service_users }}
 sn: {{ dss_username }}
 cn: {{ dss_username }}
@@ -61,8 +61,8 @@ objectclass: top
 businesscategory: DSBI004
 
 # NOMIS Case Notes API client
-{% set casenotes_username=lookup('aws_ssm', ssm_prefix+'casenotes_user', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
-{% set casenotes_password=lookup('aws_ssm', ssm_prefix+'casenotes_password', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
+{% set casenotes_username=lookup('aws_ssm', ssm_prefix+'casenotes_user', region=region) %}
+{% set casenotes_password=lookup('aws_ssm', ssm_prefix+'casenotes_password', region=region) %}
 dn: cn={{ casenotes_username }},{{ ldap_config.base_service_users }}
 sn: {{ casenotes_username }}
 cn: {{ casenotes_username }}
@@ -73,8 +73,8 @@ objectclass: person
 objectclass: top
 
 # Approved Premises Tracker API client
-{% set aptracker_username=lookup('aws_ssm', ssm_prefix+'aptracker_user', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
-{% set aptracker_password=lookup('aws_ssm', ssm_prefix+'aptracker_password', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) %}
+{% set aptracker_username=lookup('aws_ssm', ssm_prefix+'aptracker_user', region=region) %}
+{% set aptracker_password=lookup('aws_ssm', ssm_prefix+'aptracker_password', region=region) %}
 dn: cn={{ aptracker_username }},{{ ldap_config.base_service_users }}
 sn: {{ aptracker_username }}
 cn: {{ aptracker_username }}
@@ -173,7 +173,7 @@ objectclass: top
 dn: cn=pwm-test,{{ ldap_config.base_users }}
 cn: pwm-test
 sn: pwm-test
-userPassword: {{ lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/pwm/pwm/config_password', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) }}
+userPassword: {{ lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/pwm/pwm/config_password', region=region) }}
 objectclass: pwmUser
 objectclass: inetOrgPerson
 objectclass: organizationalPerson
@@ -185,7 +185,7 @@ dn: cn=pwm-admin,{{ ldap_config.base_users }}
 cn: pwm-admin
 sn: pwm-admin
 pwmAdmin: TRUE
-userPassword: {{ lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/pwm/pwm/config_password', region=region, aws_access_key=aws_access_key, aws_secret_key=aws_secret_key, aws_security_token=aws_security_token) }}
+userPassword: {{ lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/pwm/pwm/config_password', region=region) }}
 objectclass: pwmUser
 objectclass: inetOrgPerson
 objectclass: organizationalPerson

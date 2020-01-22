@@ -1,0 +1,32 @@
+---
+
+- name: Create workspace
+  file:
+    path: '{{ workspace }}/users'
+    state: directory
+
+- name: Set SSM prefix for use in templates
+  set_fact:
+    ssm_prefix: '/{{ environment_name }}/{{ project_name }}/apacheds/apacheds/'
+
+- name: Upload LDIF files from templates
+  template:
+    src: '{{ item }}.j2'
+    dest: '{{ workspace }}/{{ item }}'
+  with_items:
+    - users/service-users.ldif
+    - users/test-users.ldif
+
+- name: Remove existing users
+  shell: "grep '^dn:' {{ workspace }}/{{ item }} | sed 's/^dn://' | ldapdelete -H ldapi:// -Y EXTERNAL -Q -M -r -c"
+  register: remove_users
+  failed_when: remove_users.rc not in [0,32] # 32=NO_OBJECT (entry already doesn't exist so nothing to delete)
+  with_items:
+    - users/service-users.ldif
+    - users/test-users.ldif
+
+- name: Create users
+  shell: 'ldapadd -Y EXTERNAL -H ldapi:/// -f {{ workspace }}/{{ item }}'
+  with_items:
+    - users/service-users.ldif
+    - users/test-users.ldif
