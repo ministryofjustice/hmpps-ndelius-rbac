@@ -155,6 +155,27 @@ objectclass: NDRoleAssociation
 cn: UMBT002
 aliasedObjectName: cn=UMBT002,{{ ldap_config.base_roles }}
 
+dn: cn=UABT0050,cn=UserManagement-UI,{{ ldap_config.base_service_users }}
+objectclass: top
+objectclass: alias
+objectclass: NDRoleAssociation
+cn: UABT0050
+aliasedObjectName: cn=UABT0050,{{ ldap_config.base_roles }}
+
+dn: cn=UABT0051,cn=UserManagement-UI,{{ ldap_config.base_service_users }}
+objectclass: top
+objectclass: alias
+objectclass: NDRoleAssociation
+cn: UABT0051
+aliasedObjectName: cn=UABT0051,{{ ldap_config.base_roles }}
+
+dn: cn=UABT0052,cn=UserManagement-UI,{{ ldap_config.base_service_users }}
+objectclass: top
+objectclass: alias
+objectclass: NDRoleAssociation
+cn: UABT0052
+aliasedObjectName: cn=UABT0052,{{ ldap_config.base_roles }}
+
 # National Delius client
 dn: cn=NDelius,{{ ldap_config.base_service_users }}
 cn: NDelius
