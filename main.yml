@@ -17,27 +17,30 @@
         jump: REJECT
         state: present
 
-    - name: Ensure LDAP service is running so we can take a backup
-      service:
-        name: slapd
-        state: started
+    - name: Run uplift
+      run_once: yes
+      block:
+        - name: Ensure LDAP service is running so we can take a backup
+          service:
+            name: slapd
+            state: started
 
-    - name: Backup the data to S3
-      shell: backup_ldap
+        - name: Backup the data to S3
+          shell: backup_ldap
 
-    - name: Import schemas
-      include: import_schemas.yml
+        - name: Import schemas
+          include: import_schemas.yml
 
-    - name: Import roles
-      include: import_roles.yml
+        - name: Import roles
+          include: import_roles.yml
 
-    - name: Import users/clients
-      include: import_users.yml
+        - name: Import users/clients
+          include: import_users.yml
 
-    - name: Remove workspace
-      file:
-        path: '{{ workspace }}'
-        state: absent
+        - name: Remove workspace
+          file:
+            path: '{{ workspace }}'
+            state: absent
 
     - name: Re-enable inbound access
       iptables:
