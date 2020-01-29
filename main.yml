@@ -4,22 +4,13 @@
   hosts: ldap
   become: yes
   tasks:
-    - name: Set facts
-      set_fact:
-        workspace: '/root/uplift/{{ ldap_config.rbac_version }}'
-
-    - name: Block inbound access until uplift is finished
-      iptables:
-        chain: INPUT
-        protocol: tcp
-        source: '!127.0.0.1'
-        destination_port: '389'
-        jump: REJECT
-        state: present
-
     - name: Run uplift
       run_once: yes
       block:
+        - name: Set facts
+          set_fact:
+            workspace: '/root/uplift/{{ ldap_config.rbac_version }}'
+
         - name: Ensure LDAP service is running so we can take a backup
           service:
             name: slapd
@@ -41,12 +32,3 @@
           file:
             path: '{{ workspace }}'
             state: absent
-
-    - name: Re-enable inbound access
-      iptables:
-        chain: INPUT
-        protocol: tcp
-        source: '!127.0.0.1'
-        destination_port: '389'
-        jump: REJECT
-        state: absent
