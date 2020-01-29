@@ -1,0 +1,17 @@
+# Add root context
+dn: {{ ldap_config.base_root }}
+objectClass: domain
+dc: {{ ldap_config.base_root | regex_replace('^.+?=(.+?),.*$', '\\1') }}
+
+# Add user context
+dn: {{ ldap_config.base_users }}
+{{ ldap_config.base_users | regex_replace('(^.+?)=.*$', '\\1') }}: {{ ldap_config.base_users | regex_replace('^.+?=(.+?),.*$', '\\1') }}
+objectclass: {{ ldap_config.base_users | regex_replace('^(.+?)=.*', '\\1') | replace('ou', 'organizationalUnit') | replace('cn', 'javaContainer') }}
+objectclass: top
+
+# Add admin user
+dn: {{ ldap_config.bind_user }}
+objectClass: person
+cn: {{ ldap_config.bind_user | regex_replace('^.+?=(.+?),.*$', '\\1') }}
+sn: {{ ldap_config.bind_user | regex_replace('^.+?=(.+?),.*$', '\\1') }}
+userPassword: {{ bind_password_hash.stdout }}
