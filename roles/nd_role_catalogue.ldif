@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.5.2 at 2020/01/07 18:20:44
+# Role Catalogue generated from RBAC Matrix v4.5.3 at 2020/01/30 09:21:18
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.5.2
+description:RBAC v4.5.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -56,7 +56,7 @@ objectclass:top
 cn:CWBT001a
 
 dn:cn=CWBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:View Court Appearance Details
+description:View Court Appearance Details 
 level1:true
 level2:true
 level3:true
@@ -84,7 +84,6 @@ level3:false
 uibusinessinteractioncollection:CWBI013
 uibusinessinteractioncollection:CWBI011
 uibusinessinteractioncollection:CLBI002
-uibusinessinteractioncollection:CWBI009
 uibusinessinteractioncollection:CLBI009
 objectclass:NDRole
 objectclass:top
@@ -99,11 +98,26 @@ level3:true
 uibusinessinteractioncollection:CWBI013
 uibusinessinteractioncollection:CWBI011
 uibusinessinteractioncollection:CLBI002
-uibusinessinteractioncollection:CWBI009
 uibusinessinteractioncollection:CLBI009
 objectclass:NDRole
 objectclass:top
 cn:CWBT050a
+
+dn:cn=CWBT060,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Court Appearance Admin for System Admins
+sector:public
+adminlevel:local
+level1:true
+level2:true
+level3:true
+uibusinessinteractioncollection:CWBI013
+uibusinessinteractioncollection:CWBI011
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CWBI009
+uibusinessinteractioncollection:CLBI009
+objectclass:NDRole
+objectclass:top
+cn:CWBT060
 
 dn:cn=CWBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Consecutive Concurrent
@@ -486,7 +500,7 @@ objectclass:top
 cn:NSBT008
 
 dn:cn=CABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:View Transfer and Tier History
+description:View Transfer and Tier History 
 level1:true
 level2:true
 level3:true
@@ -516,7 +530,7 @@ objectclass:top
 cn:CABT002
 
 dn:cn=CABT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Transfer Order Supervisor
+description:Transfer Order Supervisor 
 level1:true
 level2:false
 level3:true
@@ -570,7 +584,7 @@ objectclass:top
 cn:CABT005
 
 dn:cn=CABT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Transfer Offender out of Trust
+description:Transfer Offender out of Trust 
 level1:true
 level2:false
 level3:false
@@ -3036,6 +3050,39 @@ objectclass:NDRole
 objectclass:top
 cn:LHDCBT003
 
+dn:cn=CTRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Pathfinder CT Probation
+sector:public
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:CTRBT001
+
+dn:cn=CTRBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Pathfinder CT Approval
+sector:public
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:CTRBT002
+
+dn:cn=CTRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Pathfinder CT Read Only
+sector:public
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:CTRBT003
+
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
 level1:false
@@ -3045,3 +3092,4 @@ uibusinessinteractioncollection:NIBI012
 objectclass:NDRole
 objectclass:top
 cn:AUDBT001
+
