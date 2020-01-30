@@ -32,9 +32,12 @@
             dest: '{{ workspace }}/context.ldif'
 
         - name: Create base entries
-          shell: 'ldapadd -Y EXTERNAL -H ldapi:/// -c -f {{ workspace }}/context.ldif'
+          shell: 'ldapadd -Y EXTERNAL -Q -H ldapi:/// -c -f {{ workspace }}/context.ldif'
           register: create_context
           failed_when: create_context.rc not in [0,68] # 68=ENTRY_EXISTS (duplicate entries should be ignored)
+
+        - name: Import policies
+          include: import_policies.yml
 
         - name: Import schemas
           include: import_schemas.yml

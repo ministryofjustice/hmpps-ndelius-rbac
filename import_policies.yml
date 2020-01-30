@@ -1,0 +1,19 @@
+---
+
+- name: Create workspace
+  file:
+    path: '{{ workspace }}/policies'
+    state: directory
+
+- name: Upload policies
+  template:
+    src: '{{ item }}.j2'
+    dest: '{{ workspace }}/{{ item }}'
+    mode: 0644
+  with_items:
+    - policies/password-policy.ldif
+
+- name: Create policies
+  shell: 'ldapadd -H ldapi:/// -Y EXTERNAL -Q -f {{ workspace }}/{{ item }}'
+  with_items:
+    - policies/password-policy.ldif
