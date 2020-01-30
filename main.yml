@@ -10,6 +10,7 @@
         - name: Set facts
           set_fact:
             workspace: '/root/uplift/{{ ldap_config.rbac_version }}'
+            ssm_prefix: '/{{ environment_name }}/{{ project_name }}/apacheds/apacheds/'
 
         - name: Ensure LDAP service is running so we can take a backup
           service:
