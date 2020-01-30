@@ -1,0 +1,23 @@
+---
+
+- name: Create workspace
+  file:
+    path: '{{ workspace }}'
+    state: directory
+
+- name: Hash the admin password
+  no_log: true
+  shell: 'slappasswd -h {SSHA} -s ${bind_password}'
+  environment:
+    bind_password: "{{ lookup('aws_ssm', ssm_prefix+'ldap_admin_password', region=region) }}"
+  register: bind_password_hash
+
+- name: Upload context LDIF
+  template:
+    src: context.ldif.j2
+    dest: '{{ workspace }}/context.ldif'
+
+- name: Create base entries
+  shell: 'ldapadd -Y EXTERNAL -Q -H ldapi:/// -c -f {{ workspace }}/context.ldif'
+  register: create_context
+  failed_when: create_context.rc not in [0,68] # 68=ENTRY_EXISTS (duplicate entries should be ignored)
