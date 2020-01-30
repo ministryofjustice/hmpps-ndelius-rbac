@@ -14,7 +14,7 @@
     - policies/password-policy.ldif
 
 - name: Remove existing policies
-  shell: 'ldapdelete -H ldapi:// -Y EXTERNAL -Q -M -r -c "cn=policies,{{ ldap_config.base_root }}"'
+  shell: 'ldapdelete -H ldapi:// -Y EXTERNAL -Q -M -r -c "ou=Policies,{{ ldap_config.base_root }}"'
   register: remove_policies
   failed_when: remove_policies.rc not in [0,32] # 32=NO_OBJECT (entry already doesn't exist so nothing to delete)
 
