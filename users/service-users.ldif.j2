@@ -18,6 +18,12 @@ objectclass: organizationalPerson
 objectclass: person
 objectclass: top
 
+dn: cn=OASYS-Group,{{ ldap_config.base_service_users }}
+cn: OASYS-Group
+uniquemember: cn={{ oasys_username }},{{ ldap_config.base_service_users }}
+objectclass: groupOfUniqueNames
+objectclass: top
+
 # IAPS API client
 {% set iaps_username=lookup('aws_ssm', ssm_prefix+'iaps_user', region=region) %}
 {% set iaps_password=lookup('aws_ssm', ssm_prefix+'iaps_user_password', region=region) %}
@@ -47,6 +53,12 @@ businesscategory: CLBI007
 businesscategory: CLBI044
 businesscategory: SEBI021
 
+dn: cn=IAPS-Group,{{ ldap_config.base_service_users }}
+cn: IAPS-Group
+uniquemember: {{ iaps_username }},{{ ldap_config.base_service_users }}
+objectclass: groupOfUniqueNames
+objectclass: top
+
 # DSS/OFFLOC import client
 {% set dss_username=lookup('aws_ssm', ssm_prefix+'dss_user', region=region) %}
 {% set dss_password=lookup('aws_ssm', ssm_prefix+'dss_user_password', region=region) %}
@@ -60,6 +72,12 @@ objectclass: person
 objectclass: top
 businesscategory: DSBI004
 
+dn: cn=DSS-Group,{{ ldap_config.base_service_users }}
+cn: DSS-Group
+uniquemember: cn={{ dss_username }},{{ ldap_config.base_service_users }}
+objectclass: groupOfUniqueNames
+objectclass: top
+
 # NOMIS Case Notes API client
 {% set casenotes_username=lookup('aws_ssm', ssm_prefix+'casenotes_user', region=region) %}
 {% set casenotes_password=lookup('aws_ssm', ssm_prefix+'casenotes_password', region=region) %}
@@ -70,6 +88,12 @@ userPassword: {{ casenotes_password }}
 objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
+objectclass: top
+
+dn: cn=CaseNotesAPI-Group,{{ ldap_config.base_service_users }}
+cn: CaseNotesAPI-Group
+uniquemember: cn={{ casenotes_username }},{{ ldap_config.base_service_users }}
+objectclass: groupOfUniqueNames
 objectclass: top
 
 # Approved Premises Tracker API client
