@@ -55,7 +55,7 @@ businesscategory: SEBI021
 
 dn: cn=IAPS-Group,{{ ldap_config.base_service_users }}
 cn: IAPS-Group
-uniquemember: {{ iaps_username }},{{ ldap_config.base_service_users }}
+uniquemember: cn={{ iaps_username }},{{ ldap_config.base_service_users }}
 objectclass: groupOfUniqueNames
 objectclass: top
 
