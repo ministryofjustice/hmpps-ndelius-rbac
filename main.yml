@@ -10,14 +10,18 @@
         - name: Set facts
           set_fact:
             workspace: '/root/uplift/{{ ldap_config.rbac_version }}'
+            ssm_prefix: '/{{ environment_name }}/{{ project_name }}/apacheds/apacheds/'
 
-        - name: Ensure LDAP service is running so we can take a backup
+        - name: Ensure LDAP service is running
           service:
             name: slapd
             state: started
 
-        - name: Backup the data to S3
-          shell: backup_ldap
+        - name: Create context entries
+          include: create_context.yml
+
+        - name: Import policies
+          include: import_policies.yml
 
         - name: Import schemas
           include: import_schemas.yml

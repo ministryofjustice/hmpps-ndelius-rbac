@@ -1,0 +1,19 @@
+{# The regex '^.+?=(.+?),.*$' is used below to extract the first value from the dn eg. 'dc=moj,dc=com' -> 'moj' #}
+
+# Add root context
+dn: {{ ldap_config.base_root }}
+dc: {{ ldap_config.base_root | regex_replace('^.+?=(.+?),.*$', '\\1') }}
+objectClass: domain
+
+# Add user context
+dn: {{ ldap_config.base_users }}
+ou: {{ ldap_config.base_users | regex_replace('^.+?=(.+?),.*$', '\\1') }}
+objectclass: organizationalUnit
+objectclass: top
+
+# Add admin user
+dn: {{ ldap_config.bind_user }}
+cn: {{ ldap_config.bind_user | regex_replace('^.+?=(.+?),.*$', '\\1') }}
+sn: admin
+userPassword: {{ bind_password_hash.stdout }}
+objectClass: person
