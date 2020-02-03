@@ -4,35 +4,16 @@
   hosts: ldap
   become: yes
   tasks:
+    - name: Checkout the configured RBAC version
+      # `ldap_config.rbac_version` is defined per environment in the hmpps-env-configs repo
+      delegate_to: localhost
+      run_once: yes
+      become: no
+      git:
+        repo: https://github.com/ministryofjustice/hmpps-ndelius-rbac
+        dest: '{{ ldap_config.rbac_version }}'
+        version: '{{ ldap_config.rbac_version }}'
+
     - name: Run uplift
       run_once: yes
-      block:
-        - name: Set facts
-          set_fact:
-            workspace: '/root/uplift/{{ ldap_config.rbac_version }}'
-            ssm_prefix: '/{{ environment_name }}/{{ project_name }}/apacheds/apacheds/'
-
-        - name: Ensure LDAP service is running
-          service:
-            name: slapd
-            state: started
-
-        - name: Create context entries
-          include: create_context.yml
-
-        - name: Import policies
-          include: import_policies.yml
-
-        - name: Import schemas
-          include: import_schemas.yml
-
-        - name: Import roles
-          include: import_roles.yml
-
-        - name: Import users/clients
-          include: import_users.yml
-
-        - name: Remove workspace
-          file:
-            path: '{{ workspace }}'
-            state: absent
+      include_tasks: '{{ ldap_config.rbac_version }}/import_all.yml'
