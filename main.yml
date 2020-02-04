@@ -2,13 +2,11 @@
 
 - name: Uplift LDAP
   hosts: ldap
-  become: yes
   tasks:
     - name: Checkout the configured RBAC version
       # `ldap_config.rbac_version` is defined per environment in the hmpps-env-configs repo
       delegate_to: localhost
       run_once: yes
-      become: no
       git:
         repo: https://github.com/ministryofjustice/hmpps-ndelius-rbac
         dest: '{{ ldap_config.rbac_version }}'
@@ -16,4 +14,12 @@
 
     - name: Run uplift
       run_once: yes
+      become: yes
       include_tasks: '{{ ldap_config.rbac_version }}/import_all.yml'
+
+    - name: Remove workspace
+      delegate_to: localhost
+      run_once: yes
+      file:
+        path: '{{ ldap_config.rbac_version }}'
+        state: absent
