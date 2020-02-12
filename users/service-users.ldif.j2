@@ -134,6 +134,7 @@ sn: APTracker-UI
 cn: APTracker-UI
 description: Front-end web client for the Approved Premises Tracker API, to support user authentication on the error screens
 resourceId: NDelius
+authorizedGrantType: preauthenticated
 authorizedGrantType: authorization_code
 authorizedGrantType: refresh_token
 registeredRedirectUri: /aptracker-api/errors
@@ -156,6 +157,7 @@ sn: UserManagement-UI
 cn: UserManagement-UI
 description: Front-end web client for the User Management Tool
 resourceId: NDelius
+authorizedGrantType: preauthenticated
 authorizedGrantType: authorization_code
 authorizedGrantType: refresh_token
 registeredRedirectUri: /umt/
@@ -200,14 +202,57 @@ objectclass: NDRoleAssociation
 cn: UABT0052
 aliasedObjectName: cn=UABT0052,{{ ldap_config.base_roles }}
 
-# National Delius client
-dn: cn=NDelius,{{ ldap_config.base_service_users }}
-cn: NDelius
-sn: NDelius
-description: National Delius client to support pre-authenticated grant-type
+# GDPR compliance tool front-end OAuth client
+dn: cn=GDPR-UI,{{ ldap_config.base_service_users }}
+sn: GDPR-UI
+cn: GDPR-UI
+description: Front-end web client for the GDPR data compliance tool
 resourceId: NDelius
 authorizedGrantType: preauthenticated
+authorizedGrantType: authorization_code
 authorizedGrantType: refresh_token
+registeredRedirectUri: /gdpr/ui/
+objectclass: NDClient
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+
+dn: cn=GDPRBT001,cn=GDPR-UI,cn=EISUsers,ou=Users,dc=moj,dc=com
+cn: GDPRBT001
+aliasedObjectName: cn=GDPRBT001,cn=ndRoleCatalogue,ou=Users,dc=moj,dc=com
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
+dn: cn=GDPRBT002,cn=GDPR-UI,cn=EISUsers,ou=Users,dc=moj,dc=com
+cn: GDPRBT002
+aliasedObjectName: cn=GDPRBT002,cn=ndRoleCatalogue,ou=Users,dc=moj,dc=com
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
+dn: cn=GDPRBT003,cn=GDPR-UI,cn=EISUsers,ou=Users,dc=moj,dc=com
+cn: GDPRBT003
+aliasedObjectName: cn=GDPRBT003,cn=ndRoleCatalogue,ou=Users,dc=moj,dc=com
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
+dn: cn=GDPRBT004,cn=GDPR-UI,cn=EISUsers,ou=Users,dc=moj,dc=com
+cn: GDPRBT004
+aliasedObjectName: cn=GDPRBT004,cn=ndRoleCatalogue,ou=Users,dc=moj,dc=com
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
+# GDPR compliance tool back-end (used for verifying OAuth tokens)
+dn: cn=GDPR-API,{{ ldap_config.base_service_users }}
+sn: GDPR-API
+cn: GDPR-API
+description: Back-end client for the GDPR data compliance tool
+userPassword: {{ lookup('aws_ssm', '/'+environment_name+'/'+project_name+'/gdpr/api/client_secret', region=region) }}
+resourceId: NDelius
 objectclass: NDClient
 objectclass: inetOrgPerson
 objectclass: organizationalPerson
