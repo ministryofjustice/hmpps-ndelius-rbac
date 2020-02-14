@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.5.3 at 2020/01/30 09:21:18
+# Role Catalogue generated from RBAC Matrix v4.5.6 at 2020/02/14 11:09:08
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.5.3
+description:RBAC v4.5.6
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -554,6 +554,7 @@ level1:false
 level2:false
 level3:false
 uibusinessinteractioncollection:CABI025
+uibusinessinteractioncollection:NIBI017
 uibusinessinteractioncollection:CABI080
 uibusinessinteractioncollection:CABI081
 uibusinessinteractioncollection:CABI082
@@ -2982,9 +2983,9 @@ description:GDPR Duplicates
 level1:false
 level2:false
 level3:false
-uibusinessinteractioncollection:GDPRBI001
-uibusinessinteractioncollection:GDPRBI002
-uibusinessinteractioncollection:GDPRBI003
+uibusinessinteractioncollection:gdpr-duplicates:view
+uibusinessinteractioncollection:gdpr-duplicates:review
+uibusinessinteractioncollection:gdpr-duplicates:manage
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT001
@@ -2994,10 +2995,10 @@ description:GDPR Deletions
 level1:false
 level2:false
 level3:false
-uibusinessinteractioncollection:GDPRBI004
-uibusinessinteractioncollection:GDPRBI005
-uibusinessinteractioncollection:GDPRBI006
-uibusinessinteractioncollection:GDPRBI007
+uibusinessinteractioncollection:gdpr-deletions:view
+uibusinessinteractioncollection:gdpr-deletions:review
+uibusinessinteractioncollection:gdpr-deletions:resolve
+uibusinessinteractioncollection:gdpr-deletions:manage
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT002
@@ -3007,12 +3008,22 @@ description:GDPR Retention
 level1:false
 level2:false
 level3:false
-uibusinessinteractioncollection:GDPRBI008
-uibusinessinteractioncollection:GDPRBI009
-uibusinessinteractioncollection:GDPRBI010
+uibusinessinteractioncollection:gdpr-retention:view
+uibusinessinteractioncollection:gdpr-retention:review
+uibusinessinteractioncollection:gdpr-retention:manage
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT003
+
+dn:cn=GDPRBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:GDPR Destruction
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:gdpr-destruction:manage
+objectclass:NDRole
+objectclass:top
+cn:GDPRBT004
 
 dn:cn=LHDCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:HDC Digital View Only
