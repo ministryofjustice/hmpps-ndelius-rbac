@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.5.6 at 2020/02/14 11:09:08
+# Role Catalogue generated from RBAC Matrix v4.6.0 at 2020/03/17 10:24:28
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.5.6
+description:RBAC v4.6.0
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -30,6 +30,30 @@ uibusinessinteractioncollection:SEBI022
 objectclass:NDRole
 objectclass:top
 cn:CWBT001
+
+dn:cn=CWBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Court Appearance Details (private - Covid-19 use only)
+sector:private
+level1:true
+level2:true
+level3:false
+uibusinessinteractioncollection:CWBI006
+uibusinessinteractioncollection:CWBI007
+uibusinessinteractioncollection:CWBI010
+uibusinessinteractioncollection:CWBI008
+uibusinessinteractioncollection:CWBI012
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:CWBI014
+uibusinessinteractioncollection:CWBI020
+uibusinessinteractioncollection:CWBI021
+uibusinessinteractioncollection:SEBI101
+uibusinessinteractioncollection:SEBI201
+uibusinessinteractioncollection:SEBI022
+objectclass:NDRole
+objectclass:top
+cn:CWBT003
 
 dn:cn=CWBT001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Court Appearance at Level 3
@@ -88,6 +112,20 @@ uibusinessinteractioncollection:CLBI009
 objectclass:NDRole
 objectclass:top
 cn:CWBT050
+
+dn:cn=CWBT053,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Court Appearance Admin (private - Covid-19 use only)
+sector:private
+level1:true
+level2:true
+level3:false
+uibusinessinteractioncollection:CWBI013
+uibusinessinteractioncollection:CWBI011
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI009
+objectclass:NDRole
+objectclass:top
+cn:CWBT053
 
 dn:cn=CWBT050a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Appearance Admin at Level 3
@@ -554,7 +592,7 @@ level1:false
 level2:false
 level3:false
 uibusinessinteractioncollection:CABI025
-uibusinessinteractioncollection:NIBI017
+uibusinessinteractioncollection:NIBI016
 uibusinessinteractioncollection:CABI080
 uibusinessinteractioncollection:CABI081
 uibusinessinteractioncollection:CABI082
@@ -1055,6 +1093,18 @@ objectclass:NDRole
 objectclass:top
 cn:OIBT0003
 
+dn:cn=OIBT0053,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Delete Offender (private - Covid-19 use only)
+sector:private
+level1:true
+level2:false
+level3:false
+uibusinessinteractioncollection:OIBI053
+uibusinessinteractioncollection:OIBI001
+objectclass:NDRole
+objectclass:top
+cn:OIBT0053
+
 dn:cn=OIBT0004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage LAOs
 level1:false
@@ -1106,6 +1156,34 @@ uibusinessinteractioncollection:OIBI081
 objectclass:NDRole
 objectclass:top
 cn:OIBT0005
+
+dn:cn=OIBT0055,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add Offender Details (private - Covid-19 use only)
+sector:private
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:OIBI025
+uibusinessinteractioncollection:OIBI027
+uibusinessinteractioncollection:OIBI028
+uibusinessinteractioncollection:OIBI029
+uibusinessinteractioncollection:OIBI030
+uibusinessinteractioncollection:OIBI032
+uibusinessinteractioncollection:OIBI035
+uibusinessinteractioncollection:OIBI036
+uibusinessinteractioncollection:OIBI041
+uibusinessinteractioncollection:OIBI042
+uibusinessinteractioncollection:OIBI043
+uibusinessinteractioncollection:OIBI045
+uibusinessinteractioncollection:OIBI046
+uibusinessinteractioncollection:OIBI050
+uibusinessinteractioncollection:OIBI051
+uibusinessinteractioncollection:OIBI070
+uibusinessinteractioncollection:OIBI080
+uibusinessinteractioncollection:OIBI081
+objectclass:NDRole
+objectclass:top
+cn:OIBT0055
 
 dn:cn=OIBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Offender Details Admin
@@ -1454,9 +1532,9 @@ objectclass:top
 cn:UWBT001
 
 dn:cn=UWBT051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage UPW Project Details (national)
+description:Manage UPW Project Details (public)
 sector:public
-adminlevel:national
+adminlevel:local
 level1:false
 level2:false
 level3:false
@@ -1596,9 +1674,9 @@ objectclass:top
 cn:UWBT050
 
 dn:cn=UWBT060,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:UPW Admin (national)
+description:UPW Admin (Public)
 sector:public
-adminlevel:national
+adminlevel:local
 level1:false
 level2:false
 level3:true
@@ -2983,9 +3061,9 @@ description:GDPR Duplicates
 level1:false
 level2:false
 level3:false
-uibusinessinteractioncollection:gdpr-duplicates:view
-uibusinessinteractioncollection:gdpr-duplicates:review
-uibusinessinteractioncollection:gdpr-duplicates:manage
+uibusinessinteractioncollection:GDPRBI001
+uibusinessinteractioncollection:GDPRBI002
+uibusinessinteractioncollection:GDPRBI003
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT001
@@ -2995,10 +3073,10 @@ description:GDPR Deletions
 level1:false
 level2:false
 level3:false
-uibusinessinteractioncollection:gdpr-deletions:view
-uibusinessinteractioncollection:gdpr-deletions:review
-uibusinessinteractioncollection:gdpr-deletions:resolve
-uibusinessinteractioncollection:gdpr-deletions:manage
+uibusinessinteractioncollection:GDPRBI004
+uibusinessinteractioncollection:GDPRBI005
+uibusinessinteractioncollection:GDPRBI006
+uibusinessinteractioncollection:GDPRBI007
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT002
@@ -3008,22 +3086,12 @@ description:GDPR Retention
 level1:false
 level2:false
 level3:false
-uibusinessinteractioncollection:gdpr-retention:view
-uibusinessinteractioncollection:gdpr-retention:review
-uibusinessinteractioncollection:gdpr-retention:manage
+uibusinessinteractioncollection:GDPRBI008
+uibusinessinteractioncollection:GDPRBI009
+uibusinessinteractioncollection:GDPRBI010
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT003
-
-dn:cn=GDPRBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:GDPR Destruction
-level1:false
-level2:false
-level3:false
-uibusinessinteractioncollection:gdpr-destruction:manage
-objectclass:NDRole
-objectclass:top
-cn:GDPRBT004
 
 dn:cn=LHDCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:HDC Digital View Only
