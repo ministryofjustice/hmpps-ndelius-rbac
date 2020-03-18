@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.5.6 at 2020/02/14 11:09:08
+# Role Catalogue generated from RBAC Matrix v4.6.1 at 2020/03/18 12:58:06
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.5.6
+description:RBAC v4.6.1
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -3956,6 +3956,39 @@ objectclass: Top
 dn:cn=UMBT001,cn=Add UMT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=UMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: UMBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=Private sector Covid-19 roles,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+cn:Private sector Covid-19 roles
+objectclass: NDRoleGroup
+objectclass: Top
+
+dn:cn=CWBT003,cn=Private sector Covid-19 roles,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CWBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CWBT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CWBT053,cn=Private sector Covid-19 roles,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CWBT053,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CWBT053
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=OIBT0053,cn=Private sector Covid-19 roles,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=OIBT0053,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: OIBT0053
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=OIBT0055,cn=Private sector Covid-19 roles,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=OIBT0055,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: OIBT0055
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
