@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.6.1 at 2020/03/18 12:58:06
+# Role Catalogue generated from RBAC Matrix v4.6.2 at 2020/03/20 16:16:06
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.6.1
+description:RBAC v4.6.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -328,6 +328,29 @@ objectclass:NDRole
 objectclass:top
 cn:SEBT002
 
+dn:cn=SEBT052,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Sentence Details (private - Covid 19)
+sector:private
+level1:true
+level2:true
+level3:true
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:SEBI004
+uibusinessinteractioncollection:SEBI101
+uibusinessinteractioncollection:SEBI201
+uibusinessinteractioncollection:SEBI022
+uibusinessinteractioncollection:SEBI102
+uibusinessinteractioncollection:SEBI202
+uibusinessinteractioncollection:SEBI023
+uibusinessinteractioncollection:TCBI042
+uibusinessinteractioncollection:SEBI206
+uibusinessinteractioncollection:SEBI017
+objectclass:NDRole
+objectclass:top
+cn:SEBT052
+
 dn:cn=SEBT002a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Sentence Details (private)
 sector:private
@@ -380,6 +403,37 @@ uibusinessinteractioncollection:SEBI020
 objectclass:NDRole
 objectclass:top
 cn:SEBT003
+
+dn:cn=SEBT053,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Sentence Details Admin (private - Covid-19)
+sector:private
+level1:true
+level2:true
+level3:true
+uibusinessinteractioncollection:SEBI003
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI009
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:SEBI005
+uibusinessinteractioncollection:SEBI104
+uibusinessinteractioncollection:SEBI204
+uibusinessinteractioncollection:SEBI026
+uibusinessinteractioncollection:SEBI102
+uibusinessinteractioncollection:SEBI202
+uibusinessinteractioncollection:SEBI023
+uibusinessinteractioncollection:SEBI014
+uibusinessinteractioncollection:SEBI016
+uibusinessinteractioncollection:SEBI206
+uibusinessinteractioncollection:SEBI017
+uibusinessinteractioncollection:SEBI105
+uibusinessinteractioncollection:SEBI205
+uibusinessinteractioncollection:SEBI027
+uibusinessinteractioncollection:SEBI028
+uibusinessinteractioncollection:SEBI020
+objectclass:NDRole
+objectclass:top
+cn:SEBT053
 
 dn:cn=SEBT003a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Details Admin (private)
@@ -1577,9 +1631,9 @@ objectclass:top
 cn:UWBT002
 
 dn:cn=UWBT052,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage UPW Offender Details (national)
+description:Manage UPW Offender Details (public)
 sector:public
-adminlevel:national
+adminlevel:local
 level1:false
 level2:false
 level3:true
