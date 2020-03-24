@@ -24,7 +24,7 @@
 - name: Prepare to update group descriptions
   shell:
     cmd: |
-      grep -viE '^(cn|objectClass):' {{ workspace }}/{{ item }} | \
+      grep -viE '^(cn|objectClass|member):' {{ workspace }}/{{ item }} | \
       sed -E 's/^description:/changetype: modify\
                               replace: description\
                               description:/' \
