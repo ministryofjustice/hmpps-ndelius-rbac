@@ -14,7 +14,7 @@
     - groups/fileshare-groups.ldif
 
 - name: Add groups
-  shell: 'ldapadd -H ldapi:// -Y EXTERNAL -Q -M -c "{{ item }}"'
+  shell: 'ldapadd -H ldapi:// -Y EXTERNAL -Q -M -c -f "{{ workspace }}/{{ item }}"'
   with_items:
     - groups/reporting-groups.ldif
     - groups/fileshare-groups.ldif
@@ -24,16 +24,17 @@
 - name: Prepare to update group descriptions
   shell:
     cmd: |
-      grep -viE '^(cn|objectClass):' {{ item }} | \
+      grep -viE '^(cn|objectClass):' {{ workspace }}/{{ item }} | \
       sed -E 's/^description:/changetype: modify\
                               replace: description\
-                              description:/'
+                              description:/' \
+      > {{ workspace }}/{{ item }}-modify-description.ldif
   with_items:
     - groups/reporting-groups.ldif
     - groups/fileshare-groups.ldif
 
-- name: Update groups
-  shell: 'ldapmodify -H ldapi:// -Y EXTERNAL -Q -f {{ workspace }}/{{ item }}.update.ldif'
+- name: Update group descriptions
+  shell: 'ldapmodify -H ldapi:// -Y EXTERNAL -Q -f {{ workspace }}/{{ item }}-modify-description.ldif'
   with_items:
     - groups/reporting-groups.ldif
     - groups/fileshare-groups.ldif
