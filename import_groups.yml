@@ -25,9 +25,9 @@
   shell:
     cmd: |
       grep -viE '^(cn|objectClass|member):' {{ workspace }}/{{ item }} | \
-      sed -E 's/^description:/changetype: modify\
-                              replace: description\
-                              description:/' \
+      sed -E 's/^description:/changetype: modify
+                              replace: description
+                              description:/'
       > {{ workspace }}/{{ item }}-modify-description.ldif
   with_items:
     - groups/reporting-groups.ldif
