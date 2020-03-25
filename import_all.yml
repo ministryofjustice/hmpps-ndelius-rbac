@@ -22,6 +22,9 @@
 - name: Import roles
   include_tasks: import_roles.yml
 
+- name: Import groups
+  include_tasks: import_groups.yml
+
 - name: Import users/clients
   include_tasks: import_users.yml
 

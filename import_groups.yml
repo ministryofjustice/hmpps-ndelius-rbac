@@ -1,0 +1,40 @@
+---
+
+- name: Create workspace
+  file:
+    path: '{{ workspace }}/groups'
+    state: directory
+
+- name: Upload group LDIFs
+  template:
+    src: '{{ item }}.j2'
+    dest: '{{ workspace }}/{{ item }}'
+  with_items:
+    - groups/reporting-groups.ldif
+    - groups/fileshare-groups.ldif
+
+- name: Add groups
+  shell: 'ldapadd -H ldapi:// -Y EXTERNAL -Q -M -c -f "{{ workspace }}/{{ item }}"'
+  with_items:
+    - groups/reporting-groups.ldif
+    - groups/fileshare-groups.ldif
+  register: add_groups
+  failed_when: add_groups.rc not in [0,68] # 68=ENTRY_EXISTS (no need to re-add a group if it already exists)
+
+- name: Prepare to update group descriptions
+  shell:
+    cmd: |
+      grep -viE '^(cn|objectClass|member):' {{ workspace }}/{{ item }} | \
+      sed -E 's/^description:/changetype: modify
+                              replace: description
+                              description:/'
+      > {{ workspace }}/{{ item }}-modify-description.ldif
+  with_items:
+    - groups/reporting-groups.ldif
+    - groups/fileshare-groups.ldif
+
+- name: Update group descriptions
+  shell: 'ldapmodify -H ldapi:// -Y EXTERNAL -Q -f {{ workspace }}/{{ item }}-modify-description.ldif'
+  with_items:
+    - groups/reporting-groups.ldif
+    - groups/fileshare-groups.ldif
