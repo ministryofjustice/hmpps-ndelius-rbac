@@ -11,6 +11,12 @@ ou: {{ ldap_config.base_users | regex_replace('^.+?=(.+?),.*$', '\\1') }}
 objectclass: organizationalUnit
 objectclass: top
 
+# Add group context
+dn: {{ ldap_config.base_groups }}
+ou: {{ ldap_config.base_groups | regex_replace('^.+?=(.+?),.*$', '\\1') }}
+objectclass: organizationalUnit
+objectclass: top
+
 # Add admin user
 dn: {{ ldap_config.bind_user }}
 cn: {{ ldap_config.bind_user | regex_replace('^.+?=(.+?),.*$', '\\1') }}
