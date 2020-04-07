@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.5.6 at 2020/02/14 11:09:08
+# Role Catalogue generated from RBAC Matrix v4.5.7 at 2020/04/07 11:07:12
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.5.6
+description:RBAC v4.5.7
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -937,6 +937,7 @@ uibusinessinteractioncollection:UMBI008
 uibusinessinteractioncollection:UMBI009
 uibusinessinteractioncollection:UMBI010
 uibusinessinteractioncollection:UMBI011
+uibusinessinteractioncollection:UMBI012
 objectclass:NDRole
 objectclass:top
 cn:UMBT001
@@ -954,6 +955,7 @@ uibusinessinteractioncollection:UMBI007
 uibusinessinteractioncollection:UMBI008
 uibusinessinteractioncollection:UMBI009
 uibusinessinteractioncollection:UMBI011
+uibusinessinteractioncollection:UMBI012
 objectclass:NDRole
 objectclass:top
 cn:UMBT002
