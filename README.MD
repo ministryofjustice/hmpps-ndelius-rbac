@@ -33,6 +33,15 @@ They should specify an `objectclass: NDRoleGroup` and contain a user-facing desc
 
 Roles within a role group should be defined as child records of the role group, with `objectclass: NDRoleAssociation` and an `aliasedObjectName` attribute pointing to the distinguished name of the role in the catalogue.
 
+## Groups
+Groups are used to control access to certain applications outside of the core National Delius service, which currently includes MIS/Reporting and the NextCloud Fileshare.
+These groups are of type `objectclass: groupOfNames` and are contained within the `ou=Groups` organizational unit. 
+Application-specific groups should in general be kept within another application-specific sub-unit of `ou=Groups`, to keep things organized.
+
+Note: Groups must have at least one member to start with. Add the `cn=placeholder` member to act as a dummy member if needed.
+
+See [fileshare-groups.ldif.j2](groups/fileshare-groups.ldif.j2) for an example.
+
 ## Service Users & Clients
 Service users should correspond to *external interfacing systems*, that make calls to NDelius API endpoints in some way.
 
