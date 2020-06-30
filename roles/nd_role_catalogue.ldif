@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.5.7 at 2020/04/07 11:07:12
+# Role Catalogue generated from RBAC Matrix v4.7.1 at 2020/06/12 11:56:18
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.5.7
+description:RBAC v4.7.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -74,6 +74,28 @@ uibusinessinteractioncollection:CWBI002
 objectclass:NDRole
 objectclass:top
 cn:CWBT002
+
+dn:cn=CWBT200,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View Prepare a case for court
+sector:public
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:CWBI200
+objectclass:NDRole
+objectclass:top
+cn:CWBT200
+
+dn:cn=CWBT201,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Prepare a case for court
+sector:public
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:CWBI201
+objectclass:NDRole
+objectclass:top
+cn:CWBT201
 
 dn:cn=CWBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Appearance Admin

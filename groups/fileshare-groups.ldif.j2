@@ -259,23 +259,11 @@ member: cn=placeholder
 cn: RES-FS-NorthEast-NPS-R
 description: NorthEast-NPS FileShare Read Access
 
-dn: cn=RES-FS-NorthWest-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-NorthWest-NPS-R
-description: NorthWest-NPS FileShare Read Access
-
 dn: cn=RES-FS-NorthEast-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-NorthEast-NPS-RW
 description: NorthEast-NPS FileShare Write Access
-
-dn: cn=RES-FS-NorthWest-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-NorthWest-NPS-RW
-description: NorthWest-NPS FileShare Write Access
 
 dn: cn=RES-FS-Hampshire-DEBS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
@@ -342,3 +330,43 @@ objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-SouthWestandSouthCentral-NPS-RW
 description: SouthWestandSouthCentral-NPS FileShare Write Access
+
+
+###########################################
+# NPS - DIV01/NorthWest/GreaterManchester #
+###########################################
+dn: cn=RES-FS-NorthWest-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NorthWest-NPS-R
+description: ZZ DO NOT USE - NorthWest-NPS FileShare Read Access
+
+dn: cn=RES-FS-NorthWest-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NorthWest-NPS-RW
+description: ZZ DO NOT USE - NorthWest-NPS FileShare Write Access
+
+dn: cn=RES-FS-N50-GreaterManchester-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-N50-GreaterManchester-NPS-R
+description: GreaterManchester-NPS FileShare Read Access
+
+dn: cn=RES-FS-N50-GreaterManchester-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-N50-GreaterManchester-NPS-RW
+description: GreaterManchester-NPS FileShare Write Access
+
+dn: cn=RES-FS-N51-NorthWest-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-N51-NorthWest-NPS-R
+description: NorthWest-NPS FileShare Read Access
+
+dn: cn=RES-FS-N51-NorthWest-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-N51-NorthWest-NPS-RW
+description: NorthWest-NPS FileShare Write Access
