@@ -11,21 +11,26 @@
     state: started
 
 - name: Create context entries
+  run_once: yes
   include_tasks: create_context.yml
 
 - name: Import policies
+  run_once: yes
   include_tasks: import_policies.yml
 
 - name: Import schemas
   include_tasks: import_schemas.yml
 
 - name: Import roles
+  run_once: yes
   include_tasks: import_roles.yml
 
 - name: Import groups
+  run_once: yes
   include_tasks: import_groups.yml
 
 - name: Import users/clients
+  run_once: yes
   include_tasks: import_users.yml
 
 - name: Remove workspace
