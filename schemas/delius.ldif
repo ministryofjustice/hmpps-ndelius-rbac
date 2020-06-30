@@ -37,6 +37,7 @@ olcAttributeTypes: ( 1.1.1.1.47 NAME 'endDate' SYNTAX 1.3.6.1.4.1.1466.115.121.1
 olcAttributeTypes: ( 1.1.1.1.48 NAME 'resourceId' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
 olcAttributeTypes: ( 1.1.1.1.49 NAME 'registeredRedirectUri' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
 olcAttributeTypes: ( 1.1.1.1.50 NAME 'authorizedGrantType' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch )
+olcAttributeTypes: ( 1.1.1.1.51 NAME 'eventListDefault' SYNTAX 1.3.6.1.4.1.1466.115.121.1.7 EQUALITY booleanMatch )
 olcObjectClasses: ( 1.1.1.1.21 NAME 'UserPreferences' SUP top STRUCTURAL MUST cn MAY (
   area $
   autoComplete $
@@ -60,7 +61,8 @@ olcObjectClasses: ( 1.1.1.1.21 NAME 'UserPreferences' SUP top STRUCTURAL MUST cn
   defaultTeam $
   defaultStaff $
   defaultPremisesGrouping $
-  defaultPremises ) )
+  defaultPremises $
+  eventListDefault ) )
 olcObjectClasses: ( 1.1.1.1.22 NAME 'NDRole' SUP top STRUCTURAL MUST cn MAY (
   AdminLevel $
   Level1 $
