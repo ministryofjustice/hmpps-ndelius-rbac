@@ -15,7 +15,6 @@
         version: '{{ ldap_config.rbac_version }}'
 
     - name: Run uplift
-      run_once: yes
       include_tasks: '{{ ldap_config.rbac_version }}/import_all.yml'
 
     - name: Remove workspace
