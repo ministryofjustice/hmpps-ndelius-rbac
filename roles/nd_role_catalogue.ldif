@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.7.1 at 2020/06/12 11:56:18
+# Role Catalogue generated from RBAC Matrix v4.7.4 at 2020/07/06 17:28:27
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.7.1
+description:RBAC v4.7.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1192,6 +1192,7 @@ level1:false
 level2:false
 level3:false
 uibusinessinteractioncollection:WPBI100
+uibusinessinteractioncollection:WPBI110
 uibusinessinteractioncollection:WPBI003
 objectclass:NDRole
 objectclass:top
@@ -1509,6 +1510,7 @@ uibusinessinteractioncollection:UWBI008
 uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
+uibusinessinteractioncollection:UWBI014
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
 uibusinessinteractioncollection:UWBI108
@@ -1535,6 +1537,7 @@ uibusinessinteractioncollection:UWBI008
 uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
+uibusinessinteractioncollection:UWBI014
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
 uibusinessinteractioncollection:UWBI108
@@ -3117,6 +3120,28 @@ uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
 cn:CTRBT003
+
+dn:cn=SOCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Serious Organised Crime PO
+sector:public
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:SOCBT001
+
+dn:cn=SOCBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Serious Organised Crime Read Only
+sector:public
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:SOCBT002
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
