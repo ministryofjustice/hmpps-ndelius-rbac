@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.7.4 at 2020/07/06 17:28:27
+# Role Catalogue generated from RBAC Matrix v4.7.5 at 2020/07/16 14:25:51
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.7.4
+description:RBAC v4.7.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -457,6 +457,28 @@ uibusinessinteractioncollection:OIBI062
 objectclass:NDRole
 objectclass:top
 cn:NSBT001
+
+dn:cn=NSBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Offender Search for read-only
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:NSBI001
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:HPBI001
+uibusinessinteractioncollection:NSBI003
+uibusinessinteractioncollection:NSBI009
+uibusinessinteractioncollection:CABI001
+uibusinessinteractioncollection:OIBI004
+uibusinessinteractioncollection:OIBI056
+uibusinessinteractioncollection:NCSBI001
+uibusinessinteractioncollection:CLBI201
+uibusinessinteractioncollection:OIBI062
+objectclass:NDRole
+objectclass:top
+cn:NSBT010
 
 dn:cn=NSBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Inactive Offender
