@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.7.6 at 2020/07/22 16:36:32
+# Role Catalogue generated from RBAC Matrix v4.7.7 at 2020/08/07 14:33:17
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.7.6
+description:RBAC v4.7.7
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1500,6 +1500,24 @@ objectclass:NDRole
 objectclass:top
 cn:UWBT001
 
+dn:cn=UWBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:UPW Project Details Read Only
+sector:private
+adminlevel:local
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:HPBI009
+uibusinessinteractioncollection:UWBI010
+uibusinessinteractioncollection:UWBI011
+uibusinessinteractioncollection:UWBI120
+uibusinessinteractioncollection:UWBI125
+uibusinessinteractioncollection:UWBI102
+uibusinessinteractioncollection:UWBI130
+objectclass:NDRole
+objectclass:top
+cn:UWBT101
+
 dn:cn=UWBT051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage UPW Project Details (national)
 sector:public
@@ -1631,6 +1649,18 @@ uibusinessinteractioncollection:UWBI153
 objectclass:NDRole
 objectclass:top
 cn:UWBT010
+
+dn:cn=UWBT110,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View UPW Project Diary
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:UWBI170
+uibusinessinteractioncollection:HPBI002
+uibusinessinteractioncollection:UWBI110
+objectclass:NDRole
+objectclass:top
+cn:UWBT110
 
 dn:cn=UWBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Admin
@@ -2036,6 +2066,36 @@ uibusinessinteractioncollection:HPBI001
 objectclass:NDRole
 objectclass:top
 cn:APBT004
+
+dn:cn=APBT204,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:AP Diary for Read Only
+sector:public
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:APBI010
+uibusinessinteractioncollection:HPBI004
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:APBI011
+uibusinessinteractioncollection:APBI080
+uibusinessinteractioncollection:CLBI001
+uibusinessinteractioncollection:NSBI003
+uibusinessinteractioncollection:APBI050
+uibusinessinteractioncollection:APBI007
+uibusinessinteractioncollection:APBI013
+uibusinessinteractioncollection:APBI014
+uibusinessinteractioncollection:APBI015
+uibusinessinteractioncollection:APBI016
+uibusinessinteractioncollection:APBI017
+uibusinessinteractioncollection:APBI008
+uibusinessinteractioncollection:OIBI023
+uibusinessinteractioncollection:OIBI024
+uibusinessinteractioncollection:HPBI001
+objectclass:NDRole
+objectclass:top
+cn:APBT204
 
 dn:cn=APBT104,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Bail Hostel Diary (not in use)
