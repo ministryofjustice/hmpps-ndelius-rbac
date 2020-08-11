@@ -10,27 +10,33 @@
     name: slapd
     state: started
 
+- name: Check primary
+  uri:
+    url: http://localhost/is-primary
+  register: check_primary
+  failed_when: false
+
 - name: Create context entries
-  run_once: yes
+  when: check_primary.status == 200
   include_tasks: create_context.yml
 
 - name: Import policies
-  run_once: yes
+  when: check_primary.status == 200
   include_tasks: import_policies.yml
 
 - name: Import schemas
   include_tasks: import_schemas.yml
 
 - name: Import roles
-  run_once: yes
+  when: check_primary.status == 200
   include_tasks: import_roles.yml
 
 - name: Import groups
-  run_once: yes
+  when: check_primary.status == 200
   include_tasks: import_groups.yml
 
 - name: Import users/clients
-  run_once: yes
+  when: check_primary.status == 200
   include_tasks: import_users.yml
 
 - name: Remove workspace
