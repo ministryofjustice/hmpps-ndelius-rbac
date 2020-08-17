@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.7.7 at 2020/08/07 14:33:17
+# Role Catalogue generated from RBAC Matrix v4.7.8 at 2020/08/17 13:49:33
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.7.7
+description:RBAC v4.7.8
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1811,6 +1811,33 @@ uibusinessinteractioncollection:NIBI011
 objectclass:NDRole
 objectclass:top
 cn:CLBT003
+
+dn:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Officer Diary for Read Only
+level1:false
+level2:false
+level3:false
+uibusinessinteractioncollection:HPBI003
+uibusinessinteractioncollection:CLBI013
+uibusinessinteractioncollection:CLBI014
+uibusinessinteractioncollection:CLBI015
+uibusinessinteractioncollection:CLBI006
+uibusinessinteractioncollection:CLBI026
+uibusinessinteractioncollection:CLBI025
+uibusinessinteractioncollection:CABI034
+uibusinessinteractioncollection:CABI035
+uibusinessinteractioncollection:CABI036
+uibusinessinteractioncollection:RRBI213
+uibusinessinteractioncollection:RRBI212
+uibusinessinteractioncollection:TCBI033
+uibusinessinteractioncollection:CLBI027
+uibusinessinteractioncollection:SEBI036
+uibusinessinteractioncollection:NIBI007
+uibusinessinteractioncollection:NIBI015
+uibusinessinteractioncollection:NIBI011
+objectclass:NDRole
+objectclass:top
+cn:CLBT203
 
 dn:cn=CLBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Clear All Alerts
