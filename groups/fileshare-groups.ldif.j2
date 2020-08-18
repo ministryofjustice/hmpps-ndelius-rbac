@@ -241,18 +241,6 @@ member: cn=placeholder
 cn: RES-FS-Thames-DEBS-RW
 description: Thames-DEBS FileShare Write Access
 
-dn: cn=RES-FS-NorthEast-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-NorthEast-NPS-R
-description: NorthEast-NPS FileShare Read Access
-
-dn: cn=RES-FS-NorthEast-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-NorthEast-NPS-RW
-description: NorthEast-NPS FileShare Write Access
-
 dn: cn=RES-FS-Hampshire-DEBS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
@@ -400,34 +388,49 @@ member: cn=placeholder
 cn: RES-FS-N53-EastMidlands-NPS-RW
 description: EastMidlands-NPS FileShare Write Access
 
-
-###########################################
-# NPS - Regional groups not in use yet    #
-###########################################
+################################################
+# NPS - DIV02/NorthEast/YorkshireandHumberside #
+################################################
 
 dn: cn=RES-FS-N54-NorthEast-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N54-NorthEast-NPS-R
-description: ZZ DO NOT USE - NorthEast-NPS FileShare Read Access
+description: NorthEast-NPS FileShare Read Access
 
 dn: cn=RES-FS-N54-NorthEast-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N54-NorthEast-NPS-RW
-description: ZZ DO NOT USE - NorthEast-NPS FileShare Write Access
+description: NorthEast-NPS FileShare Write Access
 
 dn: cn=RES-FS-N55-YorkshireandHumberside-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N55-YorkshireandHumberside-NPS-R
-description: ZZ DO NOT USE - YorkshireandHumberside-NPS FileShare Read Access
+description: YorkshireandHumberside-NPS FileShare Read Access
 
 dn: cn=RES-FS-N55-YorkshireandHumberside-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N55-YorkshireandHumberside-NPS-RW
-description: ZZ DO NOT USE - YorkshireandHumberside-NPS FileShare Write Access
+description: YorkshireandHumberside-NPS FileShare Write Access
+
+dn: cn=RES-FS-NorthEast-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NorthEast-NPS-R
+description: ZZ DO NOT USE - NorthEast-NPS FileShare Read Access
+
+dn: cn=RES-FS-NorthEast-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NorthEast-NPS-RW
+description: ZZ DO NOT USE - NorthEast-NPS FileShare Write Access
+
+###########################################
+# NPS - Regional groups not in use yet    #
+###########################################
 
 dn: cn=RES-FS-N56-EastofEngland-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
