@@ -1009,12 +1009,6 @@ description: USR-DIV05-NDMIS-MANAGERS Reporting users group
 objectClass: groupOfNames
 member: cn=placeholder
 
-dn: cn=USR-DIV06-NDMIS-MANAGERS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
-cn: USR-DIV06-NDMIS-MANAGERS Reporting users group
-description: USR-DIV06-NDMIS-MANAGERS Reporting users group
-objectClass: groupOfNames
-member: cn=placeholder
-
 dn: cn=USR-DIV07-NDMIS-MANAGERS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-DIV07-NDMIS-MANAGERS Reporting users group
 description: USR-DIV07-NDMIS-MANAGERS Reporting users group
@@ -1260,9 +1254,27 @@ description: USR-REG-N55-NDMIS-READER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
 
-###########################################
-# NPS - Regional groups not in use yet    #
-###########################################
+#################################################
+# NPS - DIV06/EastofEngland/KentSurreyandSussex #
+#################################################
+
+dn: cn=USR-DIV06-NDMIS Reporting ADMIN group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-DIV06-NDMIS Reporting ADMIN group
+description: USR-DIV06-NDMIS Reporting ADMIN group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-DIV06-NDMIS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-DIV06-NDMIS Reporting users group
+description: USR-DIV06-NDMIS Reporting users group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-DIV06-NDMIS-MANAGERS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-DIV06-NDMIS-MANAGERS Reporting users group
+description: USR-DIV06-NDMIS-MANAGERS Reporting users group
+objectClass: groupOfNames
+member: cn=placeholder
 
 dn: cn=USR-REG-N56-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N56-NDMIS-WRITER Reporting group
@@ -1299,6 +1311,10 @@ cn: USR-REG-N57-NDMIS-READER Reporting group
 description: ZZ DO NOT USE - USR-REG-N57-NDMIS-READER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
+
+###########################################
+# NPS - Regional groups not in use yet    #
+###########################################
 
 dn: cn=USR-REG-N58-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N58-NDMIS-WRITER Reporting group
