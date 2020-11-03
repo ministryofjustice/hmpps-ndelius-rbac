@@ -283,19 +283,6 @@ member: cn=placeholder
 cn: RES-FS-South-Yorkshire-DEBS-RW
 description: South-Yorkshire-DEBS FileShare Write Access
 
-dn: cn=RES-FS-SouthWestandSouthCentral-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-SouthWestandSouthCentral-NPS-R
-description: SouthWestandSouthCentral-NPS FileShare Read Access
-
-dn: cn=RES-FS-SouthWestandSouthCentral-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-SouthWestandSouthCentral-NPS-RW
-description: SouthWestandSouthCentral-NPS FileShare Write Access
-
-
 ###########################################
 # NPS - DIV01/NorthWest/GreaterManchester #
 ###########################################
@@ -456,33 +443,50 @@ member: cn=placeholder
 cn: RES-FS-SouthEastandEastern-NPS-RW
 description: ZZ DO NOT USE - SouthEastandEastern-NPS FileShare Write Access
 
-###########################################
-# NPS - Regional groups not in use yet    #
-###########################################
+######################################
+# NPS - DIV05/SouthWest/SouthCentral #
+######################################
 
 dn: cn=RES-FS-N58-SouthWest-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N58-SouthWest-NPS-R
-description: ZZ DO NOT USE - SouthWest-NPS FileShare Read Access
+description: SouthWest-NPS FileShare Read Access
 
 dn: cn=RES-FS-N58-SouthWest-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N58-SouthWest-NPS-RW
-description: ZZ DO NOT USE - SouthWest-NPS FileShare Write Access
+description: SouthWest-NPS FileShare Write Access
 
 dn: cn=RES-FS-N59-SouthCentral-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N59-SouthCentral-NPS-R
-description: ZZ DO NOT USE - SouthCentral-NPS FileShare Read Access
+description: SouthCentral-NPS FileShare Read Access
 
 dn: cn=RES-FS-N59-SouthCentral-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N59-SouthCentral-NPS-RW
-description: ZZ DO NOT USE - SouthCentral-NPS FileShare Write Access
+description: SouthCentral-NPS FileShare Write Access
+
+dn: cn=RES-FS-SouthWestandSouthCentral-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-SouthWestandSouthCentral-NPS-R
+description: ZZ DO NOT USE - SouthWestandSouthCentral-NPS FileShare Read Access
+
+dn: cn=RES-FS-SouthWestandSouthCentral-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-SouthWestandSouthCentral-NPS-RW
+description: ZZ DO NOT USE - SouthWestandSouthCentral-NPS FileShare Write Access
+
+
+###########################################
+# NPS - Regional groups not in use yet    #
+###########################################
 
 dn: cn=RES-FS-N03-Wales-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames

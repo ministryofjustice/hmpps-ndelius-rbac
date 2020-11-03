@@ -805,18 +805,6 @@ description: USR-DIV03-NDMIS Reporting users group
 objectClass: groupOfNames
 member: cn=placeholder
 
-dn: cn=USR-DIV05-NDMIS Reporting ADMIN group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
-cn: USR-DIV05-NDMIS Reporting ADMIN group
-description: USR-DIV05-NDMIS Reporting ADMIN group
-objectClass: groupOfNames
-member: cn=placeholder
-
-dn: cn=USR-DIV05-NDMIS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
-cn: USR-DIV05-NDMIS Reporting users group
-description: USR-DIV05-NDMIS Reporting users group
-objectClass: groupOfNames
-member: cn=placeholder
-
 dn: cn=USR-DIV06-NDMIS Reporting ADMIN group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-DIV06-NDMIS Reporting ADMIN group
 description: USR-DIV06-NDMIS Reporting ADMIN group
@@ -1000,12 +988,6 @@ member: cn=placeholder
 dn: cn=USR-DIV03-NDMIS-MANAGERS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-DIV03-NDMIS-MANAGERS Reporting users group
 description: USR-DIV03-NDMIS-MANAGERS Reporting users group
-objectClass: groupOfNames
-member: cn=placeholder
-
-dn: cn=USR-DIV05-NDMIS-MANAGERS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
-cn: USR-DIV05-NDMIS-MANAGERS Reporting users group
-description: USR-DIV05-NDMIS-MANAGERS Reporting users group
 objectClass: groupOfNames
 member: cn=placeholder
 
@@ -1312,45 +1294,69 @@ description: USR-REG-N57-NDMIS-READER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
 
-###########################################
-# NPS - Regional groups not in use yet    #
-###########################################
+######################################
+# NPS - DIV05/SouthWest/SouthCentral #
+######################################
+
+dn: cn=USR-DIV05-NDMIS Reporting ADMIN group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-DIV05-NDMIS Reporting ADMIN group
+description: ZZ DO NOT USE - USR-DIV05-NDMIS Reporting ADMIN group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-DIV05-NDMIS-MANAGERS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-DIV05-NDMIS-MANAGERS Reporting users group
+description: ZZ DO NOT USE - USR-DIV05-NDMIS-MANAGERS Reporting users group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-DIV05-NDMIS Reporting users group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-DIV05-NDMIS Reporting users group
+description: ZZ DO NOT USE - USR-DIV05-NDMIS Reporting users group
+objectClass: groupOfNames
+member: cn=placeholder
 
 dn: cn=USR-REG-N58-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N58-NDMIS-WRITER Reporting group
-description: ZZ DO NOT USE - USR-REG-N58-NDMIS-WRITER Reporting group
+description: USR-REG-N58-NDMIS-WRITER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
 
 dn: cn=USR-REG-N58-NDMIS-MANAGER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N58-NDMIS-MANAGER Reporting group
-description: ZZ DO NOT USE - USR-REG-N58-NDMIS-MANAGER Reporting group
+description: USR-REG-N58-NDMIS-MANAGER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
 
 dn: cn=USR-REG-N58-NDMIS-READER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N58-NDMIS-READER Reporting group
-description: ZZ DO NOT USE - USR-REG-N58-NDMIS-READER Reporting group
+description: USR-REG-N58-NDMIS-READER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
 
 dn: cn=USR-REG-N59-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N59-NDMIS-WRITER Reporting group
-description: ZZ DO NOT USE - USR-REG-N59-NDMIS-WRITER Reporting group
+description: USR-REG-N59-NDMIS-WRITER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
 
 dn: cn=USR-REG-N59-NDMIS-MANAGER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N59-NDMIS-MANAGER Reporting group
-description: ZZ DO NOT USE - USR-REG-N59-NDMIS-MANAGER Reporting group
+description: USR-REG-N59-NDMIS-MANAGER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
 
 dn: cn=USR-REG-N59-NDMIS-READER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N59-NDMIS-READER Reporting group
-description: ZZ DO NOT USE - USR-REG-N59-NDMIS-READER Reporting group
+description: USR-REG-N59-NDMIS-READER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
+
+
+
+###########################################
+# NPS - Regional groups not in use yet    #
+###########################################
 
 dn: cn=USR-REG-N03-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N03-NDMIS-WRITER Reporting group
