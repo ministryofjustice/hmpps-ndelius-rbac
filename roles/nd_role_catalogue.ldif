@@ -10,9 +10,9 @@ cn: ndRoleCatalogue
 dn:cn=CWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Court Appearance Details
 sector:public
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:CWBI006
 uibusinessinteractioncollection:CWBI007
 uibusinessinteractioncollection:CWBI010
@@ -34,9 +34,9 @@ cn:CWBT001
 dn:cn=CWBT001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Court Appearance at Level 3
 sector:public
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CWBI006
 uibusinessinteractioncollection:CWBI007
 uibusinessinteractioncollection:CWBI010
@@ -57,9 +57,9 @@ cn:CWBT001a
 
 dn:cn=CWBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Court Appearance Details 
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CWBI001
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -78,9 +78,9 @@ cn:CWBT002
 dn:cn=CWBT200,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Prepare a case for court
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CWBI200
 objectclass:NDRole
 objectclass:top
@@ -89,9 +89,9 @@ cn:CWBT200
 dn:cn=CWBT201,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Prepare a case for court
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CWBI201
 objectclass:NDRole
 objectclass:top
@@ -100,9 +100,9 @@ cn:CWBT201
 dn:cn=CWBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Appearance Admin
 sector:public
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:CWBI013
 uibusinessinteractioncollection:CWBI011
 uibusinessinteractioncollection:CLBI002
@@ -114,9 +114,9 @@ cn:CWBT050
 dn:cn=CWBT050a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Appearance Admin at Level 3
 sector:public
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CWBI013
 uibusinessinteractioncollection:CWBI011
 uibusinessinteractioncollection:CLBI002
@@ -129,9 +129,9 @@ dn:cn=CWBT060,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Appearance Admin for System Admins
 sector:public
 adminlevel:local
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CWBI013
 uibusinessinteractioncollection:CWBI011
 uibusinessinteractioncollection:CLBI002
@@ -143,9 +143,9 @@ cn:CWBT060
 
 dn:cn=CWBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Consecutive Concurrent
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CWBI101
 objectclass:NDRole
 objectclass:top
@@ -154,9 +154,9 @@ cn:CWBT101
 dn:cn=CWBT102,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Maintain Consecutive Concurrent
 sector:public
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:CWBI101
 uibusinessinteractioncollection:CWBI102
 objectclass:NDRole
@@ -166,9 +166,9 @@ cn:CWBT102
 dn:cn=CWBT103,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Consecutive Concurrent Admin
 sector:public
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:CWBI101
 uibusinessinteractioncollection:CWBI102
 uibusinessinteractioncollection:CWBI103
@@ -179,9 +179,9 @@ cn:CWBT103
 dn:cn=CWBT104,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Maintain Consecutive Concurrent private
 sector:private
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:CWBI101
 uibusinessinteractioncollection:CWBI102
 objectclass:NDRole
@@ -191,9 +191,9 @@ cn:CWBT104
 dn:cn=CWBT105,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Consecutive Concurrent Admin private
 sector:private
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:CWBI101
 uibusinessinteractioncollection:CWBI102
 uibusinessinteractioncollection:CWBI103
@@ -203,9 +203,9 @@ cn:CWBT105
 
 dn:cn=RPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Produce Reports
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:RPBI002
 uibusinessinteractioncollection:RPBI006
 uibusinessinteractioncollection:RPBI007
@@ -235,9 +235,9 @@ cn:RPBT001
 
 dn:cn=RPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Reports
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:RPBI001
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -254,9 +254,9 @@ cn:RPBT003
 
 dn:cn=RPBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reports Admin
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:RPBI003
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI009
@@ -268,9 +268,9 @@ cn:RPBT050
 
 dn:cn=SEBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Sentence Details
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:SEBI008
 uibusinessinteractioncollection:OIBI001
 uibusinessinteractioncollection:DMBI106
@@ -292,9 +292,9 @@ cn:SEBT001
 dn:cn=SEBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Sentence Details
 sector:public
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
@@ -315,9 +315,9 @@ cn:SEBT002
 dn:cn=SEBT002a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Sentence Details (private)
 sector:private
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
@@ -337,9 +337,9 @@ cn:SEBT002a
 dn:cn=SEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Details Admin
 sector:public
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:SEBI003
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI009
@@ -368,9 +368,9 @@ cn:SEBT003
 dn:cn=SEBT003a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Details Admin (private)
 sector:private
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI009
 uibusinessinteractioncollection:CLBI003
@@ -393,9 +393,9 @@ cn:SEBT003a
 
 dn:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Cohort Details
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:SEBI008
 uibusinessinteractioncollection:OIBI001
 uibusinessinteractioncollection:DMBI106
@@ -411,9 +411,9 @@ cn:SEBT011
 
 dn:cn=SEBT012,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Add and Update Cohort
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
@@ -426,9 +426,9 @@ cn:SEBT012
 dn:cn=SEBT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Cohort Admin
 sector:public
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:SEBI014
 uibusinessinteractioncollection:SEBI035
 objectclass:NDRole
@@ -437,9 +437,9 @@ cn:SEBT013
 
 dn:cn=NSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Offender Search
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:NSBI001
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -460,9 +460,9 @@ cn:NSBT001
 
 dn:cn=NSBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Offender Search for read-only
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:NSBI001
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -483,9 +483,9 @@ cn:NSBT010
 dn:cn=NSBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Inactive Offender
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:NSBI004
 objectclass:NDRole
 objectclass:top
@@ -493,9 +493,9 @@ cn:NSBT002
 
 dn:cn=NSBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Offender for Merge
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:NSBI004
 objectclass:NDRole
 objectclass:top
@@ -503,9 +503,9 @@ cn:NSBT005
 
 dn:cn=NSBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Enhanced Search
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CLBI200
 uibusinessinteractioncollection:HPBI003
 uibusinessinteractioncollection:CLBI201
@@ -515,9 +515,9 @@ cn:NSBT004
 
 dn:cn=NSBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:New Search (Test only)
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:NSBI008
 objectclass:NDRole
 objectclass:top
@@ -525,9 +525,9 @@ cn:NSBT006
 
 dn:cn=NSBT007,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:New National Search (Superseded - now in NSBT001)
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:NSBI009
 objectclass:NDRole
 objectclass:top
@@ -535,9 +535,9 @@ cn:NSBT007
 
 dn:cn=NSBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:New Offender Summary
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:NSBI010
 objectclass:NDRole
 objectclass:top
@@ -545,9 +545,9 @@ cn:NSBT008
 
 dn:cn=CABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Transfer and Tier History 
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CABI001
 uibusinessinteractioncollection:CABI265
 uibusinessinteractioncollection:CABI266
@@ -564,9 +564,9 @@ cn:CABT001
 
 dn:cn=CABT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Offender Manager
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CABI021
 uibusinessinteractioncollection:CABI029
 objectclass:NDRole
@@ -575,9 +575,9 @@ cn:CABT002
 
 dn:cn=CABT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Order Supervisor 
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:CABI018
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -594,9 +594,9 @@ cn:CABT003
 
 dn:cn=CABT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Bulk Transfer
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CABI025
 uibusinessinteractioncollection:NIBI017
 uibusinessinteractioncollection:CABI080
@@ -615,9 +615,9 @@ cn:CABT004
 dn:cn=CABT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Update Management Tier
 sector:public
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CABI261
 uibusinessinteractioncollection:CABI262
 uibusinessinteractioncollection:CABI263
@@ -630,9 +630,9 @@ cn:CABT005
 
 dn:cn=CABT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Offender out of Trust 
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CABI029
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -646,9 +646,9 @@ cn:CABT008
 
 dn:cn=CABT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Offender into Trust
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CABI027
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -661,9 +661,9 @@ cn:CABT009
 
 dn:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Establishment Consolidated Transfer
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CABI270
 uibusinessinteractioncollection:CABI271
 uibusinessinteractioncollection:CABI272
@@ -679,9 +679,9 @@ dn:cn=CABT012,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfers for Administrators
 sector:public
 adminlevel:local
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CABI021
 uibusinessinteractioncollection:CABI029
 uibusinessinteractioncollection:CABI030
@@ -697,9 +697,9 @@ cn:CABT012
 
 dn:cn=SPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Provider Details
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPBI005
 uibusinessinteractioncollection:SPBI006
 uibusinessinteractioncollection:SPBI008
@@ -728,9 +728,9 @@ cn:SPBT001
 
 dn:cn=SPBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Provider Details
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPBI001
 uibusinessinteractioncollection:HPBI005
 uibusinessinteractioncollection:SPBI002
@@ -754,9 +754,9 @@ cn:SPBT002
 
 dn:cn=SPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Service Providers Admin
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPBI200
 uibusinessinteractioncollection:SPBI201
 uibusinessinteractioncollection:SPBI202
@@ -769,9 +769,9 @@ dn:cn=RDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:National Reference Code List Maintenance
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:RDBI0112
 uibusinessinteractioncollection:HPBI005
 uibusinessinteractioncollection:RDBI0113
@@ -915,9 +915,9 @@ cn:RDBT001
 dn:cn=RDBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Local Reference Code List Maintenance
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:RDBI0117
 uibusinessinteractioncollection:HPBI005
 uibusinessinteractioncollection:RDBI0113
@@ -947,9 +947,9 @@ cn:RDBT002
 dn:cn=RDBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Local Reference Code Staff List Maintenance
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:RDBI0117
 uibusinessinteractioncollection:HPBI005
 uibusinessinteractioncollection:RDBI0113
@@ -967,9 +967,9 @@ cn:RDBT003
 dn:cn=UMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:User Administrator (all access)
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UMBI001
 uibusinessinteractioncollection:UMBI002
 uibusinessinteractioncollection:UMBI003
@@ -989,9 +989,9 @@ cn:UMBT001
 dn:cn=UMBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:User Administrator (read only)
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UMBI001
 uibusinessinteractioncollection:UMBI002
 uibusinessinteractioncollection:UMBI006
@@ -1006,9 +1006,9 @@ cn:UMBT002
 
 dn:cn=OIBT0001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Offender Details
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:OIBI001
 uibusinessinteractioncollection:OIBI002
 uibusinessinteractioncollection:OIBI003
@@ -1037,9 +1037,9 @@ cn:OIBT0001
 dn:cn=OIBT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Maintain Offender Details
 sector:public
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:OIBI025
 uibusinessinteractioncollection:OIBI027
 uibusinessinteractioncollection:OIBI028
@@ -1065,9 +1065,9 @@ cn:OIBT0002
 dn:cn=OIBT0002a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Maintain Offender Details (private)
 sector:private
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:OIBI027
 uibusinessinteractioncollection:OIBI028
 uibusinessinteractioncollection:OIBI029
@@ -1092,9 +1092,9 @@ cn:OIBT0002a
 dn:cn=OIBT0003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Delete Offender
 sector:public
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:OIBI053
 uibusinessinteractioncollection:OIBI001
 objectclass:NDRole
@@ -1103,9 +1103,9 @@ cn:OIBT0003
 
 dn:cn=OIBT0004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage LAOs
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:OIBI054
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:OIBI055
@@ -1128,9 +1128,9 @@ cn:OIBT0004
 dn:cn=OIBT0005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Add Offender Details
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:OIBI025
 uibusinessinteractioncollection:OIBI027
 uibusinessinteractioncollection:OIBI028
@@ -1155,9 +1155,9 @@ cn:OIBT0005
 
 dn:cn=OIBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Offender Details Admin
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:OIBI031
 uibusinessinteractioncollection:OIBI033
 uibusinessinteractioncollection:OIBI034
@@ -1176,9 +1176,9 @@ dn:cn=WPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:National Template Maintenance
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:WPBI001
 uibusinessinteractioncollection:HPBI005
 uibusinessinteractioncollection:WPBI157
@@ -1193,9 +1193,9 @@ cn:WPBT001
 dn:cn=WPBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Local Template Maintenance
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:WPBI007
 uibusinessinteractioncollection:HPBI005
 uibusinessinteractioncollection:RDBI0117
@@ -1210,9 +1210,9 @@ cn:WPBT002
 
 dn:cn=WPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Read Documents
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:WPBI100
 uibusinessinteractioncollection:WPBI110
 uibusinessinteractioncollection:WPBI003
@@ -1222,9 +1222,9 @@ cn:WPBT003
 
 dn:cn=WPBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Produce Documents
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:WPBI003
 uibusinessinteractioncollection:WPBI002
 uibusinessinteractioncollection:WPBI004
@@ -1238,9 +1238,9 @@ cn:WPBT004
 
 dn:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Add PDF Documents (PILOT)
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:WPBI106
 objectclass:NDRole
 objectclass:top
@@ -1248,9 +1248,9 @@ cn:WPBT006
 
 dn:cn=WPBT007,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:New Document Approach
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:WPBI107
 objectclass:NDRole
 objectclass:top
@@ -1258,9 +1258,9 @@ cn:WPBT007
 
 dn:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Formatted Printing
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:WPBI170
 uibusinessinteractioncollection:WPBI123
 objectclass:NDRole
@@ -1269,9 +1269,9 @@ cn:WPBT005
 
 dn:cn=WPBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Document Admin
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:WPBI005
 uibusinessinteractioncollection:WPBI004
 uibusinessinteractioncollection:WPBI999
@@ -1281,9 +1281,9 @@ cn:WPBT050
 
 dn:cn=TCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Throughcare Details
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:TCBI001
 uibusinessinteractioncollection:TCBI002
 uibusinessinteractioncollection:TCBI005
@@ -1296,9 +1296,9 @@ cn:TCBT001
 
 dn:cn=TCBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Throughcare Details Admin
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:TCBI003
 uibusinessinteractioncollection:TCBI015
 uibusinessinteractioncollection:TCBI022
@@ -1314,9 +1314,9 @@ cn:TCBT002
 dn:cn=TCBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Throughcare Admin (force release)
 adminlevel:local
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:TCBI003
 uibusinessinteractioncollection:TCBI015
 uibusinessinteractioncollection:TCBI022
@@ -1332,9 +1332,9 @@ cn:TCBT004
 
 dn:cn=TCBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Throughcare Details
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:SEBI009
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -1354,9 +1354,9 @@ cn:TCBT003
 
 dn:cn=DRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Referrals
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DRBI004
 uibusinessinteractioncollection:DRBI005
 uibusinessinteractioncollection:DRBI009
@@ -1368,9 +1368,9 @@ cn:DRBT001
 dn:cn=DRBT021,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Add and update Case Allocation
 sector:public
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DRBI004
 uibusinessinteractioncollection:DRBI005
 uibusinessinteractioncollection:CABI251
@@ -1384,9 +1384,9 @@ cn:DRBT021
 dn:cn=DRBT007,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Update Referrals for Court Staff
 sector:public
-level1:false
-level2:true
-level3:false
+level1:FALSE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:DRBI004
 uibusinessinteractioncollection:DRBI005
 uibusinessinteractioncollection:CABI251
@@ -1399,9 +1399,9 @@ cn:DRBT007
 
 dn:cn=DRBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Referrals
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:DRBI999
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -1419,9 +1419,9 @@ cn:DRBT002
 
 dn:cn=DRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Referrals Admin
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DRBI006
 uibusinessinteractioncollection:DRBI011
 objectclass:NDRole
@@ -1430,9 +1430,9 @@ cn:DRBT003
 
 dn:cn=DRBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage DRR Details
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DRBI004
 uibusinessinteractioncollection:DRBI005
 uibusinessinteractioncollection:DRBI009
@@ -1447,9 +1447,9 @@ cn:DRBT004
 
 dn:cn=DRBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View DRR Details
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:DRBI001
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -1469,9 +1469,9 @@ cn:DRBT005
 
 dn:cn=DRBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:DRR Admin
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DRBI006
 uibusinessinteractioncollection:DRBI011
 uibusinessinteractioncollection:DRBI017
@@ -1484,9 +1484,9 @@ dn:cn=UWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage UPW Project Details
 sector:private
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:HPBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
@@ -1504,9 +1504,9 @@ dn:cn=UWBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Project Details Read Only
 sector:private
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:HPBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
@@ -1522,9 +1522,9 @@ dn:cn=UWBT051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage UPW Project Details (national)
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:HPBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
@@ -1541,9 +1541,9 @@ cn:UWBT051
 dn:cn=UWBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage UPW Offender Details
 sector:private
-level1:false
-level2:false
-level3:true
+level1:FALSE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:UWBI004
 uibusinessinteractioncollection:UWBI006
 uibusinessinteractioncollection:UWBI008
@@ -1569,9 +1569,9 @@ dn:cn=UWBT052,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage UPW Offender Details (national)
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:true
+level1:FALSE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:UWBI004
 uibusinessinteractioncollection:UWBI006
 uibusinessinteractioncollection:UWBI008
@@ -1596,9 +1596,9 @@ cn:UWBT052
 dn:cn=UWBT053,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW OffenderAdjustments for Court Staff
 sector:public
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:UWBI001
 uibusinessinteractioncollection:SEBI008
 uibusinessinteractioncollection:SEBI009
@@ -1619,9 +1619,9 @@ cn:UWBT053
 
 dn:cn=UWBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View UPW Offender Details
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:UWBI001
 uibusinessinteractioncollection:SEBI008
 uibusinessinteractioncollection:SEBI009
@@ -1642,9 +1642,9 @@ cn:UWBT003
 
 dn:cn=UWBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Project Diary
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UWBI170
 uibusinessinteractioncollection:HPBI002
 uibusinessinteractioncollection:UWBI110
@@ -1655,9 +1655,9 @@ cn:UWBT010
 
 dn:cn=UWBT110,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View UPW Project Diary
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UWBI170
 uibusinessinteractioncollection:HPBI002
 uibusinessinteractioncollection:UWBI110
@@ -1669,9 +1669,9 @@ dn:cn=UWBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Admin
 sector:private
 adminlevel:local
-level1:false
-level2:false
-level3:true
+level1:FALSE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:UWBI190
 objectclass:NDRole
 objectclass:top
@@ -1681,9 +1681,9 @@ dn:cn=UWBT060,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Admin (national)
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:true
+level1:FALSE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:UWBI190
 objectclass:NDRole
 objectclass:top
@@ -1691,9 +1691,9 @@ cn:UWBT060
 
 dn:cn=EXBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Produce DSAR
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:EXBI001
 uibusinessinteractioncollection:EXBI002
 uibusinessinteractioncollection:EXBI007
@@ -1710,9 +1710,9 @@ cn:EXBT001
 
 dn:cn=EXBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Produce ViSOR Report
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:EXBI003
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:EXBI005
@@ -1726,9 +1726,9 @@ cn:EXBT002
 
 dn:cn=EXBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Produce SMS report
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:EXBI011
 uibusinessinteractioncollection:HPBI006
 objectclass:NDRole
@@ -1737,9 +1737,9 @@ cn:EXBT003
 
 dn:cn=EXBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Delete DSAR
-level1:true
-level2:true
-level3:false
+level1:TRUE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:EXBI159
 uibusinessinteractioncollection:EXBI180
 objectclass:NDRole
@@ -1748,9 +1748,9 @@ cn:EXBT050
 
 dn:cn=CLBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Contact Log
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI005
 uibusinessinteractioncollection:CLBI007
@@ -1762,9 +1762,9 @@ cn:CLBT001
 
 dn:cn=CLBT007,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Enhanced Search Contact Log
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
 uibusinessinteractioncollection:CLBI017
@@ -1775,9 +1775,9 @@ cn:CLBT007
 dn:cn=CLBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Contact Log for Court staff
 sector:public
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI005
 uibusinessinteractioncollection:CLBI007
@@ -1789,9 +1789,9 @@ cn:CLBT005
 
 dn:cn=CLBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Search Officer Diary
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:HPBI003
 uibusinessinteractioncollection:CLBI013
 uibusinessinteractioncollection:CLBI014
@@ -1817,9 +1817,9 @@ cn:CLBT003
 
 dn:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Officer Diary for Read Only
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:HPBI003
 uibusinessinteractioncollection:CLBI013
 uibusinessinteractioncollection:CLBI014
@@ -1844,9 +1844,9 @@ cn:CLBT203
 
 dn:cn=CLBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Clear All Alerts
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CLBI019
 objectclass:NDRole
 objectclass:top
@@ -1854,9 +1854,9 @@ cn:CLBT008
 
 dn:cn=CLBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Officer Diary for Sub Contractors
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:HPBI003
 uibusinessinteractioncollection:CLBI015
 uibusinessinteractioncollection:CLBI027
@@ -1868,9 +1868,9 @@ cn:CLBT006
 
 dn:cn=CLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Contact Log
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CLBI001
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -1884,9 +1884,9 @@ cn:CLBT002
 
 dn:cn=CLBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Contact Log Admin
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:CLBI009
 uibusinessinteractioncollection:CLBI005
 uibusinessinteractioncollection:CLBI016
@@ -1900,9 +1900,9 @@ cn:CLBT050
 
 dn:cn=CLBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Contact Event Extract
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:CLBI101
 uibusinessinteractioncollection:CLBI010
 objectclass:NDRole
@@ -1911,9 +1911,9 @@ cn:CLBT101
 
 dn:cn=RRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Offender Registration
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:RRBI100
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -1929,9 +1929,9 @@ cn:RRBT001
 dn:cn=RRBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Offender Registration
 sector:public
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:RRBI002
 uibusinessinteractioncollection:RRBI120
 uibusinessinteractioncollection:RRBI140
@@ -1945,9 +1945,9 @@ cn:RRBT002
 dn:cn=RRBT002a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Offender Registration (private)
 sector:private
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:RRBI002
 uibusinessinteractioncollection:RRBI120
 uibusinessinteractioncollection:RRBI140
@@ -1961,9 +1961,9 @@ cn:RRBT002a
 dn:cn=RRBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Inactive Registration (private)
 sector:private
-level1:false
-level2:true
-level3:false
+level1:FALSE
+level2:TRUE
+level3:FALSE
 uibusinessinteractioncollection:RRBI120
 uibusinessinteractioncollection:RRBI140
 uibusinessinteractioncollection:RRBI210
@@ -1973,9 +1973,9 @@ cn:RRBT004
 
 dn:cn=RRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Offender Registration Admin
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:RRBI130
 uibusinessinteractioncollection:RRBI160
 objectclass:NDRole
@@ -1986,9 +1986,9 @@ dn:cn=APBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:National AP Admin
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI001
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:APBI002
@@ -2002,9 +2002,9 @@ dn:cn=APBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Local AP Admin
 sector:public
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI001
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:APBI002
@@ -2023,9 +2023,9 @@ dn:cn=APBT102,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Local Bail Hostel Admin (not in use)
 sector:private
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI001
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:APBI002
@@ -2042,9 +2042,9 @@ cn:APBT102
 
 dn:cn=APBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage AP Referrals
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:APBI008
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
@@ -2065,9 +2065,9 @@ cn:APBT003
 dn:cn=APBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage AP Diary
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI010
 uibusinessinteractioncollection:HPBI004
 uibusinessinteractioncollection:DMBI106
@@ -2100,9 +2100,9 @@ cn:APBT004
 dn:cn=APBT204,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:AP Diary for Read Only
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI010
 uibusinessinteractioncollection:HPBI004
 uibusinessinteractioncollection:DMBI106
@@ -2130,9 +2130,9 @@ cn:APBT204
 dn:cn=APBT104,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Bail Hostel Diary (not in use)
 sector:private
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI010
 uibusinessinteractioncollection:HPBI004
 uibusinessinteractioncollection:DMBI106
@@ -2165,9 +2165,9 @@ cn:APBT104
 dn:cn=APBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:AP Diary Admin
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI077
 uibusinessinteractioncollection:APBI080
 uibusinessinteractioncollection:APBI901
@@ -2181,9 +2181,9 @@ cn:APBT005
 dn:cn=APBT105,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Bail Hostel Diary Admin (not in use)
 sector:private
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI077
 uibusinessinteractioncollection:APBI080
 uibusinessinteractioncollection:APBI901
@@ -2197,9 +2197,9 @@ cn:APBT105
 dn:cn=APBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:AP Offender Admin
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI113
 uibusinessinteractioncollection:APBI053
 uibusinessinteractioncollection:APBI159
@@ -2220,9 +2220,9 @@ cn:APBT050
 dn:cn=APBT150,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Bailee Admin (not in use)
 sector:private
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:APBI113
 uibusinessinteractioncollection:APBI053
 uibusinessinteractioncollection:APBI159
@@ -2243,9 +2243,9 @@ cn:APBT150
 dn:cn=UABT0001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage User Details
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UABI0001
 uibusinessinteractioncollection:HPBI008
 uibusinessinteractioncollection:UABI0002
@@ -2257,9 +2257,9 @@ cn:UABT0001
 dn:cn=UABT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage User Functional Access
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UABI0003
 uibusinessinteractioncollection:UABI0004
 uibusinessinteractioncollection:UABI0014
@@ -2270,9 +2270,9 @@ cn:UABT0002
 dn:cn=UABT0003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage User Data Access
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UABI0005
 uibusinessinteractioncollection:UABI0006
 objectclass:NDRole
@@ -2283,9 +2283,9 @@ dn:cn=UABT0005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage User Functional Groups
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UABI0009
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:UABI0012
@@ -2300,9 +2300,9 @@ dn:cn=UABT0050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:National Public Reference Data Admin
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UABI020
 uibusinessinteractioncollection:UABI025
 objectclass:NDRole
@@ -2313,9 +2313,9 @@ dn:cn=UABT0051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Public RBAC Admin
 sector:public
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UABI020
 uibusinessinteractioncollection:UABI022
 uibusinessinteractioncollection:UABI023
@@ -2329,9 +2329,9 @@ dn:cn=UABT0052,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Private RBAC Admin
 sector:private
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UABI021
 uibusinessinteractioncollection:UABI022
 uibusinessinteractioncollection:UABI023
@@ -2343,9 +2343,9 @@ cn:UABT0052
 
 dn:cn=UPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Save User Preferences
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UPBI001
 uibusinessinteractioncollection:UPBI003
 uibusinessinteractioncollection:UPBI004
@@ -2356,9 +2356,9 @@ cn:UPBT001
 
 dn:cn=DSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Search DSS
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DSBI001
 uibusinessinteractioncollection:SEBI009
 uibusinessinteractioncollection:OIBI001
@@ -2374,9 +2374,9 @@ cn:DSBT001
 
 dn:cn=DSBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Update Custody Details From DSS
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DSBI003
 uibusinessinteractioncollection:DSBI009
 objectclass:NDRole
@@ -2387,9 +2387,9 @@ dn:cn=DMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:System Parameter Maintenance
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:DMBI001
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:DMBI009
@@ -2406,9 +2406,9 @@ cn:DMBT001
 
 dn:cn=DMBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Data Maintenance
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:DMBI007
 uibusinessinteractioncollection:DMBI008
@@ -2429,9 +2429,9 @@ dn:cn=DMBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Data Maintenance (public)
 sector:public
 adminlevel:local
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:DMBI002
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:DMBI005
@@ -2459,9 +2459,9 @@ cn:DMBT003
 
 dn:cn=OABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Delius Copy of OASYS Assessment
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:OABI001
 uibusinessinteractioncollection:OABI004
 uibusinessinteractioncollection:OABI005
@@ -2474,9 +2474,9 @@ cn:OABT001
 
 dn:cn=OABT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Delete Delius Copy of OASys Assessment
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:OABI005
 uibusinessinteractioncollection:OABI333
 objectclass:NDRole
@@ -2486,9 +2486,9 @@ cn:OABT002
 dn:cn=DPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:DPA Extract Admin
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:DPBI001
 uibusinessinteractioncollection:HPBI006
 uibusinessinteractioncollection:DPBI002
@@ -2506,9 +2506,9 @@ cn:DPBT001
 
 dn:cn=SYBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:DSS System Interface
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:DSBI004
 objectclass:NDRole
 objectclass:top
@@ -2516,9 +2516,9 @@ cn:SYBT001
 
 dn:cn=SYBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:OASys System Interface
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:OIBI097
 uibusinessinteractioncollection:OIBI096
 uibusinessinteractioncollection:RRBI211
@@ -2529,9 +2529,9 @@ cn:SYBT002
 
 dn:cn=SYBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:IAPS System Interface
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:OIBI101
 uibusinessinteractioncollection:SEBI018
 uibusinessinteractioncollection:SEBI019
@@ -2548,9 +2548,9 @@ cn:SYBT003
 
 dn:cn=CDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Diary Admin
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CDBI001
 uibusinessinteractioncollection:CDBI002
 uibusinessinteractioncollection:CDBI003
@@ -2563,9 +2563,9 @@ cn:CDBT001
 
 dn:cn=NIBT0001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Non Statutory Interventions
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:NIBI001
 uibusinessinteractioncollection:NIBI004
 uibusinessinteractioncollection:NIBI007
@@ -2576,9 +2576,9 @@ cn:NIBT0001
 
 dn:cn=NIBT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Non Statutory Interventions
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:NIBI001
 uibusinessinteractioncollection:NIBI002
 uibusinessinteractioncollection:NIBI003
@@ -2593,9 +2593,9 @@ cn:NIBT0002
 
 dn:cn=NIBT0003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Non Statutory Interventions Admin
-level1:true
-level2:false
-level3:true
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:NIBI001
 uibusinessinteractioncollection:NIBI002
 uibusinessinteractioncollection:NIBI003
@@ -2614,9 +2614,9 @@ dn:cn=NIBT0004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Delete Process Contact NSI
 sector:public
 adminlevel:national
-level1:true
-level2:true
-level3:true
+level1:TRUE
+level2:TRUE
+level3:TRUE
 uibusinessinteractioncollection:NIBI016
 uibusinessinteractioncollection:NIBI006
 objectclass:NDRole
@@ -2625,9 +2625,9 @@ cn:NIBT0004
 
 dn:cn=CABT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Case Allocation & Transfer
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CABI070
 uibusinessinteractioncollection:CABI101
 uibusinessinteractioncollection:CABI201
@@ -2674,9 +2674,9 @@ cn:CABT010
 
 dn:cn=CABT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Case Allocation & Transfer
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:CABI070
 uibusinessinteractioncollection:CABI101
 uibusinessinteractioncollection:CABI201
@@ -2742,9 +2742,9 @@ cn:CABT011
 dn:cn=GTBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Adminster SPG Exports
 sector:private
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:GTBI000
 uibusinessinteractioncollection:GTBI001
 uibusinessinteractioncollection:SPGADBI011
@@ -2758,9 +2758,9 @@ dn:cn=GTBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Adminster SPG Exports (NOMS)
 sector:public
 adminlevel:national
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:GTBI000
 uibusinessinteractioncollection:GTBI001
 uibusinessinteractioncollection:SPGADBI011
@@ -2773,9 +2773,9 @@ cn:GTBT002
 dn:cn=SPGBT000,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:SPG Level 0 Access
 sector:private
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGBI089
 uibusinessinteractioncollection:SPGBI090
 uibusinessinteractioncollection:SPGBI110
@@ -2790,9 +2790,9 @@ cn:SPGBT000
 dn:cn=SPGBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:SPG Level 1 Access (no delete)
 sector:private
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGBI001
 uibusinessinteractioncollection:SPGBI002
 uibusinessinteractioncollection:SPGBI003
@@ -2874,9 +2874,9 @@ cn:SPGBT001
 dn:cn=SPGBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:SPG Level 1 Access (delete only)
 sector:private
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGBI020
 uibusinessinteractioncollection:SPGBI045
 uibusinessinteractioncollection:SPGBI046
@@ -2908,9 +2908,9 @@ cn:SPGBT010
 dn:cn=SPGBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:SPG Level 3 Access
 sector:private
-level1:false
-level2:false
-level3:true
+level1:FALSE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:SPGBI001
 uibusinessinteractioncollection:SPGBI002
 uibusinessinteractioncollection:SPGBI003
@@ -3014,9 +3014,9 @@ cn:SPGBT003
 dn:cn=SPGADBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:SPG Message Administrator
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGADBI001
 uibusinessinteractioncollection:SPGADBI002
 uibusinessinteractioncollection:SPGADBI004
@@ -3035,9 +3035,9 @@ cn:SPGADBT001
 dn:cn=SPGADBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:SPG Message Administrator (Initial)
 sector:private
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGADBI001
 uibusinessinteractioncollection:SPGADBI002
 uibusinessinteractioncollection:SPGADBI004
@@ -3054,9 +3054,9 @@ cn:SPGADBT002
 dn:cn=SPGADBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:SPG Message Administrator (Full)
 sector:private
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGADBI001
 uibusinessinteractioncollection:SPGADBI002
 uibusinessinteractioncollection:SPGADBI004
@@ -3074,9 +3074,9 @@ cn:SPGADBT003
 
 dn:cn=SPGADBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:NOMIS Case Notes Admin
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGADBI012
 uibusinessinteractioncollection:HPBI012
 objectclass:NDRole
@@ -3085,9 +3085,9 @@ cn:SPGADBT004
 
 dn:cn=SPGADBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:AP Vacancy Tracker API Admin
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGADBI015
 uibusinessinteractioncollection:HPBI012
 objectclass:NDRole
@@ -3096,9 +3096,9 @@ cn:SPGADBT005
 
 dn:cn=SPGADBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:SPGReserved BIs
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGADBI013
 uibusinessinteractioncollection:SPGADBI014
 objectclass:NDRole
@@ -3107,9 +3107,9 @@ cn:SPGADBT006
 
 dn:cn=SPGBT900,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:DMS System Interface
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SPGBI1000
 uibusinessinteractioncollection:SPGBI1001
 uibusinessinteractioncollection:SPGBI1002
@@ -3119,9 +3119,9 @@ cn:SPGBT900
 
 dn:cn=GDPRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:GDPR Duplicates
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:gdpr-duplicates:view
 uibusinessinteractioncollection:gdpr-duplicates:review
 uibusinessinteractioncollection:gdpr-duplicates:manage
@@ -3131,9 +3131,9 @@ cn:GDPRBT001
 
 dn:cn=GDPRBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:GDPR Deletions
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:gdpr-deletions:view
 uibusinessinteractioncollection:gdpr-deletions:review
 uibusinessinteractioncollection:gdpr-deletions:resolve
@@ -3144,9 +3144,9 @@ cn:GDPRBT002
 
 dn:cn=GDPRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:GDPR Retention
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:gdpr-retention:view
 uibusinessinteractioncollection:gdpr-retention:review
 uibusinessinteractioncollection:gdpr-retention:manage
@@ -3156,9 +3156,9 @@ cn:GDPRBT003
 
 dn:cn=GDPRBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:GDPR Destruction
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:gdpr-destruction:manage
 objectclass:NDRole
 objectclass:top
@@ -3166,9 +3166,9 @@ cn:GDPRBT004
 
 dn:cn=LHDCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:HDC Digital View Only
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SEBI200
 uibusinessinteractioncollection:SEBI203
 objectclass:NDRole
@@ -3177,9 +3177,9 @@ cn:LHDCBT001
 
 dn:cn=LHDCBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:HDC Digital Update
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SEBI200
 uibusinessinteractioncollection:SEBI203
 uibusinessinteractioncollection:SEBI201
@@ -3190,9 +3190,9 @@ cn:LHDCBT002
 
 dn:cn=LHDCBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:HDC Digital Licence vary
-level1:true
-level2:false
-level3:false
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:SEBI203
 uibusinessinteractioncollection:SEBI202
 uibusinessinteractioncollection:SEBI204
@@ -3203,9 +3203,9 @@ cn:LHDCBT003
 dn:cn=CTRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Pathfinder CT Probation
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
@@ -3214,9 +3214,9 @@ cn:CTRBT001
 dn:cn=CTRBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Pathfinder CT Approval
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
@@ -3225,9 +3225,9 @@ cn:CTRBT002
 dn:cn=CTRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Pathfinder CT Read Only
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
@@ -3236,9 +3236,9 @@ cn:CTRBT003
 dn:cn=CTRBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Pathfinder HQ User
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
@@ -3247,9 +3247,9 @@ cn:CTRBT004
 dn:cn=SOCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Serious Organised Crime PO
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
@@ -3258,9 +3258,9 @@ cn:SOCBT001
 dn:cn=SOCBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Serious Organised Crime Read Only
 sector:public
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
@@ -3268,9 +3268,9 @@ cn:SOCBT002
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
-level1:false
-level2:false
-level3:false
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:NIBI012
 objectclass:NDRole
 objectclass:top
