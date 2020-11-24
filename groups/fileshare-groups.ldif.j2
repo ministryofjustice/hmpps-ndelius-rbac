@@ -483,6 +483,34 @@ member: cn=placeholder
 cn: RES-FS-SouthWestandSouthCentral-NPS-RW
 description: ZZ DO NOT USE - SouthWestandSouthCentral-NPS FileShare Write Access
 
+###########################################
+# Central groups                          #
+###########################################
+
+dn: cn=RES-FS-IDC-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-IDC-NPS-R
+description: RES-FS-IDC-NPS-R
+
+dn: cn=RES-FS-IDC-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-IDC-NPS-RW
+description: RES-FS-IDC-NPS-RW
+
+dn: cn=RES-FS-NSD-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NSD-NPS-R
+description: RES-FS-NSD-NPS-R
+
+dn: cn=RES-FS-NSD-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NSD-NPS-RW
+description: RES-FS-NSD-NPS-RW
+
 
 ###########################################
 # NPS - Regional groups not in use yet    #
