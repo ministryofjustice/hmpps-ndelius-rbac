@@ -1352,10 +1352,54 @@ description: USR-REG-N59-NDMIS-READER Reporting group
 objectClass: groupOfNames
 member: cn=placeholder
 
+###########################################
+# Central groups                          #
+###########################################
 
+dn: cn=USR-ALL-CEN-Access to the NDMIS Central Reports folder,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-ALL-CEN-Access to the NDMIS Central Reports folder
+description: USR-ALL-CEN-Access to the NDMIS Central Reports folder
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-IDC-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-IDC-NDMIS-WRITER Reporting group
+description: USR-IDC-NDMIS-WRITER Reporting group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-IDC-NDMIS-MANAGER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-IDC-NDMIS-MANAGER Reporting group
+description: USR-IDC-NDMIS-MANAGER Reporting group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-NSD-NDMIS-READER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-NSD-NDMIS-READER Reporting group
+description: USR-NSD-NDMIS-READER Reporting group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-NSD-NDMIS-MANAGER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-NSD-NDMIS-MANAGER Reporting group
+description: USR-NSD-NDMIS-MANAGER Reporting group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-EPS-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-EPS-NDMIS-WRITER Reporting group
+description: USR-EPS-NDMIS-WRITER Reporting group
+objectClass: groupOfNames
+member: cn=placeholder
+
+dn: cn=USR-EPS-NDMIS-MANAGER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-EPS-NDMIS-MANAGER Reporting group
+description: USR-EPS-NDMIS-WRITER Reporting group
+objectClass: groupOfNames
+member: cn=placeholder
 
 ###########################################
-# NPS - Regional groups not in use yet    #
+# NPS - Regional groups not in use        #
 ###########################################
 
 dn: cn=USR-REG-N03-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
