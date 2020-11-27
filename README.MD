@@ -63,9 +63,9 @@ This can be done automatically for Delius by specifying the parameter details in
 Once any new parameters have been added to the credentials files, the values are generated and loaded into the environment-specific parameter store by running the [Create Credentials](https://jenkins.engineering-dev.probation.hmpps.dsd.io/job/DAMS/job/Environments/job/delius-core-dev/job/Security/job/Create_credentials/) job in Jenkins.
 
 After a password has been generated in the parameter store, the deployment project must be updated to securely fetch the value here: [get_secrets.yml](https://github.com/ministryofjustice/hmpps-delius-pipelines/tree/master/components/delius-core/playbooks/rbac/get_secrets.yml).
-It can then be referenced in this repo using `secrets.results`. For example:
+It can then be referenced in this repo using the `secrets` list. For example:
 ```jinja2
-{% set my_password = secrets.results['paramater-name'].stdout %}
+{% set my_password = secrets['paramater-name'] %}
 ```
 
 ## Deployment
