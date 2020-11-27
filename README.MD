@@ -62,11 +62,11 @@ Passwords should be randomly generated per-user per-environment and stored in th
 This can be done automatically for Delius by specifying the parameter details in the [hmpps-env-configs](https://github.com/ministryofjustice/hmpps-env-configs) repo (See [common.credentials.yml](https://github.com/ministryofjustice/hmpps-env-configs/blob/master/common/common.credentials.yml)).
 Once any new parameters have been added to the credentials files, the values are generated and loaded into the environment-specific parameter store by running the [Create Credentials](https://jenkins.engineering-dev.probation.hmpps.dsd.io/job/DAMS/job/Environments/job/delius-core-dev/job/Security/job/Create_credentials/) job in Jenkins.
 
-After a password has been generated in the parameter store, it can be referenced in this repo by using the `aws_ssm` lookup. For example:
+After a password has been generated in the parameter store, the deployment project must be updated to securely fetch the value here: [get_secrets.yml](https://github.com/ministryofjustice/hmpps-delius-pipelines/tree/master/components/delius-core/playbooks/rbac/get_secrets.yml).
+It can then be referenced in this repo using `secrets.results`. For example:
 ```jinja2
-{% set my_password=lookup('aws_ssm', 'paramater-name', region=region) %}
+{% set my_password = secrets.results['paramater-name'].stdout %}
 ```
-These parameters are securely fetched at runtime during RBAC deployment.
 
 ## Deployment
 To deploy a release of this repo into a Delius environment, you should first update the [environment configuration repository](https://github.com/ministryofjustice/hmpps-env-configs) with the desired version.
