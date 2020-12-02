@@ -1,13 +1,13 @@
 # Test user for automated smoke tests etc
 {% set username = 'AutomatedTestUser' %}
-{% set password = lookup('aws_ssm', ssm_prefix+'test_user_password', region=region) %}
+{% set password = secrets[ssm_prefix+'test_user_password'] %}
 {% include 'all-access-user.ldif.j2' %}
 
 # Tests users to support performance testing
 {% if perf_test_users|default('0')|int > 0 %}
 {% for item in range(1, perf_test_users|default('0')|int) %}
 {% set username = 'nd.perf%05d' % item %}
-{% set password = lookup('aws_ssm', ssm_prefix+'performance_test_user_password', region=region) %}
+{% set password = secrets[ssm_prefix+'performance_test_user_password'] %}
 {% include 'all-access-user.ldif.j2' %}
 {% endfor %}
 {% endif %}
