@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.8.1 at 2020/09/25 09:51:10
+# Role Catalogue generated from RBAC Matrix v4.9.1 at 2020/12/08 11:07:45
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.8.1
+description:RBAC v4.9.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1519,9 +1519,8 @@ objectclass:top
 cn:UWBT101
 
 dn:cn=UWBT051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage UPW Project Details (national)
+description:Manage UPW Project Details (public)
 sector:public
-adminlevel:national
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1546,6 +1545,7 @@ level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:UWBI004
 uibusinessinteractioncollection:UWBI006
+uibusinessinteractioncollection:UWBI105
 uibusinessinteractioncollection:UWBI008
 uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
@@ -1566,14 +1566,14 @@ objectclass:top
 cn:UWBT002
 
 dn:cn=UWBT052,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage UPW Offender Details (national)
+description:Manage UPW Offender Details (public)
 sector:public
-adminlevel:national
 level1:FALSE
 level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:UWBI004
 uibusinessinteractioncollection:UWBI006
+uibusinessinteractioncollection:UWBI105
 uibusinessinteractioncollection:UWBI008
 uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
@@ -1678,9 +1678,9 @@ objectclass:top
 cn:UWBT050
 
 dn:cn=UWBT060,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:UPW Admin (national)
+description:UPW Admin (public)
 sector:public
-adminlevel:national
+adminlevel:local
 level1:FALSE
 level2:FALSE
 level3:TRUE
@@ -3122,9 +3122,9 @@ description:GDPR Duplicates
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:gdpr-duplicates:view
-uibusinessinteractioncollection:gdpr-duplicates:review
-uibusinessinteractioncollection:gdpr-duplicates:manage
+uibusinessinteractioncollection:GDPR-DUPLICATES:VIEW
+uibusinessinteractioncollection:GDPR-DUPLICATES:REVIEW
+uibusinessinteractioncollection:GDPR-DUPLICATES:MANAGE
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT001
@@ -3134,10 +3134,10 @@ description:GDPR Deletions
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:gdpr-deletions:view
-uibusinessinteractioncollection:gdpr-deletions:review
-uibusinessinteractioncollection:gdpr-deletions:resolve
-uibusinessinteractioncollection:gdpr-deletions:manage
+uibusinessinteractioncollection:GDPR-DELETIONS:VIEW
+uibusinessinteractioncollection:GDPR-DELETIONS:REVIEW
+uibusinessinteractioncollection:GDPR-DELETIONS:RESOLVE
+uibusinessinteractioncollection:GDPR-DELETIONS:MANAGE
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT002
@@ -3147,9 +3147,9 @@ description:GDPR Retention
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:gdpr-retention:view
-uibusinessinteractioncollection:gdpr-retention:review
-uibusinessinteractioncollection:gdpr-retention:manage
+uibusinessinteractioncollection:GDPR-RETENTION:VIEW
+uibusinessinteractioncollection:GDPR-RETENTION:REVIEW
+uibusinessinteractioncollection:GDPR-RETENTION:MANAGE
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT003
@@ -3159,7 +3159,7 @@ description:GDPR Destruction
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:gdpr-destruction:manage
+uibusinessinteractioncollection:GDPR-DESTRUCTION:MANAGE
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT004
