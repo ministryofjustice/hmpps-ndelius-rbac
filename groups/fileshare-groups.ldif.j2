@@ -283,6 +283,19 @@ member: cn=placeholder
 cn: RES-FS-South-Yorkshire-DEBS-RW
 description: South-Yorkshire-DEBS FileShare Write Access
 
+dn: cn=RES-FS-NDST-UPW-Reports-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NDST-UPW-Reports-R
+description: UPW FileShare Read Access
+
+dn: cn=RES-FS-NDST-UPW-Reports-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NDST-UPW-Reports-RW
+description: UPW FileShare Write Access
+
+
 ###########################################
 # NPS - DIV01/NorthWest/GreaterManchester #
 ###########################################
