@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.8.4 at 2021/01/15 13:45:44
+# Role Catalogue generated from RBAC Matrix v4.8.5 at 2021/01/25 11:47:08
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.8.4
+description:RBAC v4.8.5
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -2603,9 +2603,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT002,cn=CRC in NPS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT002
+dn:cn=SEBT002b,cn=CRC in NPS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SEBT002b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SEBT002b
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -4431,16 +4431,16 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT002,cn=CRC in NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT002
+dn:cn=SEBT002b,cn=CRC in NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SEBT002b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SEBT002b
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT003,cn=CRC in NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT003
+dn:cn=SEBT003b,cn=CRC in NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SEBT003b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SEBT003b
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -5349,9 +5349,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT003,cn=Add CRC in NPS Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT003
+dn:cn=SEBT003b,cn=Add CRC in NPS Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SEBT003b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SEBT003b
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -6114,9 +6114,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT003,cn=CRC in NPS OM Superuser,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT003
+dn:cn=SEBT003b,cn=CRC in NPS OM Superuser,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SEBT003b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SEBT003b
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top

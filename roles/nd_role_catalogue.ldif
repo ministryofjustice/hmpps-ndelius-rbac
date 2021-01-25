@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.8.4 at 2021/01/15 13:45:43
+# Role Catalogue generated from RBAC Matrix v4.8.5 at 2021/01/25 11:47:08
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.8.4
+description:RBAC v4.8.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -334,6 +334,28 @@ objectclass:NDRole
 objectclass:top
 cn:SEBT002a
 
+dn:cn=SEBT002b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Sentence Details (CRC in NPS)
+sector:public
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:SEBI101
+uibusinessinteractioncollection:SEBI201
+uibusinessinteractioncollection:SEBI022
+uibusinessinteractioncollection:SEBI202
+uibusinessinteractioncollection:SEBI023
+uibusinessinteractioncollection:SEBI102
+uibusinessinteractioncollection:SEBI206
+uibusinessinteractioncollection:SEBI017
+uibusinessinteractioncollection:SEBI004
+objectclass:NDRole
+objectclass:top
+cn:SEBT002b
+
 dn:cn=SEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Details Admin
 sector:public
@@ -390,6 +412,32 @@ uibusinessinteractioncollection:SEBI005
 objectclass:NDRole
 objectclass:top
 cn:SEBT003a
+
+dn:cn=SEBT003b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Sentence Details Admin (CRC in NPS)
+sector:public
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI009
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:SEBI104
+uibusinessinteractioncollection:SEBI204
+uibusinessinteractioncollection:SEBI026
+uibusinessinteractioncollection:SEBI102
+uibusinessinteractioncollection:SEBI202
+uibusinessinteractioncollection:SEBI023
+uibusinessinteractioncollection:SEBI206
+uibusinessinteractioncollection:SEBI105
+uibusinessinteractioncollection:SEBI205
+uibusinessinteractioncollection:SEBI027
+uibusinessinteractioncollection:SEBI028
+uibusinessinteractioncollection:SEBI005
+objectclass:NDRole
+objectclass:top
+cn:SEBT003b
 
 dn:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Cohort Details
