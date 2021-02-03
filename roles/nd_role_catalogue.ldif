@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.9.1 at 2020/12/08 11:07:45
+# Role Catalogue generated from RBAC Matrix v4.9.2 at 2021/01/29 14:10:32
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.9.1
+description:RBAC v4.9.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -334,6 +334,28 @@ objectclass:NDRole
 objectclass:top
 cn:SEBT002a
 
+dn:cn=SEBT002b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Sentence Details (CRC in NPS)
+sector:public
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:SEBI101
+uibusinessinteractioncollection:SEBI201
+uibusinessinteractioncollection:SEBI022
+uibusinessinteractioncollection:SEBI202
+uibusinessinteractioncollection:SEBI023
+uibusinessinteractioncollection:SEBI102
+uibusinessinteractioncollection:SEBI206
+uibusinessinteractioncollection:SEBI017
+uibusinessinteractioncollection:SEBI004
+objectclass:NDRole
+objectclass:top
+cn:SEBT002b
+
 dn:cn=SEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Details Admin
 sector:public
@@ -390,6 +412,32 @@ uibusinessinteractioncollection:SEBI005
 objectclass:NDRole
 objectclass:top
 cn:SEBT003a
+
+dn:cn=SEBT003b,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Sentence Details Admin (CRC in NPS)
+sector:public
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI009
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:SEBI104
+uibusinessinteractioncollection:SEBI204
+uibusinessinteractioncollection:SEBI026
+uibusinessinteractioncollection:SEBI102
+uibusinessinteractioncollection:SEBI202
+uibusinessinteractioncollection:SEBI023
+uibusinessinteractioncollection:SEBI206
+uibusinessinteractioncollection:SEBI105
+uibusinessinteractioncollection:SEBI205
+uibusinessinteractioncollection:SEBI027
+uibusinessinteractioncollection:SEBI028
+uibusinessinteractioncollection:SEBI005
+objectclass:NDRole
+objectclass:top
+cn:SEBT003b
 
 dn:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Cohort Details
@@ -1545,7 +1593,6 @@ level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:UWBI004
 uibusinessinteractioncollection:UWBI006
-uibusinessinteractioncollection:UWBI105
 uibusinessinteractioncollection:UWBI008
 uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
@@ -1554,6 +1601,7 @@ uibusinessinteractioncollection:UWBI014
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
+uibusinessinteractioncollection:UWBI105
 uibusinessinteractioncollection:UWBI108
 uibusinessinteractioncollection:UWBI110
 uibusinessinteractioncollection:UWBI111
@@ -1573,7 +1621,6 @@ level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:UWBI004
 uibusinessinteractioncollection:UWBI006
-uibusinessinteractioncollection:UWBI105
 uibusinessinteractioncollection:UWBI008
 uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
@@ -1582,6 +1629,7 @@ uibusinessinteractioncollection:UWBI014
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
+uibusinessinteractioncollection:UWBI105
 uibusinessinteractioncollection:UWBI108
 uibusinessinteractioncollection:UWBI110
 uibusinessinteractioncollection:UWBI111
@@ -1680,7 +1728,6 @@ cn:UWBT050
 dn:cn=UWBT060,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Admin (public)
 sector:public
-adminlevel:local
 level1:FALSE
 level2:FALSE
 level3:TRUE
@@ -2311,7 +2358,6 @@ cn:UABT0050
 
 dn:cn=UABT0051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Public RBAC Admin
-sector:public
 adminlevel:local
 level1:FALSE
 level2:FALSE
@@ -2327,7 +2373,6 @@ cn:UABT0051
 
 dn:cn=UABT0052,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Private RBAC Admin
-sector:private
 adminlevel:local
 level1:FALSE
 level2:FALSE
@@ -2738,6 +2783,93 @@ uibusinessinteractioncollection:CABI056
 objectclass:NDRole
 objectclass:top
 cn:CABT011
+
+dn:cn=MERGEBT000,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Merge Admin
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:mergebi001
+uibusinessinteractioncollection:mergebi002
+uibusinessinteractioncollection:mergebi003
+uibusinessinteractioncollection:mergebi004
+uibusinessinteractioncollection:mergebi005
+uibusinessinteractioncollection:mergebi006
+uibusinessinteractioncollection:mergebi007
+uibusinessinteractioncollection:mergebi008
+uibusinessinteractioncollection:mergebi009
+uibusinessinteractioncollection:mergebi010
+uibusinessinteractioncollection:mergebi011
+uibusinessinteractioncollection:mergebi012
+uibusinessinteractioncollection:mergebi013
+uibusinessinteractioncollection:mergebi014
+uibusinessinteractioncollection:mergebi015
+uibusinessinteractioncollection:mergebi999
+objectclass:NDRole
+objectclass:top
+cn:MERGEBT000
+
+dn:cn=MERGEBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Merge Offender 
+uibusinessinteractioncollection:mergebi006
+uibusinessinteractioncollection:mergebi007
+uibusinessinteractioncollection:mergebi008
+uibusinessinteractioncollection:mergebi011
+uibusinessinteractioncollection:mergebi013
+objectclass:NDRole
+objectclass:top
+cn:MERGEBT001
+
+dn:cn=MERGEBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:UnMerge Offender
+uibusinessinteractioncollection:mergebi006
+uibusinessinteractioncollection:mergebi009
+uibusinessinteractioncollection:mergebi010
+uibusinessinteractioncollection:mergebi013
+objectclass:NDRole
+objectclass:top
+cn:MERGEBT002
+
+dn:cn=MERGEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Merge Error Management 
+uibusinessinteractioncollection:mergebi005
+uibusinessinteractioncollection:mergebi006
+uibusinessinteractioncollection:mergebi012
+uibusinessinteractioncollection:mergebi013
+objectclass:NDRole
+objectclass:top
+cn:MERGEBT003
+
+dn:cn=MERGEBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Merge Batch Management
+uibusinessinteractioncollection:mergebi003
+uibusinessinteractioncollection:mergebi004
+objectclass:NDRole
+objectclass:top
+cn:MERGEBT004
+
+dn:cn=MERGEBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Merge Batch Settings
+uibusinessinteractioncollection:mergebi001
+uibusinessinteractioncollection:mergebi002
+objectclass:NDRole
+objectclass:top
+cn:MERGEBT005
+
+dn:cn=MERGEBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Merge Settings 
+uibusinessinteractioncollection:mergebi014
+uibusinessinteractioncollection:mergebi015
+objectclass:NDRole
+objectclass:top
+cn:MERGEBT006
+
+dn:cn=MERGEBT999,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Merge Application Management
+uibusinessinteractioncollection:mergebi999
+objectclass:NDRole
+objectclass:top
+cn:MERGEBT999
 
 dn:cn=GTBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Adminster SPG Exports
