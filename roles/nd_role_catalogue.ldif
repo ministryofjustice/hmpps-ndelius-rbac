@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.9.2 at 2021/01/29 14:10:32
+# Role Catalogue generated from RBAC Matrix v4.9.3 at 2021/02/01 11:57:28
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.9.2
+description:RBAC v4.9.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2789,84 +2789,84 @@ description:Merge Admin
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:mergebi001
-uibusinessinteractioncollection:mergebi002
-uibusinessinteractioncollection:mergebi003
-uibusinessinteractioncollection:mergebi004
-uibusinessinteractioncollection:mergebi005
-uibusinessinteractioncollection:mergebi006
-uibusinessinteractioncollection:mergebi007
-uibusinessinteractioncollection:mergebi008
-uibusinessinteractioncollection:mergebi009
-uibusinessinteractioncollection:mergebi010
-uibusinessinteractioncollection:mergebi011
-uibusinessinteractioncollection:mergebi012
-uibusinessinteractioncollection:mergebi013
-uibusinessinteractioncollection:mergebi014
-uibusinessinteractioncollection:mergebi015
-uibusinessinteractioncollection:mergebi999
+uibusinessinteractioncollection:merge-batch_configuration:manage
+uibusinessinteractioncollection:merge-batch_configuration:view
+uibusinessinteractioncollection:merge-batch_job:manage
+uibusinessinteractioncollection:merge-batch_job:view
+uibusinessinteractioncollection:merge-errors:manage
+uibusinessinteractioncollection:merge-errors:view
+uibusinessinteractioncollection:merge-merge:manage
+uibusinessinteractioncollection:merge-merge:view
+uibusinessinteractioncollection:merge-unmerge:manage
+uibusinessinteractioncollection:merge-unmerge:view
+uibusinessinteractioncollection:merge-offender:view
+uibusinessinteractioncollection:merge-request:manage
+uibusinessinteractioncollection:merge-request:view
+uibusinessinteractioncollection:merge-app_settings:manage
+uibusinessinteractioncollection:merge-app_settings:view
+uibusinessinteractioncollection:merge-app_admin:manage
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT000
 
 dn:cn=MERGEBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Offender 
-uibusinessinteractioncollection:mergebi006
-uibusinessinteractioncollection:mergebi007
-uibusinessinteractioncollection:mergebi008
-uibusinessinteractioncollection:mergebi011
-uibusinessinteractioncollection:mergebi013
+uibusinessinteractioncollection:merge-errors:view
+uibusinessinteractioncollection:merge-merge:manage
+uibusinessinteractioncollection:merge-merge:view
+uibusinessinteractioncollection:merge-offender:view
+uibusinessinteractioncollection:merge-request:view
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT001
 
 dn:cn=MERGEBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UnMerge Offender
-uibusinessinteractioncollection:mergebi006
-uibusinessinteractioncollection:mergebi009
-uibusinessinteractioncollection:mergebi010
-uibusinessinteractioncollection:mergebi013
+uibusinessinteractioncollection:merge-errors:view
+uibusinessinteractioncollection:merge-unmerge:manage
+uibusinessinteractioncollection:merge-unmerge:view
+uibusinessinteractioncollection:merge-request:view
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT002
 
 dn:cn=MERGEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Error Management 
-uibusinessinteractioncollection:mergebi005
-uibusinessinteractioncollection:mergebi006
-uibusinessinteractioncollection:mergebi012
-uibusinessinteractioncollection:mergebi013
+uibusinessinteractioncollection:merge-errors:manage
+uibusinessinteractioncollection:merge-errors:view
+uibusinessinteractioncollection:merge-request:manage
+uibusinessinteractioncollection:merge-request:view
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT003
 
 dn:cn=MERGEBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Batch Management
-uibusinessinteractioncollection:mergebi003
-uibusinessinteractioncollection:mergebi004
+uibusinessinteractioncollection:merge-batch_job:manage
+uibusinessinteractioncollection:merge-batch_job:view
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT004
 
 dn:cn=MERGEBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Batch Settings
-uibusinessinteractioncollection:mergebi001
-uibusinessinteractioncollection:mergebi002
+uibusinessinteractioncollection:merge-batch_configuration:manage
+uibusinessinteractioncollection:merge-batch_configuration:view
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT005
 
 dn:cn=MERGEBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Merge Settings 
-uibusinessinteractioncollection:mergebi014
-uibusinessinteractioncollection:mergebi015
+uibusinessinteractioncollection:merge-app_settings:manage
+uibusinessinteractioncollection:merge-app_settings:view
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT006
 
 dn:cn=MERGEBT999,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Application Management
-uibusinessinteractioncollection:mergebi999
+uibusinessinteractioncollection:merge-app_admin:manage
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT999
