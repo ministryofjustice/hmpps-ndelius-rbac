@@ -295,6 +295,18 @@ member: cn=placeholder
 cn: RES-FS-NDST-UPW-Reports-RW
 description: UPW FileShare Write Access
 
+dn: cn=RES-FS-NDST-UPW-Reports-Seetec-R,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NDST-UPW-Reports-Seetec-R
+description: UPW Seetec FileShare Read Access
+
+dn: cn=RES-FS-NDST-UPW-Reports-Seetec-RW,ou=Fileshare,{{ ldap_config.base_groups }}
+objectClass: groupOfNames
+member: cn=placeholder
+cn: RES-FS-NDST-UPW-Reports-Seetec-RW
+description: UPW Seetec FileShare Write Access
+
 
 ###########################################
 # NPS - DIV01/NorthWest/GreaterManchester #
