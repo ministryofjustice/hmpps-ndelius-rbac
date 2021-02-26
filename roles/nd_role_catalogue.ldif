@@ -1,4 +1,4 @@
-# Role Catalogue generated from RBAC Matrix v4.9.4 at 2021/02/26 15:16:54
+# Role Catalogue generated from RBAC Matrix v4.9.4 at 2021/02/26 16:08:07
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:RBAC v4.9.4
@@ -2883,6 +2883,7 @@ cn:MERGEBT006
 dn:cn=MERGEBT999,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Application Management
 uibusinessinteractioncollection:merge-app_admin:manage
+uibusinessinteractioncollection:merge-merge:view
 objectclass:NDRole
 objectclass:top
 cn:MERGEBT999
