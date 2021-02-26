@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.9.3 at 2021/02/01 11:57:28
+# Role Catalogue generated from RBAC Matrix v4.9.4 at 2021/02/26 15:16:54
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.9.3
+description:RBAC v4.9.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2591,6 +2591,17 @@ objectclass:NDRole
 objectclass:top
 cn:SYBT003
 
+dn:cn=SYBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:OASys System Interface Read Only
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:OIBI097
+uibusinessinteractioncollection:OIBI096
+objectclass:NDRole
+objectclass:top
+cn:SYBT004
+
 dn:cn=CDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Diary Admin
 level1:FALSE
@@ -2823,6 +2834,7 @@ cn:MERGEBT001
 dn:cn=MERGEBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UnMerge Offender
 uibusinessinteractioncollection:merge-errors:view
+uibusinessinteractioncollection:merge-merge:view
 uibusinessinteractioncollection:merge-unmerge:manage
 uibusinessinteractioncollection:merge-unmerge:view
 uibusinessinteractioncollection:merge-request:view
@@ -2833,6 +2845,7 @@ cn:MERGEBT002
 dn:cn=MERGEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Error Management 
 uibusinessinteractioncollection:merge-errors:manage
+uibusinessinteractioncollection:merge-merge:view
 uibusinessinteractioncollection:merge-errors:view
 uibusinessinteractioncollection:merge-request:manage
 uibusinessinteractioncollection:merge-request:view
@@ -2843,6 +2856,7 @@ cn:MERGEBT003
 dn:cn=MERGEBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Batch Management
 uibusinessinteractioncollection:merge-batch_job:manage
+uibusinessinteractioncollection:merge-merge:view
 uibusinessinteractioncollection:merge-batch_job:view
 objectclass:NDRole
 objectclass:top
@@ -2851,6 +2865,7 @@ cn:MERGEBT004
 dn:cn=MERGEBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Batch Settings
 uibusinessinteractioncollection:merge-batch_configuration:manage
+uibusinessinteractioncollection:merge-merge:view
 uibusinessinteractioncollection:merge-batch_configuration:view
 objectclass:NDRole
 objectclass:top
@@ -2859,6 +2874,7 @@ cn:MERGEBT005
 dn:cn=MERGEBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Merge Settings 
 uibusinessinteractioncollection:merge-app_settings:manage
+uibusinessinteractioncollection:merge-merge:view
 uibusinessinteractioncollection:merge-app_settings:view
 objectclass:NDRole
 objectclass:top
