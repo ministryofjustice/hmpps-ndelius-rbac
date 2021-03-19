@@ -334,4 +334,40 @@ objectclass: alias
 objectclass: top
 cn: SPGBT900
 
+# Merge Administration front-end OAuth client
+dn: cn=Merge-UI,{{ ldap_config.base_service_users }}
+sn: Merge-UI
+cn: Merge-UI
+description: Front-end web client for the Merge Administration tool
+resourceId: NDelius
+authorizedGrantType: preauthenticated
+authorizedGrantType: authorization_code
+authorizedGrantType: refresh_token
+registeredRedirectUri: /merge/homepage
+objectclass: NDClient
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+
+dn: cn=MERGEBT000,cn=Merge-UI,{{ ldap_config.base_service_users }}
+cn: MERGEBT000
+aliasedObjectName: cn=MERGEBT000,{{ ldap_config.base_roles }}
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
+# Merge Administration back-end (used for verifying OAuth tokens)
+dn: cn=Merge-API,{{ ldap_config.base_service_users }}
+sn: Merge-API
+cn: Merge-API
+description: Back-end client for the Merge Administration tool
+userPassword: {{ secrets['/'+environment_name+'/'+project_name+'/merge/api/client_secret'] }}
+resourceId: NDelius
+objectclass: NDClient
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+
 {% endfor %}
