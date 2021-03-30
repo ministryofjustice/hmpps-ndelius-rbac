@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.10.1 at 2021/03/11 16:04:07
+# Role Catalogue generated from RBAC Matrix v4.10.2 at 2021/03/30 14:08:28
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.10.1
+description:RBAC v4.10.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2648,6 +2648,24 @@ uibusinessinteractioncollection:NIBI010
 objectclass:NDRole
 objectclass:top
 cn:NIBT0002
+
+dn:cn=NIBT0005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Non Statutory Interventions at Level 2
+level1:TRUE
+level2:TRUE
+level3:TRUE
+uibusinessinteractioncollection:NIBI001
+uibusinessinteractioncollection:NIBI002
+uibusinessinteractioncollection:NIBI003
+uibusinessinteractioncollection:NIBI004
+uibusinessinteractioncollection:NIBI007
+uibusinessinteractioncollection:NIBI008
+uibusinessinteractioncollection:NIBI009
+uibusinessinteractioncollection:NIBI018
+uibusinessinteractioncollection:NIBI010
+objectclass:NDRole
+objectclass:top
+cn:NIBT0005
 
 dn:cn=NIBT0003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Non Statutory Interventions Admin
