@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.9.4 at 2021/02/26 16:08:07
+# Role Catalogue generated from RBAC Matrix v4.9.5 at 2021/03/30 13:54:23
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.9.4
+description:RBAC v4.9.5
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -5328,6 +5328,13 @@ objectclass: Top
 dn:cn=NIBT0002,cn=OMiC Users,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=NIBT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: NIBT0002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=NIBT0005,cn=OMiC Users,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=NIBT0005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: NIBT0005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
