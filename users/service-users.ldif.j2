@@ -334,6 +334,8 @@ objectclass: alias
 objectclass: top
 cn: SPGBT900
 
+{% endfor %}
+
 # Merge Administration front-end OAuth client
 dn: cn=Merge-UI,{{ ldap_config.base_service_users }}
 sn: Merge-UI
@@ -369,5 +371,3 @@ objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
 objectclass: top
-
-{% endfor %}
