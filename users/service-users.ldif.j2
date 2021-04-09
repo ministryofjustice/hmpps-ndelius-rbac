@@ -371,3 +371,17 @@ objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
 objectclass: top
+
+# NDelius client for calling APIs
+dn: cn=NDelius,{{ ldap_config.base_service_users }}
+sn: NDelius
+cn: NDelius
+description: NDelius client for calling APIs
+userPassword: {{ secrets['/'+environment_name+'/'+project_name+'/ndelius/umt/client_secret'] }}
+resourceId: Merge
+authorizedGrantType: client_credentials
+objectclass: NDClient
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
