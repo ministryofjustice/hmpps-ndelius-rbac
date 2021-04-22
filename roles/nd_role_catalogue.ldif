@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.10.3 at 2021/04/08 16:12:40
+# Role Catalogue generated from RBAC Matrix v4.10.4 at 2021/04/22 08:33:44
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.10.3
+description:RBAC v4.10.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3397,7 +3397,7 @@ objectclass:top
 cn:CTRBT002
 
 dn:cn=CTRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Pathfinder CT Read Only
+description:Pathfinder National Reader
 sector:public
 level1:FALSE
 level2:FALSE

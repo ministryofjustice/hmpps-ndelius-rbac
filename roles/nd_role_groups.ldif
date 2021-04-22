@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.10.3 at 2021/04/08 16:12:44
+# Role Catalogue generated from RBAC Matrix v4.10.4 at 2021/04/22 08:33:44
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.10.3
+description:RBAC v4.10.4
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1790,6 +1790,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CLBT008,cn=NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT008
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CLBT002,cn=NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT002
@@ -3525,6 +3532,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CLBT008,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT008
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CLBT002,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT002
@@ -4223,6 +4237,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CLBT008,cn=CRC ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT008
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CLBT002,cn=CRC ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT002
@@ -4840,6 +4861,13 @@ objectclass: Top
 dn:cn=CLBT001,cn=CRC in NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT008,cn=CRC in NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT008
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
