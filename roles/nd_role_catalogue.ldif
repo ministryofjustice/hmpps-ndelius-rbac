@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.10.4 at 2021/04/22 08:33:44
+# Role Catalogue generated from RBAC Matrix v5.1.1 at 2021/06/07 15:34:43
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.10.4
+description:RBAC v5.1.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1528,6 +1528,52 @@ objectclass:NDRole
 objectclass:top
 cn:DRBT006
 
+dn:cn=DRGBT01,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View Drug Summary
+uibusinessinteractioncollection:DRGBI001
+uibusinessinteractioncollection:DRGBI002
+uibusinessinteractioncollection:DRGBI003
+uibusinessinteractioncollection:DRGBI004
+uibusinessinteractioncollection:DRGBI005
+objectclass:NDRole
+objectclass:top
+cn:DRGBT01
+
+dn:cn=DRGBT02,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Drug Summary
+uibusinessinteractioncollection:DRGBI006
+uibusinessinteractioncollection:DRGBI007
+uibusinessinteractioncollection:DRGBI008
+uibusinessinteractioncollection:DRGBI009
+uibusinessinteractioncollection:DRGBI010
+dn:cn=DRGBT11,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View Drug History
+uibusinessinteractioncollection:DRGBI011
+uibusinessinteractioncollection:DRGBI001
+uibusinessinteractioncollection:DRGBI002
+uibusinessinteractioncollection:DRGBI003
+uibusinessinteractioncollection:DRGBI004
+uibusinessinteractioncollection:DRGBI005
+objectclass:NDRole
+objectclass:top
+cn:DRGBT11
+
+dn:cn=DRGBT12,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Drug History
+uibusinessinteractioncollection:DRGBI007
+uibusinessinteractioncollection:DRGBI008
+uibusinessinteractioncollection:DRGBI009
+uibusinessinteractioncollection:DRGBI010
+uibusinessinteractioncollection:DRGBI012
+uibusinessinteractioncollection:DRGBI013
+uibusinessinteractioncollection:DRGBI014
+uibusinessinteractioncollection:DRGBI015
+dn:cn=DRGBT13,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Drug History Admin
+uibusinessinteractioncollection:DRGBI016
+uibusinessinteractioncollection:DRGBI017
+uibusinessinteractioncollection:DRGBI018
+uibusinessinteractioncollection:DRGBI019
 dn:cn=UWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage UPW Project Details
 sector:private
@@ -1598,6 +1644,7 @@ uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
 uibusinessinteractioncollection:UWBI014
+uibusinessinteractioncollection:UWBI015
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
@@ -1626,6 +1673,7 @@ uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
 uibusinessinteractioncollection:UWBI014
+uibusinessinteractioncollection:UWBI015
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
