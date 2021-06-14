@@ -1,4 +1,4 @@
-# Role Catalogue generated from RBAC Matrix v5.1.1 at 2021/06/07 15:34:43
+# Role Catalogue generated from RBAC Matrix v5.1.1 at 2021/06/14 11:46:38
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:RBAC v5.1.1
@@ -1546,6 +1546,10 @@ uibusinessinteractioncollection:DRGBI007
 uibusinessinteractioncollection:DRGBI008
 uibusinessinteractioncollection:DRGBI009
 uibusinessinteractioncollection:DRGBI010
+objectclass:NDRole
+objectclass:top
+cn:DRGBT02
+
 dn:cn=DRGBT11,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Drug History
 uibusinessinteractioncollection:DRGBI011
@@ -1568,12 +1572,20 @@ uibusinessinteractioncollection:DRGBI012
 uibusinessinteractioncollection:DRGBI013
 uibusinessinteractioncollection:DRGBI014
 uibusinessinteractioncollection:DRGBI015
+objectclass:NDRole
+objectclass:top
+cn:DRGBT12
+
 dn:cn=DRGBT13,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Drug History Admin
 uibusinessinteractioncollection:DRGBI016
 uibusinessinteractioncollection:DRGBI017
 uibusinessinteractioncollection:DRGBI018
 uibusinessinteractioncollection:DRGBI019
+objectclass:NDRole
+objectclass:top
+cn:DRGBT13
+
 dn:cn=UWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage UPW Project Details
 sector:private
