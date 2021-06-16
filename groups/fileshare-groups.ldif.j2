@@ -311,18 +311,6 @@ description: UPW Seetec FileShare Write Access
 ###########################################
 # NPS - DIV01/NorthWest/GreaterManchester #
 ###########################################
-dn: cn=RES-FS-NorthWest-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-NorthWest-NPS-R
-description: ZZ DO NOT USE - NorthWest-NPS FileShare Read Access
-
-dn: cn=RES-FS-NorthWest-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-NorthWest-NPS-RW
-description: ZZ DO NOT USE - NorthWest-NPS FileShare Write Access
-
 dn: cn=RES-FS-N50-GreaterManchester-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
@@ -351,19 +339,6 @@ description: NorthWest-NPS FileShare Write Access
 ###########################################
 # NPS - DIV04/East Midlands/West Midlands #
 ###########################################
-
-dn: cn=RES-FS-Midlands-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-Midlands-NPS-R
-description: ZZ DO NOT USE - Midlands-NPS FileShare Read Access
-
-dn: cn=RES-FS-Midlands-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-Midlands-NPS-RW
-description: ZZ DO NOT USE - Midlands-NPS FileShare Write Access
-
 dn: cn=RES-FS-N52-WestMidlands-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
@@ -416,22 +391,9 @@ member: cn=placeholder
 cn: RES-FS-N55-YorkshireandHumberside-NPS-RW
 description: YorkshireandHumberside-NPS FileShare Write Access
 
-dn: cn=RES-FS-NorthEast-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-NorthEast-NPS-R
-description: ZZ DO NOT USE - NorthEast-NPS FileShare Read Access
-
-dn: cn=RES-FS-NorthEast-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-NorthEast-NPS-RW
-description: ZZ DO NOT USE - NorthEast-NPS FileShare Write Access
-
 #################################################
 # NPS - DIV06/EastofEngland/KentSurreyandSussex #
 #################################################
-
 dn: cn=RES-FS-N56-EastofEngland-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
@@ -456,22 +418,9 @@ member: cn=placeholder
 cn: RES-FS-N57-KentSurreyandSussex-NPS-RW
 description: KentSurreyandSussex-NPS FileShare Write Access
 
-dn: cn=RES-FS-SouthEastandEastern-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-SouthEastandEastern-NPS-R
-description: ZZ DO NOT USE - SouthEastandEastern-NPS FileShare Read Access
-
-dn: cn=RES-FS-SouthEastandEastern-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-SouthEastandEastern-NPS-RW
-description: ZZ DO NOT USE - SouthEastandEastern-NPS FileShare Write Access
-
 ######################################
 # NPS - DIV05/SouthWest/SouthCentral #
 ######################################
-
 dn: cn=RES-FS-N58-SouthWest-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
 objectClass: groupOfNames
 member: cn=placeholder
@@ -495,18 +444,6 @@ objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-N59-SouthCentral-NPS-RW
 description: SouthCentral-NPS FileShare Write Access
-
-dn: cn=RES-FS-SouthWestandSouthCentral-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-SouthWestandSouthCentral-NPS-R
-description: ZZ DO NOT USE - SouthWestandSouthCentral-NPS FileShare Read Access
-
-dn: cn=RES-FS-SouthWestandSouthCentral-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-SouthWestandSouthCentral-NPS-RW
-description: ZZ DO NOT USE - SouthWestandSouthCentral-NPS FileShare Write Access
 
 ###########################################
 # Central groups                          #
@@ -535,32 +472,3 @@ objectClass: groupOfNames
 member: cn=placeholder
 cn: RES-FS-NSD-NPS-RW
 description: RES-FS-NSD-NPS-RW
-
-
-###########################################
-# NPS - Regional groups not in use yet    #
-###########################################
-
-dn: cn=RES-FS-N03-Wales-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-N03-Wales-NPS-R
-description: ZZ DO NOT USE - Wales-NPS FileShare Read Access
-
-dn: cn=RES-FS-N03-Wales-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-N03-Wales-NPS-RW
-description: ZZ DO NOT USE - Wales-NPS FileShare Write Access
-
-dn: cn=RES-FS-N07-London-NPS-R,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-N07-London-NPS-R
-description: ZZ DO NOT USE - London-NPS FileShare Read Access
-
-dn: cn=RES-FS-N07-London-NPS-RW,ou=Fileshare,{{ ldap_config.base_groups }}
-objectClass: groupOfNames
-member: cn=placeholder
-cn: RES-FS-N07-London-NPS-RW
-description: ZZ DO NOT USE - London-NPS FileShare Write Access
