@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.1.1 at 2021/06/14 11:46:38
+# Role Catalogue generated from RBAC Matrix v5.1.2 at 2021/07/12 13:33:42
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.1.1
+description:RBAC v5.1.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1585,6 +1585,21 @@ uibusinessinteractioncollection:DRGBI019
 objectclass:NDRole
 objectclass:top
 cn:DRGBT13
+
+dn:cn=DRGBT21,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View Drug List
+uibusinessinteractioncollection:DRGBI003
+objectclass:NDRole
+objectclass:top
+cn:DRGBT21
+
+dn:cn=DRGBT22,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Drug List
+uibusinessinteractioncollection:DRGBI003
+uibusinessinteractioncollection:DRGBI013
+objectclass:NDRole
+objectclass:top
+cn:DRGBT22
 
 dn:cn=UWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage UPW Project Details
