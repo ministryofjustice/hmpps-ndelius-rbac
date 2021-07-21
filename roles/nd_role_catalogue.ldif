@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v4.10.4 at 2021/04/22 08:33:44
+# Role Catalogue generated from RBAC Matrix v4.10.5 at 2021/07/21 15:57:40
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v4.10.4
+description:RBAC v4.10.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3439,6 +3439,16 @@ uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
 cn:SOCBT002
+
+dn:cn=MAWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage a workforce user
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:MAWBT001
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
