@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.1.3 at 2021/07/28 09:25:18
+# Role Catalogue generated from RBAC Matrix v5.1.4 at 2021/08/19 16:06:22
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.1.3
+description:RBAC v5.1.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1532,6 +1532,9 @@ cn:DRBT006
 
 dn:cn=DRGBT01,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Drug Summary
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:DRGBI001
 uibusinessinteractioncollection:DRGBI002
 uibusinessinteractioncollection:DRGBI003
@@ -1543,6 +1546,9 @@ cn:DRGBT01
 
 dn:cn=DRGBT02,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Drug Summary
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DRGBI006
 uibusinessinteractioncollection:DRGBI007
 uibusinessinteractioncollection:DRGBI008
@@ -1554,6 +1560,9 @@ cn:DRGBT02
 
 dn:cn=DRGBT11,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Drug History
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:DRGBI011
 uibusinessinteractioncollection:DRGBI001
 uibusinessinteractioncollection:DRGBI002
@@ -1566,6 +1575,9 @@ cn:DRGBT11
 
 dn:cn=DRGBT12,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Drug History
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DRGBI007
 uibusinessinteractioncollection:DRGBI008
 uibusinessinteractioncollection:DRGBI009
@@ -1580,6 +1592,9 @@ cn:DRGBT12
 
 dn:cn=DRGBT13,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Drug History Admin
+level1:TRUE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:DRGBI016
 uibusinessinteractioncollection:DRGBI017
 uibusinessinteractioncollection:DRGBI018
@@ -1590,6 +1605,9 @@ cn:DRGBT13
 
 dn:cn=DRGBT21,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Drug List
+level1:FALSE
+level2:FALSE
+level3:FALSE
 uibusinessinteractioncollection:DRGBI003
 objectclass:NDRole
 objectclass:top
@@ -1597,6 +1615,9 @@ cn:DRGBT21
 
 dn:cn=DRGBT22,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Drug List
+level1:TRUE
+level2:FALSE
+level3:TRUE
 uibusinessinteractioncollection:DRGBI003
 uibusinessinteractioncollection:DRGBI013
 objectclass:NDRole
@@ -2001,6 +2022,7 @@ uibusinessinteractioncollection:DMBI107
 uibusinessinteractioncollection:XXBI020
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI004
+uibusinessinteractioncollection:CLBI050
 uibusinessinteractioncollection:CLBI010
 objectclass:NDRole
 objectclass:top
@@ -3526,6 +3548,26 @@ uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
 cn:MAWBT001
+
+dn:cn=MASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View Supervisions
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:MASBT001
+
+dn:cn=MASBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Supervisions
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:MASBT002
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
