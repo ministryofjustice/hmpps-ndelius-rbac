@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.1.4 at 2021/08/19 16:06:22
+# Role Catalogue generated from RBAC Matrix v5.1.5 at 2021/09/01 11:02:30
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.1.4
+description:RBAC v5.1.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2022,7 +2022,6 @@ uibusinessinteractioncollection:DMBI107
 uibusinessinteractioncollection:XXBI020
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI004
-uibusinessinteractioncollection:CLBI050
 uibusinessinteractioncollection:CLBI010
 objectclass:NDRole
 objectclass:top
@@ -2043,6 +2042,17 @@ uibusinessinteractioncollection:CLBI017
 objectclass:NDRole
 objectclass:top
 cn:CLBT050
+
+dn:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Free Text Search
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CLBI050
+uibusinessinteractioncollection:CLBI051
+objectclass:NDRole
+objectclass:top
+cn:CLBT010
 
 dn:cn=CLBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Contact Event Extract
