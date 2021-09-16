@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.1.5 at 2021/09/01 11:02:30
+# Role Catalogue generated from RBAC Matrix v5.1.6 at 2021/09/16 16:32:19
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.1.5
+description:RBAC v5.1.6
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1479,7 +1479,7 @@ objectclass:top
 cn:DRBT003
 
 dn:cn=DRBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage DRR Details
+description:Manage DRR Details (No longer used)
 level1:TRUE
 level2:FALSE
 level3:TRUE
@@ -1496,7 +1496,7 @@ objectclass:top
 cn:DRBT004
 
 dn:cn=DRBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:View DRR Details
+description:View DRR Details (No longer used)
 level1:TRUE
 level2:TRUE
 level3:TRUE
@@ -1518,7 +1518,7 @@ objectclass:top
 cn:DRBT005
 
 dn:cn=DRBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:DRR Admin
+description:DRR Admin (No longer used)
 level1:TRUE
 level2:FALSE
 level3:TRUE
@@ -1567,6 +1567,7 @@ uibusinessinteractioncollection:DRGBI011
 uibusinessinteractioncollection:DRGBI001
 uibusinessinteractioncollection:DRGBI002
 uibusinessinteractioncollection:DRGBI003
+uibusinessinteractioncollection:DRBI014
 uibusinessinteractioncollection:DRGBI004
 uibusinessinteractioncollection:DRGBI005
 objectclass:NDRole
@@ -1584,6 +1585,7 @@ uibusinessinteractioncollection:DRGBI009
 uibusinessinteractioncollection:DRGBI010
 uibusinessinteractioncollection:DRGBI012
 uibusinessinteractioncollection:DRGBI013
+uibusinessinteractioncollection:DRBI019
 uibusinessinteractioncollection:DRGBI014
 uibusinessinteractioncollection:DRGBI015
 objectclass:NDRole
