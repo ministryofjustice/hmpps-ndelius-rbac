@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.1.6 at 2021/09/16 16:32:19
+# Role Catalogue generated from RBAC Matrix v5.1.7 at 2021/10/14 13:52:40
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.1.6
+description:RBAC v5.1.7
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1696,7 +1696,6 @@ uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
 uibusinessinteractioncollection:UWBI014
-uibusinessinteractioncollection:UWBI015
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
@@ -1725,7 +1724,6 @@ uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
 uibusinessinteractioncollection:UWBI014
-uibusinessinteractioncollection:UWBI015
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
@@ -1812,6 +1810,18 @@ uibusinessinteractioncollection:UWBI110
 objectclass:NDRole
 objectclass:top
 cn:UWBT110
+
+dn:cn=UWBT102,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:UPW Assessment (Pilot Only)
+sector:private
+adminlevel:local
+level1:FALSE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UWBI015
+objectclass:NDRole
+objectclass:top
+cn:UWBT102
 
 dn:cn=UWBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Admin
@@ -2046,7 +2056,7 @@ objectclass:top
 cn:CLBT050
 
 dn:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Free Text Search
+description:Free Text Search (Pilot use only)
 level1:TRUE
 level2:FALSE
 level3:TRUE
@@ -3580,6 +3590,16 @@ uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
 cn:MASBT002
+
+dn:cn=MAABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Allocations Service User
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:MAABT001
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
