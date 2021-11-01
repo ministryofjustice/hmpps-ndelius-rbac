@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.1.7 at 2021/10/14 13:52:40
+# Role Catalogue generated from RBAC Matrix v5.1.8 at 2021/11/01 10:23:57
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.1.7
+description:RBAC v5.1.8
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1813,11 +1813,9 @@ cn:UWBT110
 
 dn:cn=UWBT102,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Assessment (Pilot Only)
-sector:private
-adminlevel:local
-level1:FALSE
+level1:TRUE
 level2:FALSE
-level3:TRUE
+level3:FALSE
 uibusinessinteractioncollection:UWBI015
 objectclass:NDRole
 objectclass:top
