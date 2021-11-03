@@ -385,3 +385,10 @@ objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
 objectclass: top
+
+dn: cn=MERGEBT000,cn=NDelius,{{ ldap_config.base_service_users }}
+cn: MERGEBT000
+aliasedObjectName: cn=MERGEBT000,{{ ldap_config.base_roles }}
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
