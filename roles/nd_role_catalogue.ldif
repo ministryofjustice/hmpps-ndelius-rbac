@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.1.9 at 2021/11/03 14:04:30
+# Role Catalogue generated from RBAC Matrix v5.2.1 at 2021/11/11 12:31:38
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.1.9
+description:RBAC v5.2.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -710,7 +710,7 @@ objectclass:top
 cn:CABT009
 
 dn:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Establishment Consolidated Transfer
+description:Establishment Consolidated Transfer - not used
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1338,7 +1338,6 @@ uibusinessinteractioncollection:TCBI001
 uibusinessinteractioncollection:TCBI002
 uibusinessinteractioncollection:TCBI005
 uibusinessinteractioncollection:TCBI006
-uibusinessinteractioncollection:TCBI043
 uibusinessinteractioncollection:TCBI038
 objectclass:NDRole
 objectclass:top
