@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.1.9 at 2021/11/03 14:04:30
+# Role Catalogue generated from RBAC Matrix v5.2.1 at 2021/11/11 12:31:38
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.1.9
+description:RBAC v5.2.1
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -120,13 +120,6 @@ objectclass: Top
 dn:cn=CABT009,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT009
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CABT013,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1040,13 +1033,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CABT013,cn=Standard NPS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=CABT010,cn=Standard NPS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT010
@@ -1625,13 +1611,6 @@ objectclass: Top
 dn:cn=CABT009,cn=NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT009
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CABT013,cn=NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -2458,13 +2437,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CABT013,cn=Standard CRC User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=CABT010,cn=Standard CRC User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT010
@@ -2928,13 +2900,6 @@ objectclass: Top
 dn:cn=CABT009,cn=CRC in NPS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT009
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CABT013,cn=CRC in NPS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -3465,13 +3430,6 @@ objectclass: Top
 dn:cn=CABT009,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT009
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CABT013,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -4237,13 +4195,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CABT013,cn=CRC ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=CABT010,cn=CRC ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT010
@@ -4907,13 +4858,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CABT013,cn=CRC in NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=CABT010,cn=CRC in NPS ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT010
@@ -5524,13 +5468,6 @@ objectclass: Top
 dn:cn=CABT009,cn=OMiC Users,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT009
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CABT013,cn=OMiC Users,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT013
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
