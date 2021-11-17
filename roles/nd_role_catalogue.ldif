@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.2.1 at 2021/11/11 12:31:38
+# Role Catalogue generated from RBAC Matrix v5.2.2 at 2021/11/17 10:58:17
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.2.1
+description:RBAC v5.2.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3563,37 +3563,37 @@ description:Manage a workforce user
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:UPBI003
+uibusinessinteractioncollection:MAWBI001
 objectclass:NDRole
 objectclass:top
 cn:MAWBT001
 
 dn:cn=MASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Supervisions
-level1:TRUE
+level1:FALSE
 level2:FALSE
-level3:TRUE
-uibusinessinteractioncollection:UPBI003
+level3:FALSE
+uibusinessinteractioncollection:MASBI001
 objectclass:NDRole
 objectclass:top
 cn:MASBT001
 
 dn:cn=MASBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Supervisions
-level1:TRUE
+level1:FALSE
 level2:FALSE
-level3:TRUE
-uibusinessinteractioncollection:UPBI003
+level3:FALSE
+uibusinessinteractioncollection:MASBI001
 objectclass:NDRole
 objectclass:top
 cn:MASBT002
 
 dn:cn=MAABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Allocations Service User
-level1:TRUE
+level1:FALSE
 level2:FALSE
-level3:TRUE
-uibusinessinteractioncollection:UPBI003
+level3:FALSE
+uibusinessinteractioncollection:MAABI001
 objectclass:NDRole
 objectclass:top
 cn:MAABT001
