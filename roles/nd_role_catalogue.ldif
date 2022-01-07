@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.3.1 at 2021/12/20 17:02:23
+# Role Catalogue generated from RBAC Matrix v5.2.3 at 2022/01/07 14:50:12
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.3.1
+description:RBAC v5.2.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -94,7 +94,6 @@ sector:public
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:CWBI200
 uibusinessinteractioncollection:CWBI201
 objectclass:NDRole
 objectclass:top
@@ -975,9 +974,6 @@ uibusinessinteractioncollection:RDBI0113
 uibusinessinteractioncollection:RDBI0104
 uibusinessinteractioncollection:RDBI0105
 uibusinessinteractioncollection:RDBI0103
-uibusinessinteractioncollection:RDBI0114
-uibusinessinteractioncollection:RDBI0115
-uibusinessinteractioncollection:RDBI0116
 uibusinessinteractioncollection:RDBI0109
 uibusinessinteractioncollection:RDBI0111
 uibusinessinteractioncollection:RDBI0118
@@ -1010,9 +1006,6 @@ uibusinessinteractioncollection:RDBI0113
 uibusinessinteractioncollection:RDBI0104
 uibusinessinteractioncollection:RDBI0105
 uibusinessinteractioncollection:RDBI0103
-uibusinessinteractioncollection:RDBI0114
-uibusinessinteractioncollection:RDBI0115
-uibusinessinteractioncollection:RDBI0116
 uibusinessinteractioncollection:RDBI0109
 uibusinessinteractioncollection:RDBI0111
 uibusinessinteractioncollection:RDBI0118
@@ -2060,13 +2053,12 @@ objectclass:top
 cn:CLBT050
 
 dn:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Free Text Search
+description:Free Text Search (Pilot use only)
 level1:TRUE
 level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:CLBI050
 uibusinessinteractioncollection:CLBI051
-uibusinessinteractioncollection:CLBI052
 objectclass:NDRole
 objectclass:top
 cn:CLBT010
