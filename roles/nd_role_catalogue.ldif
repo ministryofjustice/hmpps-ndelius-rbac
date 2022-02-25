@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.3.5 at 2022/02/09 13:12:17
+# Role Catalogue generated from RBAC Matrix v5.3.6 at 2022/02/25 10:20:45
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.3.5
+description:RBAC v5.3.6
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3470,7 +3470,6 @@ level1:TRUE
 level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:SEBI200
-uibusinessinteractioncollection:CVLBI002
 uibusinessinteractioncollection:SEBI203
 objectclass:NDRole
 objectclass:top
@@ -3482,7 +3481,6 @@ level1:TRUE
 level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:SEBI200
-uibusinessinteractioncollection:CVLBI002
 uibusinessinteractioncollection:SEBI203
 uibusinessinteractioncollection:SEBI201
 uibusinessinteractioncollection:SEBI202
@@ -3496,7 +3494,6 @@ level1:TRUE
 level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:SEBI203
-uibusinessinteractioncollection:CVLBI002
 uibusinessinteractioncollection:SEBI202
 uibusinessinteractioncollection:SEBI204
 objectclass:NDRole
@@ -3615,11 +3612,6 @@ level1:FALSE
 level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:CVLBI001
-uibusinessinteractioncollection:CVLBI002
-objectclass:NDRole
-objectclass:top
-cn:CVLBT001
-
 dn:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Access Create and Vary a Licence
 level1:FALSE
