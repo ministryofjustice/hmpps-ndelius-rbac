@@ -1,4 +1,4 @@
-# Role Catalogue generated from RBAC Matrix v5.4.1 at 2022/04/25 09:51:12
+# Role Catalogue generated from RBAC Matrix v5.4.1 at 2022/04/25 13:54:25
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:RBAC v5.4.1
@@ -3302,6 +3302,10 @@ level1:FALSE
 level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:CVLBI001
+objectclass:NDRole
+objectclass:top
+cn:CVLBT001
+
 dn:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Access Create and Vary a Licence
 level1:FALSE
