@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.4.1 at 2022/04/25 13:54:25
+# Role Catalogue generated from RBAC Matrix v5.4.2 at 2022/04/27 15:23:45
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.4.1
+description:RBAC v5.4.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -563,36 +563,6 @@ uibusinessinteractioncollection:CLBI201
 objectclass:NDRole
 objectclass:top
 cn:NSBT004
-
-dn:cn=NSBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:New Search (Test only)
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:NSBI008
-objectclass:NDRole
-objectclass:top
-cn:NSBT006
-
-dn:cn=NSBT007,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:New National Search (Superseded - now in NSBT001)
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:NSBI009
-objectclass:NDRole
-objectclass:top
-cn:NSBT007
-
-dn:cn=NSBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:New Offender Summary
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:NSBI010
-objectclass:NDRole
-objectclass:top
-cn:NSBT008
 
 dn:cn=CABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Transfer and Tier History 
@@ -1165,8 +1135,10 @@ description:Manage LAOs
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:OIBI054
+uibusinessinteractioncollection:OIBI066
+uibusinessinteractioncollection:NSBI001
 uibusinessinteractioncollection:HPBI006
+uibusinessinteractioncollection:OIBI054
 uibusinessinteractioncollection:OIBI055
 uibusinessinteractioncollection:OIBI056
 uibusinessinteractioncollection:OIBI057
@@ -1288,6 +1260,7 @@ uibusinessinteractioncollection:WPBI003
 uibusinessinteractioncollection:WPBI002
 uibusinessinteractioncollection:WPBI004
 uibusinessinteractioncollection:WPBI006
+uibusinessinteractioncollection:WPBI008
 uibusinessinteractioncollection:WPBI106
 uibusinessinteractioncollection:WPBI104
 uibusinessinteractioncollection:WPBI105
@@ -1704,6 +1677,7 @@ uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
 uibusinessinteractioncollection:UWBI014
+uibusinessinteractioncollection:UWBI015
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
@@ -1732,6 +1706,7 @@ uibusinessinteractioncollection:UWBI009
 uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
 uibusinessinteractioncollection:UWBI014
+uibusinessinteractioncollection:UWBI015
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
@@ -3302,10 +3277,6 @@ level1:FALSE
 level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:CVLBI001
-objectclass:NDRole
-objectclass:top
-cn:CVLBT001
-
 dn:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Access Create and Vary a Licence
 level1:FALSE
