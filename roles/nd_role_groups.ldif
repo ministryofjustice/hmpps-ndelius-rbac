@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.3.8 at 2022/04/29 15:20:45
+# Role Catalogue generated from RBAC Matrix v5.4.3 at 2022/05/25 13:06:31
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.3.8
+description:RBAC v5.4.3
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -2259,13 +2259,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=GTBT002,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=GTBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: GTBT002
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=SPGADBT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=SPGADBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: SPGADBT001
@@ -3203,13 +3196,6 @@ objectclass: Top
 dn:cn=MERGEBT000,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=MERGEBT000,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: MERGEBT000
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=GTBT002,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=GTBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: GTBT002
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
