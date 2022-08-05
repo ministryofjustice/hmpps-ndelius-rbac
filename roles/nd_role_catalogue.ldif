@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.4.3 at 2022/05/25 13:06:31
+# Role Catalogue generated from RBAC Matrix v5.4.4 at 2022/08/05 11:29:41
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.4.3
+description:RBAC v5.4.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3300,6 +3300,16 @@ uibusinessinteractioncollection:CVLBI002
 objectclass:NDRole
 objectclass:top
 cn:CVLBT002
+
+dn:cn=HPABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Historic Prisoner Application user
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:HPABI001
+objectclass:NDRole
+objectclass:top
+cn:HPABT001
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
