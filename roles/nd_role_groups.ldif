@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.4.4 at 2022/08/05 11:29:42
+# Role Catalogue generated from RBAC Matrix v5.4.5 at 2022/09/12 14:15:33
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.4.4
+description:RBAC v5.4.5
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -313,6 +313,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CLBT010,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT010
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CLBT101,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT101
@@ -603,6 +610,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CLBT010,cn=Read Only User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT010
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CLBT101,cn=Read Only User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT101
@@ -814,6 +828,13 @@ objectclass: Top
 dn:cn=CLBT203,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT203
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT010,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT010
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1302,6 +1323,13 @@ objectclass: Top
 dn:cn=CLBT203,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT203
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT010,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT010
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -2031,6 +2059,13 @@ objectclass: Top
 dn:cn=CLBT050,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT050
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT010,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT010
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -2969,6 +3004,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CLBT010,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT010
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CLBT101,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT101,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT101
@@ -3503,6 +3545,13 @@ objectclass: Top
 dn:cn=CLBT203,cn=UPW Operational,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT203
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT010,cn=UPW Operational,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT010
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
