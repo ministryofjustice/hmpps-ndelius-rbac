@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.4.5 at 2022/09/12 14:15:33
+# Role Catalogue generated from RBAC Matrix v5.5.2 at 2022/11/03 09:25:21
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.4.5
+description:RBAC v5.5.2
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -103,9 +103,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CABT005,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT005
+dn:cn=CABT006,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CABT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CABT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1061,9 +1061,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CABT005,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT005
+dn:cn=CABT006,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CABT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CABT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1685,9 +1685,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CABT005,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CABT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CABT005
+dn:cn=CABT006,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CABT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CABT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -2601,6 +2601,13 @@ objectclass: Top
 dn:cn=CABT005,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CABT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CABT005
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CABT006,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CABT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CABT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top

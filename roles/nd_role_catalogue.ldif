@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.4.5 at 2022/09/12 14:15:33
+# Role Catalogue generated from RBAC Matrix v5.5.2 at 2022/11/03 09:25:21
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.4.5
+description:RBAC v5.5.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -578,6 +578,7 @@ uibusinessinteractioncollection:XXBI020
 uibusinessinteractioncollection:OIBI001
 uibusinessinteractioncollection:CABI016
 uibusinessinteractioncollection:CABI013
+uibusinessinteractioncollection:CABI282
 uibusinessinteractioncollection:CABI017
 objectclass:NDRole
 objectclass:top
@@ -636,6 +637,7 @@ cn:CABT004
 dn:cn=CABT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Update Management Tier
 sector:public
+adminlevel:national
 level1:TRUE
 level2:FALSE
 level3:FALSE
@@ -643,11 +645,28 @@ uibusinessinteractioncollection:CABI261
 uibusinessinteractioncollection:CABI262
 uibusinessinteractioncollection:CABI263
 uibusinessinteractioncollection:CABI264
+uibusinessinteractioncollection:CABI252
+uibusinessinteractioncollection:CABI253
 uibusinessinteractioncollection:CABI280
 uibusinessinteractioncollection:CABI281
 objectclass:NDRole
 objectclass:top
 cn:CABT005
+
+dn:cn=CABT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Update Tier Allocation
+sector:public
+level1:TRUE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CABI261
+uibusinessinteractioncollection:CABI262
+uibusinessinteractioncollection:CABI263
+uibusinessinteractioncollection:CABI264
+uibusinessinteractioncollection:CABI281
+objectclass:NDRole
+objectclass:top
+cn:CABT006
 
 dn:cn=CABT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Offender out of Trust 
@@ -1077,6 +1096,7 @@ uibusinessinteractioncollection:OIBI030
 uibusinessinteractioncollection:OIBI032
 uibusinessinteractioncollection:OIBI035
 uibusinessinteractioncollection:OIBI036
+uibusinessinteractioncollection:OIBI110
 uibusinessinteractioncollection:OIBI041
 uibusinessinteractioncollection:OIBI042
 uibusinessinteractioncollection:OIBI043
@@ -1337,6 +1357,7 @@ uibusinessinteractioncollection:TCBI027
 uibusinessinteractioncollection:TCBI037
 uibusinessinteractioncollection:TCBI039
 uibusinessinteractioncollection:TCBI040
+uibusinessinteractioncollection:CABI253
 uibusinessinteractioncollection:TCBI042
 objectclass:NDRole
 objectclass:top
@@ -1404,8 +1425,6 @@ level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:DRBI004
 uibusinessinteractioncollection:DRBI005
-uibusinessinteractioncollection:CABI251
-uibusinessinteractioncollection:CABI252
 uibusinessinteractioncollection:DRBI009
 uibusinessinteractioncollection:DRBI010
 objectclass:NDRole
@@ -1420,8 +1439,6 @@ level2:TRUE
 level3:FALSE
 uibusinessinteractioncollection:DRBI004
 uibusinessinteractioncollection:DRBI005
-uibusinessinteractioncollection:CABI251
-uibusinessinteractioncollection:CABI252
 uibusinessinteractioncollection:DRBI009
 uibusinessinteractioncollection:DRBI010
 objectclass:NDRole
@@ -2013,6 +2030,7 @@ uibusinessinteractioncollection:CLBI001
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
 uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:CLBI060
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI004
 uibusinessinteractioncollection:CLBI010
