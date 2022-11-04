@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.4.7 at 2022/11/03 11:06:44
+# Role Catalogue generated from RBAC Matrix v5.5.4 at 2022/11/04 09:38:21
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.4.7
+description:RBAC v5.5.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -370,6 +370,7 @@ uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI009
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:CABI253
 uibusinessinteractioncollection:SEBI005
 uibusinessinteractioncollection:SEBI104
 uibusinessinteractioncollection:SEBI204
@@ -578,6 +579,7 @@ uibusinessinteractioncollection:XXBI020
 uibusinessinteractioncollection:OIBI001
 uibusinessinteractioncollection:CABI016
 uibusinessinteractioncollection:CABI013
+uibusinessinteractioncollection:CABI282
 uibusinessinteractioncollection:CABI017
 objectclass:NDRole
 objectclass:top
@@ -636,6 +638,7 @@ cn:CABT004
 dn:cn=CABT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Update Management Tier
 sector:public
+adminlevel:national
 level1:TRUE
 level2:FALSE
 level3:FALSE
@@ -643,11 +646,28 @@ uibusinessinteractioncollection:CABI261
 uibusinessinteractioncollection:CABI262
 uibusinessinteractioncollection:CABI263
 uibusinessinteractioncollection:CABI264
+uibusinessinteractioncollection:CABI252
+uibusinessinteractioncollection:CABI253
 uibusinessinteractioncollection:CABI280
 uibusinessinteractioncollection:CABI281
 objectclass:NDRole
 objectclass:top
 cn:CABT005
+
+dn:cn=CABT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Update Tier Allocation
+sector:public
+level1:TRUE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CABI261
+uibusinessinteractioncollection:CABI262
+uibusinessinteractioncollection:CABI263
+uibusinessinteractioncollection:CABI264
+uibusinessinteractioncollection:CABI281
+objectclass:NDRole
+objectclass:top
+cn:CABT006
 
 dn:cn=CABT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Offender out of Trust 
@@ -1404,8 +1424,6 @@ level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:DRBI004
 uibusinessinteractioncollection:DRBI005
-uibusinessinteractioncollection:CABI251
-uibusinessinteractioncollection:CABI252
 uibusinessinteractioncollection:DRBI009
 uibusinessinteractioncollection:DRBI010
 objectclass:NDRole
@@ -1420,8 +1438,6 @@ level2:TRUE
 level3:FALSE
 uibusinessinteractioncollection:DRBI004
 uibusinessinteractioncollection:DRBI005
-uibusinessinteractioncollection:CABI251
-uibusinessinteractioncollection:CABI252
 uibusinessinteractioncollection:DRBI009
 uibusinessinteractioncollection:DRBI010
 objectclass:NDRole
@@ -2013,6 +2029,7 @@ uibusinessinteractioncollection:CLBI001
 uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
 uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:CLBI060
 uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CLBI004
 uibusinessinteractioncollection:CLBI010
