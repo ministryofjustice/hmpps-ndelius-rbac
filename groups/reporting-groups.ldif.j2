@@ -1190,6 +1190,12 @@ member: cn=placeholder
 #################################################
 # NPS - DIV06/EastofEngland/KentSurreyandSussex #
 #################################################
+dn: cn=USR-REG-N56-NDMIS-WRITER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
+cn: USR-REG-N56-NDMIS-WRITER Reporting group
+description: USR-REG-N56-NDMIS-WRITER Reporting group
+objectClass: groupOfNames
+member: cn=placeholder
+
 dn: cn=USR-REG-N56-NDMIS-MANAGER Reporting group,ou=NDMIS-Reporting,{{ ldap_config.base_groups }}
 cn: USR-REG-N56-NDMIS-MANAGER Reporting group
 description: USR-REG-N56-NDMIS-MANAGER Reporting group
