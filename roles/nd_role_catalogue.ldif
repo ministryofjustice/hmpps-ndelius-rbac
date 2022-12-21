@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.5.4 at 2022/11/04 09:38:21
+# Role Catalogue generated from RBAC Matrix v5.5.5 at 2022/12/21 10:39:51
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.5.4
+description:RBAC v5.5.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -940,6 +940,10 @@ uibusinessinteractioncollection:RDBI1038
 uibusinessinteractioncollection:RDBI1039
 uibusinessinteractioncollection:RDBI1040
 uibusinessinteractioncollection:RDBI1041
+uibusinessinteractioncollection:RDBI1042
+uibusinessinteractioncollection:RDBI1043
+uibusinessinteractioncollection:RDBI1044
+uibusinessinteractioncollection:RDBI1045
 uibusinessinteractioncollection:RDBI1061
 uibusinessinteractioncollection:RDBI1028
 uibusinessinteractioncollection:RDBI1029
@@ -3267,6 +3271,16 @@ uibusinessinteractioncollection:MRDBI001
 objectclass:NDRole
 objectclass:top
 cn:MRDBT001
+
+dn:cn=MRDBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Make Recall Decisions SPO
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:MRDBI002
+objectclass:NDRole
+objectclass:top
+cn:MRDBT002
 
 dn:cn=MASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Supervisions
