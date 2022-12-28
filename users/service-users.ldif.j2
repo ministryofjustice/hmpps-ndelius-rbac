@@ -96,61 +96,6 @@ uniquemember: cn={{ casenotes_username }},{{ ldap_config.base_service_users }}
 objectclass: groupOfUniqueNames
 objectclass: top
 
-# Approved Premises Tracker API client
-{% set aptracker_username=secrets[ssm_prefix + 'aptracker_user'] %}
-{% set aptracker_password=secrets[ssm_prefix + 'aptracker_password'] %}
-dn: cn={{ aptracker_username }},{{ ldap_config.base_service_users }}
-sn: {{ aptracker_username }}
-cn: {{ aptracker_username }}
-userPassword: {{ aptracker_password }}
-description: Approved Premises Tracker API
-resourceId: NDelius
-authorizedGrantType: client_credentials
-authorizedGrantType: refresh_token
-registeredRedirectUri: /aptracker-api/
-objectclass: NDClient
-objectclass: inetOrgPerson
-objectclass: organizationalPerson
-objectclass: person
-objectclass: top
-
-dn: cn=APBT001,cn={{ aptracker_username }},{{ ldap_config.base_service_users }}
-cn: APBT001
-aliasedObjectName: cn=APBT001,{{ ldap_config.base_roles }}
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: top
-
-dn: cn=APBT002,cn={{ aptracker_username }},{{ ldap_config.base_service_users }}
-cn: APBT002
-aliasedObjectName: cn=APBT002,{{ ldap_config.base_roles }}
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: top
-
-# Approved Premises Tracker API front-end (error screens)
-dn: cn=APTracker-UI,{{ ldap_config.base_service_users }}
-sn: APTracker-UI
-cn: APTracker-UI
-description: Front-end web client for the Approved Premises Tracker API, to support user authentication on the error screens
-resourceId: NDelius
-authorizedGrantType: preauthenticated
-authorizedGrantType: authorization_code
-authorizedGrantType: refresh_token
-registeredRedirectUri: /aptracker-api/errors
-objectclass: NDClient
-objectclass: inetOrgPerson
-objectclass: organizationalPerson
-objectclass: person
-objectclass: top
-
-dn: cn=SPGADBT005,cn=APTracker-UI,{{ ldap_config.base_service_users }}
-cn: SPGADBT005
-aliasedObjectName: cn=SPGADBT005,{{ ldap_config.base_roles }}
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: top
-
 # User Management front-end OAuth client
 dn: cn=UserManagement-UI,{{ ldap_config.base_service_users }}
 sn: UserManagement-UI
