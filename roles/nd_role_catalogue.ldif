@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.5.5 at 2022/12/21 10:39:51
+# Role Catalogue generated from RBAC Matrix v5.5.7 at 2023/01/13 09:37:32
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.5.5
+description:RBAC v5.5.7
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3229,6 +3229,28 @@ uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
 cn:CTRBT004
+
+dn:cn=CTRBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Pathfinder User
+sector:public
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:CTRBT005
+
+dn:cn=CTRBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Pathfinder Admin
+sector:public
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:CTRBT006
 
 dn:cn=SOCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Serious Organised Crime PO
