@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.5.7 at 2023/01/13 09:37:32
+# Role Catalogue generated from RBAC Matrix v5.5.8 at 2023/01/24 15:47:53
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.5.7
+description:RBAC v5.5.8
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3273,6 +3273,28 @@ uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
 cn:SOCBT002
+
+dn:cn=SOCBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Serious Organised Crime Data Manager
+sector:public
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:SOCBT003
+
+dn:cn=SOCBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Serious Organised Crime Data Analyst
+sector:public
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:SOCBT004
 
 dn:cn=MAWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage a workforce user
