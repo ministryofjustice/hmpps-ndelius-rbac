@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.1 at 2023/02/20 10:37:35
+# Role Catalogue generated from RBAC Matrix v5.6.2 at 2023/04/17 11:41:18
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.1
+description:RBAC v5.6.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -565,6 +565,17 @@ objectclass:NDRole
 objectclass:top
 cn:NSBT004
 
+dn:cn=NSBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Address Search
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:OIBI110
+uibusinessinteractioncollection:OIBI111
+objectclass:NDRole
+objectclass:top
+cn:NSBT006
+
 dn:cn=CABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Transfer and Tier History 
 level1:TRUE
@@ -1111,7 +1122,6 @@ uibusinessinteractioncollection:OIBI051
 uibusinessinteractioncollection:OIBI070
 uibusinessinteractioncollection:OIBI080
 uibusinessinteractioncollection:OIBI081
-uibusinessinteractioncollection:OIBI110
 objectclass:NDRole
 objectclass:top
 cn:OIBT0002
