@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.2 at 2023/04/17 11:41:18
+# Role Catalogue generated from RBAC Matrix v5.6.3 at 2023/05/18 10:51:21
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.2
+description:RBAC v5.6.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3386,6 +3386,46 @@ uibusinessinteractioncollection:CVLBI002
 objectclass:NDRole
 objectclass:top
 cn:CVLBT002
+
+dn:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Temporary Accommodation Referrer
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CAS3BI001
+objectclass:NDRole
+objectclass:top
+cn:CAS3BT001
+
+dn:cn=CAS3BT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Temporary Accommodation Assessor
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CAS3BI002
+objectclass:NDRole
+objectclass:top
+cn:CAS3BT002
+
+dn:cn=CAS3BT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Temporary Accommodation Manager
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CAS3BI003
+objectclass:NDRole
+objectclass:top
+cn:CAS3BT003
+
+dn:cn=CAS3BT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Temporary Accommodation Reporter
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CAS3BI004
+objectclass:NDRole
+objectclass:top
+cn:CAS3BT004
 
 dn:cn=HPABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Historic Prisoner Application user
