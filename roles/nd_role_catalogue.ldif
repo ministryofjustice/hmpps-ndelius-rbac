@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.4 at 2023/06/01 14:40:46
+# Role Catalogue generated from RBAC Matrix v5.6.5 at 2023/07/04 11:20:04
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.4
+description:RBAC v5.6.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1417,6 +1417,16 @@ uibusinessinteractioncollection:TCBI036
 objectclass:NDRole
 objectclass:top
 cn:TCBT003
+
+dn:cn=TCBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View Resettlement Passport
+level1:TRUE
+level2:TRUE
+level3:TRUE
+uibusinessinteractioncollection:TCBI050
+objectclass:NDRole
+objectclass:top
+cn:TCBT005
 
 dn:cn=DRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Referrals
