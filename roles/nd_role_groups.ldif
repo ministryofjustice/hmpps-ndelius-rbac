@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.5 at 2023/07/04 11:20:04
+# Role Catalogue generated from RBAC Matrix v5.6.6 at 2023/07/12 11:13:14
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.5
+description:RBAC v5.6.6
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -442,6 +442,13 @@ objectclass: Top
 dn:cn=CVLBT002,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CVLBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS1BT001,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS1BT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1446,6 +1453,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CAS1BT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS1BT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CAS3BT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CAS3BT001
@@ -2353,6 +2367,13 @@ objectclass: Top
 dn:cn=CVLBT002,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CVLBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS1BT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS1BT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -3322,6 +3343,13 @@ objectclass: Top
 dn:cn=CVLBT002,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CVLBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS1BT001,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS1BT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
