@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.5 at 2023/07/04 11:20:04
+# Role Catalogue generated from RBAC Matrix v5.6.6 at 2023/07/12 11:13:14
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.5
+description:RBAC v5.6.6
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3396,6 +3396,16 @@ uibusinessinteractioncollection:CVLBI002
 objectclass:NDRole
 objectclass:top
 cn:CVLBT002
+
+dn:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:AP Referral Service Access
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CAS1BI001
+objectclass:NDRole
+objectclass:top
+cn:CAS1BT001
 
 dn:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Temporary Accommodation Referrer
