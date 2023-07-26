@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.6 at 2023/07/12 11:13:14
+# Role Catalogue generated from RBAC Matrix v5.6.7 at 2023/07/26 15:16:03
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.6
+description:RBAC v5.6.7
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1138,13 +1138,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=OIBT0005,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=OIBT0005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: OIBT0005
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=WPBT003,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=WPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: WPBT003
@@ -1463,6 +1456,18 @@ objectclass: Top
 dn:cn=CAS3BT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CAS3BT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=Add Person Records,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+cn:Add Person Records
+objectclass: NDRoleGroup
+objectclass: Top
+
+dn:cn=OIBT0005,cn=Add Person Records,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=OIBT0005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: OIBT0005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
