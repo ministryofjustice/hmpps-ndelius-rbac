@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.7 at 2023/07/26 15:16:03
+# Role Catalogue generated from RBAC Matrix v5.6.8 at 2023/08/18 11:50:35
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.7
+description:RBAC v5.6.8
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1541,6 +1541,200 @@ objectclass: Top
 dn:cn=DPBT001,cn=Add PQM,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=DPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: DPBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+cn:External Staff - NSI Caseload
+objectclass: NDRoleGroup
+objectclass: Top
+
+dn:cn=RPBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=RPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: RPBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=RPBT003,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=RPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: RPBT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=SEBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SEBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SEBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CABT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CABT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CABT010,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CABT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CABT010
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=OIBT0001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=OIBT0001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: OIBT0001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT003,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT004,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT004
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT006,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT006
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT005,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT005
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=TCBT003,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=TCBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: TCBT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=DRBT002,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=DRBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: DRBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=DRGBT01,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=DRGBT01,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: DRGBT01
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=DRGBT11,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=DRGBT11,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: DRGBT11
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=DRGBT21,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=DRGBT21,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: DRGBT21
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=UWBT003,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=UWBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: UWBT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT002,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT003,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT203,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT203
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CLBT010,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT010
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=RRBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=RRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: RRBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=UPBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=UPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: UPBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=DSBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=DSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: DSBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=OABT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=OABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: OABT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=NIBT0002,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=NIBT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: NIBT0002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MAWBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MAWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MAWBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
