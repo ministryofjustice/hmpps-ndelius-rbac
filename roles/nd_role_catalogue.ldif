@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.8 at 2023/08/18 11:50:34
+# Role Catalogue generated from RBAC Matrix v5.6.9 at 2023/09/05 10:32:53
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.8
+description:RBAC v5.6.9
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1966,6 +1966,19 @@ objectclass:NDRole
 objectclass:top
 cn:CLBT005
 
+dn:cn=CLBT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage Contact Log for single contacts
+sector:public
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI007
+uibusinessinteractioncollection:CLBI017
+objectclass:NDRole
+objectclass:top
+cn:CLBT009
+
 dn:cn=CLBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Search Officer Diary
 level1:FALSE
@@ -1993,6 +2006,27 @@ uibusinessinteractioncollection:NIBI011
 objectclass:NDRole
 objectclass:top
 cn:CLBT003
+
+dn:cn=CLBT103,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Search Officer Diary - Restricted
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:HPBI003
+uibusinessinteractioncollection:CLBI015
+uibusinessinteractioncollection:CLBI006
+uibusinessinteractioncollection:CLBI026
+uibusinessinteractioncollection:CLBI025
+uibusinessinteractioncollection:CABI034
+uibusinessinteractioncollection:CABI035
+uibusinessinteractioncollection:CABI036
+uibusinessinteractioncollection:TCBI033
+uibusinessinteractioncollection:CLBI027
+uibusinessinteractioncollection:NIBI007
+uibusinessinteractioncollection:NIBI015
+objectclass:NDRole
+objectclass:top
+cn:CLBT103
 
 dn:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Officer Diary for Read Only
@@ -2795,6 +2829,23 @@ uibusinessinteractioncollection:NIBI010
 objectclass:NDRole
 objectclass:top
 cn:NIBT0002
+
+dn:cn=NIBT0006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Update Non Statutory Interventions
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:NIBI001
+uibusinessinteractioncollection:NIBI003
+uibusinessinteractioncollection:NIBI004
+uibusinessinteractioncollection:NIBI007
+uibusinessinteractioncollection:NIBI008
+uibusinessinteractioncollection:NIBI018
+uibusinessinteractioncollection:NIBI019
+uibusinessinteractioncollection:NIBI010
+objectclass:NDRole
+objectclass:top
+cn:NIBT0006
 
 dn:cn=NIBT0005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Non Statutory Interventions at Level 2
