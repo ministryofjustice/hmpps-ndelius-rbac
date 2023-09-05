@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.8 at 2023/08/18 11:50:35
+# Role Catalogue generated from RBAC Matrix v5.6.9 at 2023/09/05 10:32:53
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.8
+description:RBAC v5.6.9
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -846,6 +846,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CLBT103,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT103,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT103
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CLBT203,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CLBT203
@@ -1662,9 +1669,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CLBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CLBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CLBT001
+dn:cn=CLBT009,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT009
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1676,16 +1683,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=CLBT003,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CLBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CLBT003
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CLBT203,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CLBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CLBT203
+dn:cn=CLBT103,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CLBT103,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CLBT103
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1725,9 +1725,9 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=NIBT0002,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=NIBT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: NIBT0002
+dn:cn=NIBT0006,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=NIBT0006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: NIBT0006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
