@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.9 at 2023/09/05 10:32:53
+# Role Catalogue generated from RBAC Matrix v5.6.10 at 2023/09/06 10:40:46
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.9
+description:RBAC v5.6.10
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1323,6 +1323,26 @@ objectclass:NDRole
 objectclass:top
 cn:WPBT007
 
+dn:cn=WPBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:External Document Service Trial One
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:TEBI001
+objectclass:NDRole
+objectclass:top
+cn:WPBT008
+
+dn:cn=WPBT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:External Document Service Trial Two
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:TEBI002
+objectclass:NDRole
+objectclass:top
+cn:WPBT009
+
 dn:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Formatted Printing
 level1:FALSE
@@ -2013,6 +2033,7 @@ level1:FALSE
 level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:HPBI003
+uibusinessinteractioncollection:NSBI003
 uibusinessinteractioncollection:CLBI015
 uibusinessinteractioncollection:CLBI006
 uibusinessinteractioncollection:CLBI026
