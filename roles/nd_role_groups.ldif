@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.9 at 2023/09/05 10:32:53
+# Role Catalogue generated from RBAC Matrix v5.6.10 at 2023/09/06 10:40:46
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.9
+description:RBAC v5.6.10
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -180,16 +180,16 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT006,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT006
+dn:cn=WPBT005,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT005,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT005
+dn:cn=WPBT006,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -547,16 +547,16 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT006,cn=Read Only User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT006
+dn:cn=WPBT005,cn=Read Only User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT005,cn=Read Only User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT005
+dn:cn=WPBT006,cn=Read Only User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1159,16 +1159,16 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT006,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT006
+dn:cn=WPBT005,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT005,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT005
+dn:cn=WPBT006,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1613,16 +1613,16 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT006,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT006
+dn:cn=WPBT005,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT005,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT005
+dn:cn=WPBT006,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -2080,16 +2080,16 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT006,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT006
+dn:cn=WPBT005,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT005,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT005
+dn:cn=WPBT006,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -3028,16 +3028,16 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT006,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT006
+dn:cn=WPBT005,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=WPBT005,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: WPBT005
+dn:cn=WPBT006,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT006
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
