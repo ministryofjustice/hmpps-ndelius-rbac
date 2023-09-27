@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.10 at 2023/09/06 10:40:46
+# Role Catalogue generated from RBAC Matrix v5.6.11 at 2023/09/27 10:32:51
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.10
+description:RBAC v5.6.11
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1372,8 +1372,11 @@ level1:TRUE
 level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:TCBI001
-uibusinessinteractioncollection:TCBI002
+uibusinessinteractioncollection:TCBI003
 uibusinessinteractioncollection:TCBI005
+uibusinessinteractioncollection:TCBI027
+uibusinessinteractioncollection:TCBI040
+uibusinessinteractioncollection:TCBI002
 uibusinessinteractioncollection:TCBI006
 uibusinessinteractioncollection:TCBI038
 objectclass:NDRole
@@ -1447,6 +1450,16 @@ uibusinessinteractioncollection:TCBI050
 objectclass:NDRole
 objectclass:top
 cn:TCBT005
+
+dn:cn=TCBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Resettlement Passport Edit
+level1:TRUE
+level2:TRUE
+level3:TRUE
+uibusinessinteractioncollection:TCBI050
+objectclass:NDRole
+objectclass:top
+cn:TCBT006
 
 dn:cn=DRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Referrals
@@ -2044,7 +2057,6 @@ uibusinessinteractioncollection:CABI036
 uibusinessinteractioncollection:TCBI033
 uibusinessinteractioncollection:CLBI027
 uibusinessinteractioncollection:NIBI007
-uibusinessinteractioncollection:NIBI015
 objectclass:NDRole
 objectclass:top
 cn:CLBT103
@@ -3400,7 +3412,7 @@ objectclass:top
 cn:MAWBT001
 
 dn:cn=MRDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Make Recall Decisions user
+description:Consider a Recall PP or Admin
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -3410,7 +3422,7 @@ objectclass:top
 cn:MRDBT001
 
 dn:cn=MRDBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Make Recall Decisions SPO
+description:Consider a Recall Manager
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -3468,6 +3480,16 @@ uibusinessinteractioncollection:CVLBI002
 objectclass:NDRole
 objectclass:top
 cn:CVLBT002
+
+dn:cn=CIDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Case Information Dashboard User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CIDBI001
+objectclass:NDRole
+objectclass:top
+cn:CIDBT001
 
 dn:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:AP Referral Service Access
