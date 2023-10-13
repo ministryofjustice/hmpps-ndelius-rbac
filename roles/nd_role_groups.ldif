@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.11 at 2023/09/27 10:32:51
+# Role Catalogue generated from RBAC Matrix v5.6.12 at 2023/10/13 13:16:09
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.11
+description:RBAC v5.6.12
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -442,13 +442,6 @@ objectclass: Top
 dn:cn=CVLBT002,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CVLBT002
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CAS1BT001,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CAS1BT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1435,13 +1428,6 @@ objectclass: Top
 dn:cn=CVLBT002,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CVLBT002
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CAS1BT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CAS1BT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
