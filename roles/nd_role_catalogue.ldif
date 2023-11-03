@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.13 at 2023/10/19 11:03:36
+# Role Catalogue generated from RBAC Matrix v5.6.14 at 2023/11/03 12:46:39
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.13
+description:RBAC v5.6.14
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3430,6 +3430,16 @@ uibusinessinteractioncollection:MRDBI002
 objectclass:NDRole
 objectclass:top
 cn:MRDBT002
+
+dn:cn=MRDBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Consider a Recall PPCS
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:MRDBI003
+objectclass:NDRole
+objectclass:top
+cn:MRDBT003
 
 dn:cn=MASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Supervisions
