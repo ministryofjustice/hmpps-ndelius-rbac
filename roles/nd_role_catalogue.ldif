@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.15 at 2023/11/07 13:51:12
+# Role Catalogue generated from RBAC Matrix v5.6.15.1 at 2023/12/21 08:52:19
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.15
+description:RBAC v5.6.15.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3580,6 +3580,16 @@ uibusinessinteractioncollection:HPABI001
 objectclass:NDRole
 objectclass:top
 cn:HPABT001
+
+dn:cn=VLPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Video Link Probation User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:VLPBI001
+objectclass:NDRole
+objectclass:top
+cn:VLPBT001
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
