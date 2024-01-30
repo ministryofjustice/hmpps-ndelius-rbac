@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.15.1 at 2023/12/21 08:52:19
+# Role Catalogue generated from RBAC Matrix v5.6.15.2 at 2024/01/30 09:33:42
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.15.1
+description:RBAC v5.6.15.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3546,7 +3546,7 @@ description:Temporary Accommodation Assessor
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:CAS3BI002
+uibusinessinteractioncollection:CAS3BI001
 objectclass:NDRole
 objectclass:top
 cn:CAS3BT002
@@ -3556,7 +3556,7 @@ description:Temporary Accommodation Manager
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:CAS3BI003
+uibusinessinteractioncollection:CAS3BI001
 objectclass:NDRole
 objectclass:top
 cn:CAS3BT003
@@ -3566,7 +3566,7 @@ description:Temporary Accommodation Reporter
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:CAS3BI004
+uibusinessinteractioncollection:CAS3BI001
 objectclass:NDRole
 objectclass:top
 cn:CAS3BT004
@@ -3590,6 +3590,16 @@ uibusinessinteractioncollection:VLPBI001
 objectclass:NDRole
 objectclass:top
 cn:VLPBT001
+
+dn:cn=TCSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Tiering Calculation Service User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:TCSBI001
+objectclass:NDRole
+objectclass:top
+cn:TCSBT001
 
 dn:cn=AUDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reserved Audit Interactions
