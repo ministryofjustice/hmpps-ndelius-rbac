@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.15.2 at 2024/01/30 09:33:42
+# Role Catalogue generated from RBAC Matrix v5.6.15.3 at 2024/02/27 12:05:29
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.15.2
+description:RBAC v5.6.15.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3460,6 +3460,26 @@ uibusinessinteractioncollection:UPBI003
 objectclass:NDRole
 objectclass:top
 cn:MRDBT005
+
+dn:cn=MRDBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Consider a Recall Duty Manager
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:MRDBT006
+
+dn:cn=MRDBT007,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Consider a Recall Resident Worker
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:UPBI003
+objectclass:NDRole
+objectclass:top
+cn:MRDBT007
 
 dn:cn=MASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Supervisions
