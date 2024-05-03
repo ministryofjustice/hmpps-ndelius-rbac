@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.15.4 at 2024/04/24 11:01:35
+# Role Catalogue generated from RBAC Matrix v5.6.15.5 at 2024/05/03 12:22:58
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.15.4
+description:RBAC v5.6.15.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3412,7 +3412,7 @@ objectclass:top
 cn:MAWBT001
 
 dn:cn=MRDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Consider a Recall PP or Admin
+description:Consider a Recall User
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -3426,6 +3426,7 @@ description:Consider a Recall Manager
 level1:FALSE
 level2:FALSE
 level3:FALSE
+uibusinessinteractioncollection:MRDBI001
 uibusinessinteractioncollection:MRDBI002
 objectclass:NDRole
 objectclass:top
@@ -3436,17 +3437,18 @@ description:Consider a Recall PPCS
 level1:FALSE
 level2:FALSE
 level3:FALSE
+uibusinessinteractioncollection:MRDBI001
 uibusinessinteractioncollection:MRDBI003
 objectclass:NDRole
 objectclass:top
 cn:MRDBT003
 
 dn:cn=MRDBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Consider a Recall System Admin
+description:Consider a Recall Probation Admin
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:UPBI003
+uibusinessinteractioncollection:MRDBI001
 objectclass:NDRole
 objectclass:top
 cn:MRDBT004
@@ -3456,7 +3458,7 @@ description:Consider a Recall Support
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:UPBI003
+uibusinessinteractioncollection:MRDBI001
 objectclass:NDRole
 objectclass:top
 cn:MRDBT005
@@ -3466,7 +3468,7 @@ description:Consider a Recall Duty Manager
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:UPBI003
+uibusinessinteractioncollection:MRDBI001
 objectclass:NDRole
 objectclass:top
 cn:MRDBT006
@@ -3476,10 +3478,20 @@ description:Consider a Recall Resident Worker
 level1:FALSE
 level2:FALSE
 level3:FALSE
-uibusinessinteractioncollection:UPBI003
+uibusinessinteractioncollection:MRDBI001
 objectclass:NDRole
 objectclass:top
 cn:MRDBT007
+
+dn:cn=MRDBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Consider a Recall PP
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:MRDBI001
+objectclass:NDRole
+objectclass:top
+cn:MRDBT008
 
 dn:cn=MASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Supervisions
