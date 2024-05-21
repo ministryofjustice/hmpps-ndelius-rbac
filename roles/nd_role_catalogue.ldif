@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v5.6.15.5 at 2024/05/03 12:22:58
+# Role Catalogue generated from RBAC Matrix v6.0.3 at 2024/05/21 15:59:48
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v5.6.15.5
+description:RBAC v6.0.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -99,6 +99,28 @@ uibusinessinteractioncollection:CWBI201
 objectclass:NDRole
 objectclass:top
 cn:CWBT201
+
+dn:cn=CWBT202,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Prepare a case for court Pilot
+sector:public
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CWBI200
+objectclass:NDRole
+objectclass:top
+cn:CWBT202
+
+dn:cn=CWBT203,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Prepare a case for court Beta
+sector:public
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CWBI200
+objectclass:NDRole
+objectclass:top
+cn:CWBT203
 
 dn:cn=CWBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Appearance Admin
@@ -371,7 +393,6 @@ uibusinessinteractioncollection:CLBI009
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
 uibusinessinteractioncollection:CABI253
-uibusinessinteractioncollection:SEBI005
 uibusinessinteractioncollection:SEBI104
 uibusinessinteractioncollection:SEBI204
 uibusinessinteractioncollection:SEBI026
@@ -412,7 +433,6 @@ uibusinessinteractioncollection:SEBI105
 uibusinessinteractioncollection:SEBI205
 uibusinessinteractioncollection:SEBI027
 uibusinessinteractioncollection:SEBI028
-uibusinessinteractioncollection:SEBI005
 objectclass:NDRole
 objectclass:top
 cn:SEBT003a
@@ -438,10 +458,21 @@ uibusinessinteractioncollection:SEBI105
 uibusinessinteractioncollection:SEBI205
 uibusinessinteractioncollection:SEBI027
 uibusinessinteractioncollection:SEBI028
-uibusinessinteractioncollection:SEBI005
 objectclass:NDRole
 objectclass:top
 cn:SEBT003b
+
+dn:cn=SEBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Sentence Details Admin (National)
+sector:public
+adminlevel:national
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:SEBI005
+objectclass:NDRole
+objectclass:top
+cn:SEBT004
 
 dn:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Cohort Details
@@ -969,8 +1000,8 @@ objectclass:top
 cn:RDBT001
 
 dn:cn=RDBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Local Reference Code List Maintenance
-adminlevel:local
+description:National Maintenance of Organisation Codes
+adminlevel:national
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1004,7 +1035,7 @@ objectclass:top
 cn:RDBT002
 
 dn:cn=RDBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Local Reference Code Staff List Maintenance
+description:Local Reference Code Maintenance
 adminlevel:local
 level1:FALSE
 level2:FALSE
@@ -1022,6 +1053,9 @@ uibusinessinteractioncollection:RDBI0109
 uibusinessinteractioncollection:RDBI0111
 uibusinessinteractioncollection:RDBI0118
 uibusinessinteractioncollection:RDBI0122
+uibusinessinteractioncollection:RDBI0208
+uibusinessinteractioncollection:RDBI0209
+uibusinessinteractioncollection:RDBI0210
 objectclass:NDRole
 objectclass:top
 cn:RDBT003
@@ -1040,6 +1074,7 @@ uibusinessinteractioncollection:UMBI005
 uibusinessinteractioncollection:UMBI006
 uibusinessinteractioncollection:UMBI007
 uibusinessinteractioncollection:UMBI008
+uibusinessinteractioncollection:HPBI008
 uibusinessinteractioncollection:UMBI009
 uibusinessinteractioncollection:UMBI010
 uibusinessinteractioncollection:UMBI011
@@ -1059,6 +1094,7 @@ uibusinessinteractioncollection:UMBI002
 uibusinessinteractioncollection:UMBI006
 uibusinessinteractioncollection:UMBI007
 uibusinessinteractioncollection:UMBI008
+uibusinessinteractioncollection:HPBI008
 uibusinessinteractioncollection:UMBI009
 uibusinessinteractioncollection:UMBI011
 uibusinessinteractioncollection:UMBI012
@@ -2498,62 +2534,6 @@ uibusinessinteractioncollection:APBI008
 objectclass:NDRole
 objectclass:top
 cn:APBT150
-
-dn:cn=UABT0001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage User Details
-adminlevel:local
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:UABI0001
-uibusinessinteractioncollection:HPBI008
-uibusinessinteractioncollection:UABI0002
-uibusinessinteractioncollection:UABI0015
-objectclass:NDRole
-objectclass:top
-cn:UABT0001
-
-dn:cn=UABT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage User Functional Access
-adminlevel:local
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:UABI0003
-uibusinessinteractioncollection:UABI0004
-uibusinessinteractioncollection:UABI0014
-objectclass:NDRole
-objectclass:top
-cn:UABT0002
-
-dn:cn=UABT0003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage User Data Access
-adminlevel:local
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:UABI0005
-uibusinessinteractioncollection:UABI0006
-objectclass:NDRole
-objectclass:top
-cn:UABT0003
-
-dn:cn=UABT0005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Manage User Functional Groups
-sector:public
-adminlevel:national
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:UABI0009
-uibusinessinteractioncollection:HPBI006
-uibusinessinteractioncollection:UABI0012
-uibusinessinteractioncollection:UABI0014
-uibusinessinteractioncollection:UABI0008
-uibusinessinteractioncollection:UABI0010
-objectclass:NDRole
-objectclass:top
-cn:UABT0005
 
 dn:cn=UABT0050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:National Public Reference Data Admin
