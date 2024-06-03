@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.0.3 at 2024/05/21 15:59:48
+# Role Catalogue generated from RBAC Matrix v6.0.4 at 2024/06/03 14:39:58
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.0.3
+description:RBAC v6.0.4
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1423,6 +1423,32 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=Add Court Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+cn:Add Court Admin
+objectclass: NDRoleGroup
+objectclass: Top
+
+dn:cn=CWBT050,cn=Add Court Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CWBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CWBT050
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CWBT050a,cn=Add Court Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CWBT050a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CWBT050a
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CWBT103,cn=Add Court Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CWBT103,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CWBT103
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=Add LAO Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 cn:Add LAO Administrator
 objectclass: NDRoleGroup
@@ -2489,27 +2515,6 @@ objectclass: Top
 dn:cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 cn:Add Local Data Adminstrator
 objectclass: NDRoleGroup
-objectclass: Top
-
-dn:cn=CWBT050,cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CWBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CWBT050
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CWBT050a,cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CWBT050a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CWBT050a
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=CWBT103,cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=CWBT103,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: CWBT103
-objectclass: NDRoleAssociation
-objectclass: alias
 objectclass: Top
 
 dn:cn=RPBT050,cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
