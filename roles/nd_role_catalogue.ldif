@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.0.3 at 2024/05/21 15:59:48
+# Role Catalogue generated from RBAC Matrix v6.0.4 at 2024/06/03 14:39:58
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.0.3
+description:RBAC v6.0.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -130,8 +130,6 @@ level2:TRUE
 level3:FALSE
 uibusinessinteractioncollection:CWBI013
 uibusinessinteractioncollection:CWBI011
-uibusinessinteractioncollection:CLBI002
-uibusinessinteractioncollection:CLBI009
 objectclass:NDRole
 objectclass:top
 cn:CWBT050
@@ -144,8 +142,6 @@ level2:TRUE
 level3:TRUE
 uibusinessinteractioncollection:CWBI013
 uibusinessinteractioncollection:CWBI011
-uibusinessinteractioncollection:CLBI002
-uibusinessinteractioncollection:CLBI009
 objectclass:NDRole
 objectclass:top
 cn:CWBT050a
@@ -158,10 +154,8 @@ level1:TRUE
 level2:TRUE
 level3:TRUE
 uibusinessinteractioncollection:CWBI013
-uibusinessinteractioncollection:CWBI011
-uibusinessinteractioncollection:CLBI002
 uibusinessinteractioncollection:CWBI009
-uibusinessinteractioncollection:CLBI009
+uibusinessinteractioncollection:CWBI011
 objectclass:NDRole
 objectclass:top
 cn:CWBT060
@@ -283,8 +277,6 @@ level1:TRUE
 level2:TRUE
 level3:TRUE
 uibusinessinteractioncollection:RPBI003
-uibusinessinteractioncollection:CLBI002
-uibusinessinteractioncollection:CLBI009
 uibusinessinteractioncollection:RPBI008
 uibusinessinteractioncollection:WPBI005
 objectclass:NDRole
@@ -389,7 +381,6 @@ level2:TRUE
 level3:TRUE
 uibusinessinteractioncollection:SEBI003
 uibusinessinteractioncollection:CLBI002
-uibusinessinteractioncollection:CLBI009
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
 uibusinessinteractioncollection:CABI253
@@ -419,7 +410,6 @@ level1:TRUE
 level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:CLBI002
-uibusinessinteractioncollection:CLBI009
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
 uibusinessinteractioncollection:SEBI104
@@ -444,7 +434,6 @@ level1:TRUE
 level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:CLBI002
-uibusinessinteractioncollection:CLBI009
 uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
 uibusinessinteractioncollection:SEBI104
