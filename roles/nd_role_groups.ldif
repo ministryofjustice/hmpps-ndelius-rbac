@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.0.4 at 2024/06/03 14:39:58
+# Role Catalogue generated from RBAC Matrix v6.0.5 at 2024/07/09 15:50:43
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.0.4
+description:RBAC v6.0.5
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1445,6 +1445,13 @@ objectclass: Top
 dn:cn=CWBT103,cn=Add Court Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CWBT103,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CWBT103
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=SEBT005,cn=Add Court Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SEBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SEBT005
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
