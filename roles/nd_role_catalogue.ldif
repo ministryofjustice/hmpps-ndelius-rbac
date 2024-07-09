@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.0.4 at 2024/06/03 14:39:58
+# Role Catalogue generated from RBAC Matrix v6.0.5 at 2024/07/09 15:50:42
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.0.4
+description:RBAC v6.0.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -462,6 +462,17 @@ uibusinessinteractioncollection:SEBI005
 objectclass:NDRole
 objectclass:top
 cn:SEBT004
+
+dn:cn=SEBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Unterminate Event for court staff
+sector:public
+level1:FALSE
+level2:TRUE
+level3:FALSE
+uibusinessinteractioncollection:SEBI005
+objectclass:NDRole
+objectclass:top
+cn:SEBT005
 
 dn:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Cohort Details
