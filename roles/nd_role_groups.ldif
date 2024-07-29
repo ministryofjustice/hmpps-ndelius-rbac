@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.0.5 at 2024/07/09 15:50:43
+# Role Catalogue generated from RBAC Matrix v6.1.0 at 2024/07/29 10:16:23
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.0.5
+description:RBAC v6.1.0
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1397,6 +1397,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=PDBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=PDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: PDBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CVLBT002,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CVLBT002
@@ -2351,13 +2358,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=UABT0050,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=UABT0050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: UABT0050
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=UABT0051,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=UABT0051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: UABT0051
@@ -2501,6 +2501,13 @@ objectclass: Top
 dn:cn=SPGADBT005,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=SPGADBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: SPGADBT005
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=PDBT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=PDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: PDBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -3463,6 +3470,13 @@ objectclass: Top
 dn:cn=SPGADBT005,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=SPGADBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: SPGADBT005
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=PDBT001,cn=National Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=PDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: PDBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
