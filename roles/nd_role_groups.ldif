@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.0.6 at 2024/07/30 16:27:26
+# Role Catalogue generated from RBAC Matrix v6.0.7 at 2024/08/05 12:00:35
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.0.6
+description:RBAC v6.0.7
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -2524,13 +2524,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT003,cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT003
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=OIBT0003,cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=OIBT0003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: OIBT0003
@@ -2548,13 +2541,6 @@ objectclass: Top
 dn:cn=WPBT050,cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=WPBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: WPBT050
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=TCBT002,cn=Add Local Data Adminstrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=TCBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: TCBT002
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
