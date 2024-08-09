@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.1.0 at 2024/07/29 10:16:23
+# Role Catalogue generated from RBAC Matrix v6.1.1 at 2024/08/09 11:48:18
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.1.0
+description:RBAC v6.1.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1482,11 +1482,12 @@ objectclass:top
 cn:TCBT003
 
 dn:cn=TCBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:View Resettlement Passport - NOT IN USE
+description:View Resettlement Passport
 level1:TRUE
 level2:TRUE
 level3:TRUE
 uibusinessinteractioncollection:TCBI050
+uibusinessinteractioncollection:TCBI051
 objectclass:NDRole
 objectclass:top
 cn:TCBT005
@@ -2589,6 +2590,7 @@ level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:UPBI001
 uibusinessinteractioncollection:UPBI003
+uibusinessinteractioncollection:DMBI110
 uibusinessinteractioncollection:UPBI004
 uibusinessinteractioncollection:UPBI002
 objectclass:NDRole
@@ -2697,6 +2699,18 @@ uibusinessinteractioncollection:DMBI080
 objectclass:NDRole
 objectclass:top
 cn:DMBT003
+
+dn:cn=DMBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Manage information text
+sector:public
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:DMBI111
+uibusinessinteractioncollection:DMBI112
+objectclass:NDRole
+objectclass:top
+cn:DMBT004
 
 dn:cn=OABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Delius Copy of OASYS Assessment
