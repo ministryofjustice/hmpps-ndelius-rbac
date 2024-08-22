@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.1.1 at 2024/08/09 11:48:18
+# Role Catalogue generated from RBAC Matrix v6.1.2 at 2024/08/22 14:31:51
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.1.1
+description:RBAC v6.1.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -459,6 +459,7 @@ level1:TRUE
 level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:SEBI005
+uibusinessinteractioncollection:SEBI114
 objectclass:NDRole
 objectclass:top
 cn:SEBT004
