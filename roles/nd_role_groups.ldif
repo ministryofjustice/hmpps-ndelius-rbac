@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.1.3 at 2024/09/27 10:38:33
+# Role Catalogue generated from RBAC Matrix v6.1.4 at 2024/11/01 16:16:36
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.1.3
+description:RBAC v6.1.4
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -916,9 +916,177 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=MRDBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MRDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MRDBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MRDBT002,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MRDBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MRDBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MRDBT003,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MRDBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MRDBT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MRDBT004,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MRDBT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MRDBT004
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MRDBT005,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MRDBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MRDBT005
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MRDBT006,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MRDBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MRDBT006
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MRDBT007,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MRDBT007,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MRDBT007
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MRDBT008,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MRDBT008,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MRDBT008
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=IMSBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=IMSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: IMSBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MASBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MASBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MASBT002,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MASBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MASBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MAABT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MAABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MAABT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=PDBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=PDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: PDBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CVLBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CVLBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CVLBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CVLBT002,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CVLBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CVLBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CIDBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CIDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CIDBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS1BT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS1BT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS3BT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS3BT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS3BT002,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS3BT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS3BT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS3BT003,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS3BT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS3BT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS3BT004,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS3BT004,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS3BT004
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CEMBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CEMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CEMBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=HPABT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=HPABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: HPABT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=VLPBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=VLPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: VLPBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=TCSBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=TCSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: TCSBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1414,6 +1582,13 @@ objectclass: Top
 dn:cn=CAS3BT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CAS3BT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CEMBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CEMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CEMBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
