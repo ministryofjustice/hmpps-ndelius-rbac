@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.1 at 2024/12/17 14:56:26
+# Role Catalogue generated from RBAC Matrix v6.2.2 at 2024/12/20 11:59:18
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.1
+description:RBAC v6.2.2
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups

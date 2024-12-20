@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.1 at 2024/12/17 14:56:26
+# Role Catalogue generated from RBAC Matrix v6.2.2 at 2024/12/20 11:59:18
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.1
+description:RBAC v6.2.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -26,6 +26,7 @@ uibusinessinteractioncollection:CWBI014
 uibusinessinteractioncollection:CWBI020
 uibusinessinteractioncollection:CWBI021
 uibusinessinteractioncollection:SEBI101
+uibusinessinteractioncollection:SEBI110
 uibusinessinteractioncollection:SEBI201
 uibusinessinteractioncollection:SEBI022
 objectclass:NDRole
@@ -317,7 +318,6 @@ uibusinessinteractioncollection:CLBI003
 uibusinessinteractioncollection:CLBI007
 uibusinessinteractioncollection:SEBI004
 uibusinessinteractioncollection:SEBI101
-uibusinessinteractioncollection:SEBI110
 uibusinessinteractioncollection:SEBI201
 uibusinessinteractioncollection:SEBI022
 uibusinessinteractioncollection:SEBI102
@@ -1412,6 +1412,46 @@ uibusinessinteractioncollection:WPBI999
 objectclass:NDRole
 objectclass:top
 cn:WPBT050
+
+dn:cn=WPBT300,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add Breach Notice (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI300
+objectclass:NDRole
+objectclass:top
+cn:WPBT300
+
+dn:cn=WPBT301,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI301
+objectclass:NDRole
+objectclass:top
+cn:WPBT301
+
+dn:cn=WPBT302,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI302
+objectclass:NDRole
+objectclass:top
+cn:WPBT302
+
+dn:cn=WPBT303,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI303
+objectclass:NDRole
+objectclass:top
+cn:WPBT303
 
 dn:cn=TCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Throughcare Details
