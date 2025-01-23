@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.1.5 at 2025/01/23 13:52:52
+# Role Catalogue generated from RBAC Matrix v6.2.3 at 2025/01/23 14:35:16
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.1.5
+description:RBAC v6.2.3
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -772,6 +772,34 @@ objectclass: Top
 dn:cn=WPBT005,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=WPBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: WPBT005
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT300,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT300,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT300
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT301,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT301,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT301
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT302,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT302,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT302
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT303,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT303,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT303
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
