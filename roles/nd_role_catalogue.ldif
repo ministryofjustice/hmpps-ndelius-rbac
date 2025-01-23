@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.2 at 2024/12/20 11:59:18
+# Role Catalogue generated from RBAC Matrix v6.1.5 at 2025/01/23 13:52:52
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.2
+description:RBAC v6.1.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -26,7 +26,6 @@ uibusinessinteractioncollection:CWBI014
 uibusinessinteractioncollection:CWBI020
 uibusinessinteractioncollection:CWBI021
 uibusinessinteractioncollection:SEBI101
-uibusinessinteractioncollection:SEBI110
 uibusinessinteractioncollection:SEBI201
 uibusinessinteractioncollection:SEBI022
 objectclass:NDRole
@@ -950,15 +949,10 @@ uibusinessinteractioncollection:RDBI0960
 uibusinessinteractioncollection:RDBI0961
 uibusinessinteractioncollection:RDBI0962
 uibusinessinteractioncollection:RDBI0963
-uibusinessinteractioncollection:RDBI0964
-uibusinessinteractioncollection:RDBI0965
-uibusinessinteractioncollection:RDBI0966
 uibusinessinteractioncollection:RDBI0970
 uibusinessinteractioncollection:RDBI0971
 uibusinessinteractioncollection:RDBI0972
 uibusinessinteractioncollection:RDBI0973
-uibusinessinteractioncollection:RDBI0142
-uibusinessinteractioncollection:RDBI0143
 uibusinessinteractioncollection:RDBI1000
 uibusinessinteractioncollection:RDBI1001
 uibusinessinteractioncollection:RDBI1002
@@ -1412,46 +1406,6 @@ uibusinessinteractioncollection:WPBI999
 objectclass:NDRole
 objectclass:top
 cn:WPBT050
-
-dn:cn=WPBT300,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add Breach Notice (PILOT)
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:WPBI300
-objectclass:NDRole
-objectclass:top
-cn:WPBT300
-
-dn:cn=WPBT301,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add New Service (PILOT)
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:WPBI301
-objectclass:NDRole
-objectclass:top
-cn:WPBT301
-
-dn:cn=WPBT302,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add New Service (PILOT)
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:WPBI302
-objectclass:NDRole
-objectclass:top
-cn:WPBT302
-
-dn:cn=WPBT303,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add New Service (PILOT)
-level1:FALSE
-level2:FALSE
-level3:FALSE
-uibusinessinteractioncollection:WPBI303
-objectclass:NDRole
-objectclass:top
-cn:WPBT303
 
 dn:cn=TCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Throughcare Details
@@ -3677,6 +3631,16 @@ uibusinessinteractioncollection:CEMBI001
 objectclass:NDRole
 objectclass:top
 cn:CEMBT001
+
+dn:cn=APRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Access Appointment Reminders Service
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:APRBI001
+objectclass:NDRole
+objectclass:top
+cn:APRBT001
 
 dn:cn=HPABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Historic Prisoner Application user
