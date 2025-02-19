@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.3 at 2025/01/23 14:35:16
+# Role Catalogue generated from RBAC Matrix v6.2.4 at 2025/02/19 13:52:19
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.3
+description:RBAC v6.2.4
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1059,6 +1059,20 @@ objectclass: Top
 dn:cn=CAS1BT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CAS1BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CAS1BT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS2BT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS2BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS2BT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=CAS2BT002,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS2BT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS2BT002
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top

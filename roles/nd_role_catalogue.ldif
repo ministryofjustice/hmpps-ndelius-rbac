@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.3 at 2025/01/23 14:35:16
+# Role Catalogue generated from RBAC Matrix v6.2.4 at 2025/02/19 13:52:19
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.3
+description:RBAC v6.2.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3627,6 +3627,26 @@ uibusinessinteractioncollection:CAS1BI001
 objectclass:NDRole
 objectclass:top
 cn:CAS1BT001
+
+dn:cn=CAS2BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:CAS2 Court Bail User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CAS2BI001
+objectclass:NDRole
+objectclass:top
+cn:CAS2BT001
+
+dn:cn=CAS2BT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:CAS2 Prison Bail User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CAS2BI001
+objectclass:NDRole
+objectclass:top
+cn:CAS2BT002
 
 dn:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Temporary Accommodation Referrer
