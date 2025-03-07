@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.4 at 2025/02/19 13:52:19
+# Role Catalogue generated from RBAC Matrix v6.2.5 at 2025/03/07 11:27:38
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.4
+description:RBAC v6.2.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3629,7 +3629,7 @@ objectclass:top
 cn:CAS1BT001
 
 dn:cn=CAS2BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:CAS2 Court Bail User
+description:CAS2 Court Bail Referrer
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -3639,7 +3639,7 @@ objectclass:top
 cn:CAS2BT001
 
 dn:cn=CAS2BT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:CAS2 Prison Bail User
+description:CAS2 Prison Bail Referrer
 level1:FALSE
 level2:FALSE
 level3:FALSE
