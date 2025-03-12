@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.5 at 2025/03/07 11:27:38
+# Role Catalogue generated from RBAC Matrix v6.3.1 at 2025/03/12 08:53:48
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.5
+description:RBAC v6.3.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1413,6 +1413,16 @@ objectclass:NDRole
 objectclass:top
 cn:WPBT050
 
+dn:cn=WPBT051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Document Discard Admin Role
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:WPBI108
+objectclass:NDRole
+objectclass:top
+cn:WPBT051
+
 dn:cn=WPBT300,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Add Breach Notice (PILOT)
 level1:FALSE
@@ -1452,6 +1462,96 @@ uibusinessinteractioncollection:WPBI303
 objectclass:NDRole
 objectclass:top
 cn:WPBT303
+
+dn:cn=WPBT304,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI304
+objectclass:NDRole
+objectclass:top
+cn:WPBT304
+
+dn:cn=WPBT305,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI305
+objectclass:NDRole
+objectclass:top
+cn:WPBT305
+
+dn:cn=WPBT306,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI306
+objectclass:NDRole
+objectclass:top
+cn:WPBT306
+
+dn:cn=WPBT307,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI307
+objectclass:NDRole
+objectclass:top
+cn:WPBT307
+
+dn:cn=WPBT308,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI308
+objectclass:NDRole
+objectclass:top
+cn:WPBT308
+
+dn:cn=WPBT309,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI309
+objectclass:NDRole
+objectclass:top
+cn:WPBT309
+
+dn:cn=WPBT310,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI310
+objectclass:NDRole
+objectclass:top
+cn:WPBT310
+
+dn:cn=WPBT311,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI311
+objectclass:NDRole
+objectclass:top
+cn:WPBT311
+
+dn:cn=WPBT312,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Add New Service (PILOT)
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI312
+objectclass:NDRole
+objectclass:top
+cn:WPBT312
 
 dn:cn=TCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Throughcare Details
