@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.5 at 2025/03/07 11:27:38
+# Role Catalogue generated from RBAC Matrix v6.3.1 at 2025/03/12 08:53:48
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.5
+description:RBAC v6.3.1
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -800,6 +800,69 @@ objectclass: Top
 dn:cn=WPBT303,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=WPBT303,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: WPBT303
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT304,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT304,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT304
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT305,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT305,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT305
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT306,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT306,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT306
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT307,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT307,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT307
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT308,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT308,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT308
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT309,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT309,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT309
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT310,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT310,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT310
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT311,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT311,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT311
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT312,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT312,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT312
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -2288,6 +2351,104 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=WPBT051,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT051
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT300,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT300,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT300
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT301,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT301,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT301
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT302,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT302,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT302
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT303,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT303,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT303
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT304,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT304,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT304
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT305,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT305,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT305
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT306,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT306,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT306
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT307,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT307,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT307
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT308,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT308,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT308
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT309,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT309,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT309
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT310,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT310,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT310
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT311,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT311,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT311
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT312,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT312,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT312
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=TCBT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=TCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: TCBT001
@@ -3211,6 +3372,104 @@ objectclass: Top
 dn:cn=WPBT050,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=WPBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: WPBT050
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT051,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT051,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT051
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT300,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT300,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT300
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT301,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT301,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT301
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT302,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT302,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT302
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT303,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT303,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT303
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT304,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT304,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT304
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT305,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT305,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT305
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT306,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT306,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT306
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT307,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT307,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT307
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT308,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT308,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT308
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT309,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT309,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT309
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT310,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT310,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT310
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT311,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT311,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT311
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=WPBT312,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=WPBT312,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: WPBT312
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
