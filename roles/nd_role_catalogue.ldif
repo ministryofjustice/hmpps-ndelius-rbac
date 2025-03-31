@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.2.5 at 2025/03/07 11:27:38
+# Role Catalogue generated from RBAC Matrix v6.2.6 at 2025/03/31 11:59:13
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.2.5
+description:RBAC v6.2.6
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3707,6 +3707,36 @@ uibusinessinteractioncollection:APRBI001
 objectclass:NDRole
 objectclass:top
 cn:APRBT001
+
+dn:cn=RMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Refer and Monitor Access
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:RMBI001
+objectclass:NDRole
+objectclass:top
+cn:RMBT001
+
+dn:cn=EDSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:EM Data Store General User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:EDSBI001
+objectclass:NDRole
+objectclass:top
+cn:EDSBT001
+
+dn:cn=EDSBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:EM Data Store Restricted User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:EDSBI002
+objectclass:NDRole
+objectclass:top
+cn:EDSBT002
 
 dn:cn=HPABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Historic Prisoner Application user
