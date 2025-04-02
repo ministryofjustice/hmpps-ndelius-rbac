@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.3.1 at 2025/03/12 08:53:48
+# Role Catalogue generated from RBAC Matrix v6.3.2 at 2025/04/02 11:52:51
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.3.1
+description:RBAC v6.3.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1418,7 +1418,7 @@ description:Document Discard Admin Role
 level1:TRUE
 level2:FALSE
 level3:TRUE
-uibusinessinteractioncollection:WPBI108
+uibusinessinteractioncollection:WPBI109
 objectclass:NDRole
 objectclass:top
 cn:WPBT051
@@ -2959,6 +2959,16 @@ objectclass:NDRole
 objectclass:top
 cn:SYBT004
 
+dn:cn=SYBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Other System Interactions
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI108
+objectclass:NDRole
+objectclass:top
+cn:SYBT005
+
 dn:cn=CDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Court Diary Admin
 level1:FALSE
@@ -3797,6 +3807,36 @@ uibusinessinteractioncollection:CEMBI001
 objectclass:NDRole
 objectclass:top
 cn:CEMBT001
+
+dn:cn=RMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Refer and Monitor Access
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:RMBI001
+objectclass:NDRole
+objectclass:top
+cn:RMBT001
+
+dn:cn=EDSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:EM Data Store General User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:EDSBI001
+objectclass:NDRole
+objectclass:top
+cn:EDSBT001
+
+dn:cn=EDSBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:EM Data Store Restricted User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:EDSBI002
+objectclass:NDRole
+objectclass:top
+cn:EDSBT002
 
 dn:cn=APRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Access Appointment Reminders Service
