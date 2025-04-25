@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.3.2 at 2025/04/02 11:52:51
+# Role Catalogue generated from RBAC Matrix v6.3.3 at 2025/04/25 11:30:53
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.3.2
+description:RBAC v6.3.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1424,7 +1424,7 @@ objectclass:top
 cn:WPBT051
 
 dn:cn=WPBT300,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add Breach Notice (PILOT)
+description:Template Service Breach Notice (PILOT)
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1434,7 +1434,7 @@ objectclass:top
 cn:WPBT300
 
 dn:cn=WPBT301,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add Breach Report CO SSO Service (PILOT)
+description:Template Service Breach Report CO SSO (PILOT)
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1444,7 +1444,7 @@ objectclass:top
 cn:WPBT301
 
 dn:cn=WPBT302,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add New Service (PILOT)
+description:Template Service Suicide Form (PILOT)
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1454,7 +1454,7 @@ objectclass:top
 cn:WPBT302
 
 dn:cn=WPBT303,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add New Service (PILOT)
+description:Template Service PAROM1 (PILOT)
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1553,6 +1553,16 @@ objectclass:NDRole
 objectclass:top
 cn:WPBT312
 
+dn:cn=WPBT399,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Template to Services Delete Permission
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:WPBI399
+objectclass:NDRole
+objectclass:top
+cn:WPBT399
+
 dn:cn=TCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Throughcare Details
 level1:TRUE
@@ -1629,7 +1639,7 @@ objectclass:top
 cn:TCBT003
 
 dn:cn=TCBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:View Resettlement Passport
+description:View Prepare a case for Release
 level1:TRUE
 level2:TRUE
 level3:TRUE
@@ -1640,7 +1650,7 @@ objectclass:top
 cn:TCBT005
 
 dn:cn=TCBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Resettlement Passport Edit
+description:Prepare a case for Release Edit
 level1:TRUE
 level2:TRUE
 level3:TRUE
@@ -1948,6 +1958,8 @@ uibusinessinteractioncollection:UWBI108
 uibusinessinteractioncollection:UWBI110
 uibusinessinteractioncollection:UWBI111
 uibusinessinteractioncollection:UWBI153
+uibusinessinteractioncollection:UWBI154
+uibusinessinteractioncollection:UWBI155
 uibusinessinteractioncollection:UWBI160
 uibusinessinteractioncollection:UWBI181
 uibusinessinteractioncollection:UWBI193
@@ -1977,6 +1989,8 @@ uibusinessinteractioncollection:UWBI108
 uibusinessinteractioncollection:UWBI110
 uibusinessinteractioncollection:UWBI111
 uibusinessinteractioncollection:UWBI153
+uibusinessinteractioncollection:UWBI154
+uibusinessinteractioncollection:UWBI155
 uibusinessinteractioncollection:UWBI160
 uibusinessinteractioncollection:UWBI181
 uibusinessinteractioncollection:UWBI193
@@ -2044,6 +2058,17 @@ objectclass:NDRole
 objectclass:top
 cn:UWBT010
 
+dn:cn=UWBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Show UPW 2/3rds Status
+sector:public
+level1:TRUE
+level2:TRUE
+level3:TRUE
+uibusinessinteractioncollection:UWBI140
+objectclass:NDRole
+objectclass:top
+cn:UWBT011
+
 dn:cn=UWBT110,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View UPW Project Diary
 level1:FALSE
@@ -2088,6 +2113,17 @@ uibusinessinteractioncollection:UWBI190
 objectclass:NDRole
 objectclass:top
 cn:UWBT060
+
+dn:cn=UWBT061,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:UPW Data Admin
+sector:public
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UWBI016
+objectclass:NDRole
+objectclass:top
+cn:UWBT061
 
 dn:cn=EXBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Produce DSAR
@@ -2837,10 +2873,6 @@ uibusinessinteractioncollection:SEBI008
 uibusinessinteractioncollection:CWBI017
 uibusinessinteractioncollection:RPBI001
 uibusinessinteractioncollection:RPBI005
-uibusinessinteractioncollection:DMBI070
-uibusinessinteractioncollection:DMBI071
-uibusinessinteractioncollection:DMBI072
-uibusinessinteractioncollection:DMBI073
 uibusinessinteractioncollection:APBI008
 uibusinessinteractioncollection:DMBI080
 objectclass:NDRole
@@ -3292,6 +3324,7 @@ cn:MERGEBT006
 dn:cn=MERGEBT999,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Application Management
 uibusinessinteractioncollection:merge-app_admin:manage
+uibusinessinteractioncollection:DMBI070
 uibusinessinteractioncollection:merge-merge:view
 objectclass:NDRole
 objectclass:top
@@ -3406,9 +3439,23 @@ level1:FALSE
 level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:gdpr-destruction:manage
+uibusinessinteractioncollection:gdpr-destruction:view
+uibusinessinteractioncollection:gdpr-destruction:download
+uibusinessinteractioncollection:gdpr-destruction:search
 objectclass:NDRole
 objectclass:top
 cn:GDPRBT004
+
+dn:cn=GDPRBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:GDPR Destruction User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:gdpr-destruction:view
+uibusinessinteractioncollection:gdpr-destruction:search
+objectclass:NDRole
+objectclass:top
+cn:GDPRBT005
 
 dn:cn=LHDCBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Digital Licence View Only
