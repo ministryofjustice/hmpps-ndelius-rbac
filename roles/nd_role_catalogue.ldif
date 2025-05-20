@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.3.3 at 2025/04/25 11:30:53
+# Role Catalogue generated from RBAC Matrix v6.3.4 at 2025/05/20 14:38:02
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.3.3
+description:RBAC v6.3.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1891,9 +1891,9 @@ uibusinessinteractioncollection:UWBI010
 uibusinessinteractioncollection:UWBI011
 uibusinessinteractioncollection:UWBI012
 uibusinessinteractioncollection:UWBI013
+uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI120
 uibusinessinteractioncollection:UWBI125
-uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI130
 objectclass:NDRole
 objectclass:top
@@ -1955,7 +1955,6 @@ uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
 uibusinessinteractioncollection:UWBI105
 uibusinessinteractioncollection:UWBI108
-uibusinessinteractioncollection:UWBI110
 uibusinessinteractioncollection:UWBI111
 uibusinessinteractioncollection:UWBI153
 uibusinessinteractioncollection:UWBI154
@@ -1986,7 +1985,6 @@ uibusinessinteractioncollection:UWBI102
 uibusinessinteractioncollection:UWBI104
 uibusinessinteractioncollection:UWBI105
 uibusinessinteractioncollection:UWBI108
-uibusinessinteractioncollection:UWBI110
 uibusinessinteractioncollection:UWBI111
 uibusinessinteractioncollection:UWBI153
 uibusinessinteractioncollection:UWBI154
@@ -2016,7 +2014,8 @@ uibusinessinteractioncollection:UWBI100
 uibusinessinteractioncollection:UWBI101
 uibusinessinteractioncollection:UWBI104
 uibusinessinteractioncollection:UWBI004
-uibusinessinteractioncollection:UWBI110
+uibusinessinteractioncollection:UWBI154
+uibusinessinteractioncollection:UWBI155
 uibusinessinteractioncollection:HPBI001
 objectclass:NDRole
 objectclass:top
@@ -2038,7 +2037,8 @@ uibusinessinteractioncollection:UWBI003
 uibusinessinteractioncollection:UWBI100
 uibusinessinteractioncollection:UWBI101
 uibusinessinteractioncollection:UWBI104
-uibusinessinteractioncollection:UWBI110
+uibusinessinteractioncollection:UWBI154
+uibusinessinteractioncollection:UWBI155
 uibusinessinteractioncollection:UWBI194
 uibusinessinteractioncollection:HPBI001
 objectclass:NDRole
@@ -2052,7 +2052,8 @@ level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:UWBI170
 uibusinessinteractioncollection:HPBI002
-uibusinessinteractioncollection:UWBI110
+uibusinessinteractioncollection:UWBI154
+uibusinessinteractioncollection:UWBI155
 uibusinessinteractioncollection:UWBI153
 objectclass:NDRole
 objectclass:top
@@ -2076,7 +2077,8 @@ level2:FALSE
 level3:FALSE
 uibusinessinteractioncollection:UWBI170
 uibusinessinteractioncollection:HPBI002
-uibusinessinteractioncollection:UWBI110
+uibusinessinteractioncollection:UWBI154
+uibusinessinteractioncollection:UWBI155
 objectclass:NDRole
 objectclass:top
 cn:UWBT110
@@ -3324,7 +3326,8 @@ cn:MERGEBT006
 dn:cn=MERGEBT999,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Merge Application Management
 uibusinessinteractioncollection:merge-app_admin:manage
-uibusinessinteractioncollection:DMBI070
+uibusinessinteractioncollection:DMBI071
+uibusinessinteractioncollection:DMBI073
 uibusinessinteractioncollection:merge-merge:view
 objectclass:NDRole
 objectclass:top
