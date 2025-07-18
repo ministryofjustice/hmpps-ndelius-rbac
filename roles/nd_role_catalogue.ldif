@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.3.7 at 2025/07/07 11:40:25
+# Role Catalogue generated from RBAC Matrix v6.3.8 at 2025/07/18 11:19:51
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.3.7
+description:RBAC v6.3.8
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3877,6 +3877,16 @@ uibusinessinteractioncollection:RMBI001
 objectclass:NDRole
 objectclass:top
 cn:RMBT001
+
+dn:cn=RMBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Accredited Programmes in Community Access
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:RMBI002
+objectclass:NDRole
+objectclass:top
+cn:RMBT002
 
 dn:cn=EDSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:EM Data Store General User
