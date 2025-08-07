@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.3.8 at 2025/07/18 11:19:51
+# Role Catalogue generated from RBAC Matrix v6.3.9 at 2025/08/07 12:35:05
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.3.8
+description:RBAC v6.3.9
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3857,6 +3857,16 @@ uibusinessinteractioncollection:CEMBI001
 objectclass:NDRole
 objectclass:top
 cn:CEMBT001
+
+dn:cn=ESUPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:e-Supervision User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:ESUPBI001
+objectclass:NDRole
+objectclass:top
+cn:ESUPBT001
 
 dn:cn=SPLNBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Plan General Access
