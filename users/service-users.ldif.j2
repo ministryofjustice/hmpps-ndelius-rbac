@@ -191,6 +191,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: top
 
+dn: cn=GDPRBT005,cn=GDPR-UI,cn=EISUsers,ou=Users,dc=moj,dc=com
+cn: GDPRBT005
+aliasedObjectName: cn=GDPRBT005,cn=ndRoleCatalogue,ou=Users,dc=moj,dc=com
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: top
+
 # GDPR compliance tool back-end (used for verifying OAuth tokens)
 dn: cn=GDPR-API,{{ ldap_config.base_service_users }}
 sn: GDPR-API
