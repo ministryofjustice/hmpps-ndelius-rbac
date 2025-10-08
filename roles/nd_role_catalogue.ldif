@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.3.10 at 2025/08/12 15:22:18
+# Role Catalogue generated from RBAC Matrix v6.4.1 at 2025/10/08 15:38:03
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.3.10
+description:RBAC v6.4.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2408,6 +2408,8 @@ uibusinessinteractioncollection:OIBI001
 uibusinessinteractioncollection:RRBI110
 uibusinessinteractioncollection:RRBI111
 uibusinessinteractioncollection:RRBI112
+uibusinessinteractioncollection:RRBI113
+uibusinessinteractioncollection:RRBI115
 objectclass:NDRole
 objectclass:top
 cn:RRBT001
@@ -2456,6 +2458,16 @@ uibusinessinteractioncollection:RRBI210
 objectclass:NDRole
 objectclass:top
 cn:RRBT004
+
+dn:cn=RRBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Prisoner Alerts (Trial)
+level1:TRUE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:RRBI114
+objectclass:NDRole
+objectclass:top
+cn:RRBT005
 
 dn:cn=RRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Offender Registration Admin
@@ -2888,6 +2900,7 @@ sector:public
 level1:FALSE
 level2:FALSE
 level3:FALSE
+uibusinessinteractioncollection:DMBI110
 uibusinessinteractioncollection:DMBI111
 uibusinessinteractioncollection:DMBI112
 objectclass:NDRole
