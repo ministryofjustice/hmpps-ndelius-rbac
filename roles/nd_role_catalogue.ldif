@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.3.10 at 2025/08/12 15:22:18
+# Role Catalogue generated from RBAC Matrix v6.3.12 at 2025/11/20 13:24:14
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.3.10
+description:RBAC v6.3.12
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2085,7 +2085,7 @@ objectclass:top
 cn:UWBT110
 
 dn:cn=UWBT102,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:UPW Assessment (Pilot Only)
+description:UPW Assessment
 level1:TRUE
 level2:FALSE
 level3:FALSE
@@ -2127,6 +2127,36 @@ uibusinessinteractioncollection:UWBI016
 objectclass:NDRole
 objectclass:top
 cn:UWBT061
+
+dn:cn=UWBT200,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:CP Supervise Session
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UWBI200
+objectclass:NDRole
+objectclass:top
+cn:UWBT200
+
+dn:cn=UWBT201,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:CP Record Progress
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UWBI201
+objectclass:NDRole
+objectclass:top
+cn:UWBT201
+
+dn:cn=UWBT202,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:CP Allocate Supervisor
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UWBI202
+objectclass:NDRole
+objectclass:top
+cn:UWBT202
 
 dn:cn=EXBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Produce DSAR
@@ -3769,6 +3799,16 @@ objectclass:NDRole
 objectclass:top
 cn:CVLBT002
 
+dn:cn=CVLBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:CVL National Search
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CVLBI003
+objectclass:NDRole
+objectclass:top
+cn:CVLBT003
+
 dn:cn=CIDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Case Information Dashboard User
 level1:FALSE
@@ -3898,6 +3938,16 @@ uibusinessinteractioncollection:RMBI002
 objectclass:NDRole
 objectclass:top
 cn:RMBT002
+
+dn:cn=RMBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:R and M Contract Managers Audit
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:RMBI003
+objectclass:NDRole
+objectclass:top
+cn:RMBT003
 
 dn:cn=EDSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:EM Data Store General User
