@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.4.3 at 2025/11/21 09:12:25
+# Role Catalogue generated from RBAC Matrix v6.4.5 at 2026/01/05 15:52:57
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.4.3
+description:RBAC v6.4.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -325,7 +325,6 @@ uibusinessinteractioncollection:SEBI202
 uibusinessinteractioncollection:SEBI023
 uibusinessinteractioncollection:TCBI042
 uibusinessinteractioncollection:SEBI206
-uibusinessinteractioncollection:SEBI017
 objectclass:NDRole
 objectclass:top
 cn:SEBT002
@@ -346,7 +345,6 @@ uibusinessinteractioncollection:SEBI202
 uibusinessinteractioncollection:SEBI023
 uibusinessinteractioncollection:SEBI102
 uibusinessinteractioncollection:SEBI206
-uibusinessinteractioncollection:SEBI017
 uibusinessinteractioncollection:SEBI004
 objectclass:NDRole
 objectclass:top
@@ -368,7 +366,6 @@ uibusinessinteractioncollection:SEBI202
 uibusinessinteractioncollection:SEBI023
 uibusinessinteractioncollection:SEBI102
 uibusinessinteractioncollection:SEBI206
-uibusinessinteractioncollection:SEBI017
 uibusinessinteractioncollection:SEBI004
 objectclass:NDRole
 objectclass:top
@@ -394,7 +391,6 @@ uibusinessinteractioncollection:SEBI023
 uibusinessinteractioncollection:SEBI014
 uibusinessinteractioncollection:SEBI016
 uibusinessinteractioncollection:SEBI206
-uibusinessinteractioncollection:SEBI017
 uibusinessinteractioncollection:SEBI105
 uibusinessinteractioncollection:SEBI205
 uibusinessinteractioncollection:SEBI027
@@ -520,6 +516,13 @@ uibusinessinteractioncollection:SEBI035
 objectclass:NDRole
 objectclass:top
 cn:SEBT013
+
+dn:cn=SEBT017,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Update OGRS
+uibusinessinteractioncollection:SEBI017
+objectclass:NDRole
+objectclass:top
+cn:SEBT017
 
 dn:cn=NSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Offender Search
