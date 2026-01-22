@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.4.5 at 2026/01/05 15:52:57
+# Role Catalogue generated from RBAC Matrix v6.4.6 at 2026/01/22 13:47:20
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.4.5
+description:RBAC v6.4.6
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3909,6 +3909,16 @@ uibusinessinteractioncollection:CAS3BI001
 objectclass:NDRole
 objectclass:top
 cn:CAS3BT004
+
+dn:cn=SASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Single Accommodation Probation User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:SASBI001
+objectclass:NDRole
+objectclass:top
+cn:SASBT001
 
 dn:cn=CEMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Access Create an EM Order
