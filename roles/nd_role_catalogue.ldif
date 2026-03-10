@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.4.6 at 2026/01/22 13:47:20
+# Role Catalogue generated from RBAC Matrix v6.5.1 at 2026/03/09 17:07:30
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.4.6
+description:RBAC v6.5.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -77,6 +77,26 @@ uibusinessinteractioncollection:CWBI002
 objectclass:NDRole
 objectclass:top
 cn:CWBT002
+
+dn:cn=CWBT002a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Court Appearance Details 
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CWBI001
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:SEBI008
+uibusinessinteractioncollection:SEBI009
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:CWBI004
+uibusinessinteractioncollection:CWBI005
+uibusinessinteractioncollection:CWBI003
+uibusinessinteractioncollection:CWBI002
+objectclass:NDRole
+objectclass:top
+cn:CWBT002a
 
 dn:cn=CWBT200,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Prepare a case for court
@@ -171,6 +191,16 @@ objectclass:NDRole
 objectclass:top
 cn:CWBT101
 
+dn:cn=CWBT101a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Consecutive Concurrent
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CWBI101
+objectclass:NDRole
+objectclass:top
+cn:CWBT101a
+
 dn:cn=CWBT102,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Maintain Consecutive Concurrent
 sector:public
@@ -253,6 +283,38 @@ objectclass:NDRole
 objectclass:top
 cn:RPBT001
 
+dn:cn=RPBT001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Produce Reports L1L3
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:RPBI002
+uibusinessinteractioncollection:RPBI006
+uibusinessinteractioncollection:RPBI007
+uibusinessinteractioncollection:RPBI018
+uibusinessinteractioncollection:RPBI015
+uibusinessinteractioncollection:RPBI020
+uibusinessinteractioncollection:CABI210
+uibusinessinteractioncollection:CABI211
+uibusinessinteractioncollection:CABI212
+uibusinessinteractioncollection:CABI213
+uibusinessinteractioncollection:CABI214
+uibusinessinteractioncollection:CABI215
+uibusinessinteractioncollection:CABI216
+uibusinessinteractioncollection:CABI220
+uibusinessinteractioncollection:CABI221
+uibusinessinteractioncollection:CABI222
+uibusinessinteractioncollection:CABI223
+uibusinessinteractioncollection:CABI224
+uibusinessinteractioncollection:CABI225
+uibusinessinteractioncollection:CABI226
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI003
+uibusinessinteractioncollection:CLBI007
+objectclass:NDRole
+objectclass:top
+cn:RPBT001a
+
 dn:cn=RPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Reports
 level1:TRUE
@@ -271,6 +333,25 @@ uibusinessinteractioncollection:RPBI027
 objectclass:NDRole
 objectclass:top
 cn:RPBT003
+
+dn:cn=RPBT003a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Reports
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:RPBI001
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:SEBI008
+uibusinessinteractioncollection:SEBI009
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:RPBI005
+uibusinessinteractioncollection:RPBI026
+uibusinessinteractioncollection:RPBI027
+objectclass:NDRole
+objectclass:top
+cn:RPBT003a
 
 dn:cn=RPBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Reports Admin
@@ -306,6 +387,29 @@ uibusinessinteractioncollection:SEBI025
 objectclass:NDRole
 objectclass:top
 cn:SEBT001
+
+dn:cn=SEBT001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Sentence Details
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:SEBI008
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:SEBI009
+uibusinessinteractioncollection:CABI261
+uibusinessinteractioncollection:CABI250
+uibusinessinteractioncollection:SEBI103
+uibusinessinteractioncollection:SEBI203
+uibusinessinteractioncollection:SEBI024
+uibusinessinteractioncollection:SEBI100
+uibusinessinteractioncollection:SEBI200
+uibusinessinteractioncollection:SEBI025
+objectclass:NDRole
+objectclass:top
+cn:SEBT001a
 
 dn:cn=SEBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Sentence Details
@@ -517,13 +621,6 @@ objectclass:NDRole
 objectclass:top
 cn:SEBT013
 
-dn:cn=SEBT017,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Update OGRS
-uibusinessinteractioncollection:SEBI017
-objectclass:NDRole
-objectclass:top
-cn:SEBT017
-
 dn:cn=NSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Offender Search
 level1:FALSE
@@ -632,6 +729,26 @@ uibusinessinteractioncollection:CABI017
 objectclass:NDRole
 objectclass:top
 cn:CABT001
+
+dn:cn=CABT001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Transfer and Tier History 
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CABI001
+uibusinessinteractioncollection:CABI265
+uibusinessinteractioncollection:CABI266
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:CABI016
+uibusinessinteractioncollection:CABI013
+uibusinessinteractioncollection:CABI282
+uibusinessinteractioncollection:CABI017
+objectclass:NDRole
+objectclass:top
+cn:CABT001a
 
 dn:cn=CABT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Transfer Offender Manager
@@ -1154,6 +1271,39 @@ objectclass:NDRole
 objectclass:top
 cn:OIBT0001
 
+dn:cn=OIBT0001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Offender Details
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:OIBI002
+uibusinessinteractioncollection:OIBI003
+uibusinessinteractioncollection:OIBI004
+uibusinessinteractioncollection:OIBI005
+uibusinessinteractioncollection:OIBI006
+uibusinessinteractioncollection:OIBI007
+uibusinessinteractioncollection:OIBI011
+uibusinessinteractioncollection:OIBI017
+uibusinessinteractioncollection:OIBI018
+uibusinessinteractioncollection:OIBI020
+uibusinessinteractioncollection:OIBI021
+uibusinessinteractioncollection:OIBI069
+uibusinessinteractioncollection:OIBI023
+uibusinessinteractioncollection:OIBI024
+uibusinessinteractioncollection:OIBI026
+uibusinessinteractioncollection:OIBI071
+uibusinessinteractioncollection:OIBI084
+uibusinessinteractioncollection:OIBI083
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:OIBI103
+uibusinessinteractioncollection:OIBI104
+uibusinessinteractioncollection:XXBI020
+objectclass:NDRole
+objectclass:top
+cn:OIBT0001a
+
 dn:cn=OIBT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Maintain Offender Details
 sector:public
@@ -1337,6 +1487,7 @@ level3:FALSE
 uibusinessinteractioncollection:WPBI100
 uibusinessinteractioncollection:WPBI110
 uibusinessinteractioncollection:WPBI003
+uibusinessinteractioncollection:APBI007
 objectclass:NDRole
 objectclass:top
 cn:WPBT003
@@ -1432,7 +1583,7 @@ objectclass:top
 cn:WPBT051
 
 dn:cn=WPBT300,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Template Service Breach Notice (PILOT)
+description:Template Service Breach Notice
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1442,7 +1593,7 @@ objectclass:top
 cn:WPBT300
 
 dn:cn=WPBT301,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Template Service Breach Report CO SSO (PILOT)
+description:Template Service Breach Report CO SSO
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1452,7 +1603,7 @@ objectclass:top
 cn:WPBT301
 
 dn:cn=WPBT302,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Template Service Suicide Form (PILOT)
+description:Template Service Suicide Form
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1462,7 +1613,7 @@ objectclass:top
 cn:WPBT302
 
 dn:cn=WPBT303,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Template Service PAROM1 (PILOT)
+description:Template Service PAROM1
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1472,7 +1623,7 @@ objectclass:top
 cn:WPBT303
 
 dn:cn=WPBT304,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Add New Service (PILOT)
+description:Template Service Warrant Risk
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -1646,6 +1797,28 @@ objectclass:NDRole
 objectclass:top
 cn:TCBT003
 
+dn:cn=TCBT003a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Throughcare Details
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:SEBI009
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:SEBI008
+uibusinessinteractioncollection:TCBI004
+uibusinessinteractioncollection:TCBI010
+uibusinessinteractioncollection:TCBI011
+uibusinessinteractioncollection:TCBI034
+uibusinessinteractioncollection:TCBI020
+uibusinessinteractioncollection:TCBI035
+uibusinessinteractioncollection:TCBI036
+objectclass:NDRole
+objectclass:top
+cn:TCBT003a
+
 dn:cn=TCBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Prepare a case for Release
 level1:TRUE
@@ -1727,6 +1900,26 @@ uibusinessinteractioncollection:DRBI008
 objectclass:NDRole
 objectclass:top
 cn:DRBT002
+
+dn:cn=DRBT002a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Referrals
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:DRBI999
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:DRBI002
+uibusinessinteractioncollection:SEBI009
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:SEBI008
+uibusinessinteractioncollection:CABI250
+uibusinessinteractioncollection:DRBI007
+uibusinessinteractioncollection:DRBI008
+objectclass:NDRole
+objectclass:top
+cn:DRBT002a
 
 dn:cn=DRBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Referrals Admin
@@ -2052,6 +2245,30 @@ uibusinessinteractioncollection:HPBI001
 objectclass:NDRole
 objectclass:top
 cn:UWBT003
+
+dn:cn=UWBT003a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 UPW Offender Details
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:UWBI001
+uibusinessinteractioncollection:SEBI008
+uibusinessinteractioncollection:SEBI009
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:UWBI002
+uibusinessinteractioncollection:UWBI003
+uibusinessinteractioncollection:UWBI100
+uibusinessinteractioncollection:UWBI101
+uibusinessinteractioncollection:UWBI104
+uibusinessinteractioncollection:UWBI154
+uibusinessinteractioncollection:UWBI155
+uibusinessinteractioncollection:UWBI194
+uibusinessinteractioncollection:HPBI001
+objectclass:NDRole
+objectclass:top
+cn:UWBT003a
 
 dn:cn=UWBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:UPW Project Diary
@@ -2393,6 +2610,23 @@ objectclass:NDRole
 objectclass:top
 cn:CLBT002
 
+dn:cn=CLBT002a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Contact Log
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:CLBI001
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:CLBI060
+uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI004
+uibusinessinteractioncollection:CLBI010
+objectclass:NDRole
+objectclass:top
+cn:CLBT002a
+
 dn:cn=CLBT050,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Contact Log Admin
 level1:TRUE
@@ -2451,6 +2685,26 @@ uibusinessinteractioncollection:RRBI116
 objectclass:NDRole
 objectclass:top
 cn:RRBT001
+
+dn:cn=RRBT001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Offender Registration
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:RRBI100
+uibusinessinteractioncollection:DMBI106
+uibusinessinteractioncollection:DMBI107
+uibusinessinteractioncollection:XXBI020
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:RRBI110
+uibusinessinteractioncollection:RRBI111
+uibusinessinteractioncollection:RRBI112
+uibusinessinteractioncollection:RRBI113
+uibusinessinteractioncollection:RRBI115
+uibusinessinteractioncollection:RRBI116
+objectclass:NDRole
+objectclass:top
+cn:RRBT001a
 
 dn:cn=RRBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Offender Registration
@@ -2960,6 +3214,21 @@ objectclass:NDRole
 objectclass:top
 cn:OABT001
 
+dn:cn=OABT001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Delius Copy of OASYS Assessment
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:OABI001
+uibusinessinteractioncollection:OABI004
+uibusinessinteractioncollection:OABI005
+uibusinessinteractioncollection:OIBI001
+uibusinessinteractioncollection:SEBI008
+uibusinessinteractioncollection:SEBI009
+objectclass:NDRole
+objectclass:top
+cn:OABT001a
+
 dn:cn=OABT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Delete Delius Copy of OASys Assessment
 level1:TRUE
@@ -3084,6 +3353,21 @@ uibusinessinteractioncollection:NIBI010
 objectclass:NDRole
 objectclass:top
 cn:NIBT0001
+
+dn:cn=NIBT0001a,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View L1L3 Non Statutory Interventions
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:NIBI001
+uibusinessinteractioncollection:NIBI004
+uibusinessinteractioncollection:NIBI007
+uibusinessinteractioncollection:NIBI018
+uibusinessinteractioncollection:NIBI019
+uibusinessinteractioncollection:NIBI010
+objectclass:NDRole
+objectclass:top
+cn:NIBT0001a
 
 dn:cn=NIBT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Manage Non Statutory Interventions
@@ -4031,7 +4315,7 @@ objectclass:top
 cn:HPABT001
 
 dn:cn=VLPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Video Link Probation User
+description:Book a Video Link Access
 level1:FALSE
 level2:FALSE
 level3:FALSE
