@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.5.1 at 2026/03/09 17:07:30
+# Role Catalogue generated from RBAC Matrix v6.5.2 at 2026/03/31 15:06:12
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.5.1
+description:RBAC v6.5.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -150,6 +150,7 @@ level1:TRUE
 level2:TRUE
 level3:FALSE
 uibusinessinteractioncollection:CWBI013
+uibusinessinteractioncollection:CWBI015
 uibusinessinteractioncollection:CWBI011
 objectclass:NDRole
 objectclass:top
@@ -162,6 +163,7 @@ level1:TRUE
 level2:TRUE
 level3:TRUE
 uibusinessinteractioncollection:CWBI013
+uibusinessinteractioncollection:CWBI015
 uibusinessinteractioncollection:CWBI011
 objectclass:NDRole
 objectclass:top
@@ -175,6 +177,7 @@ level1:TRUE
 level2:TRUE
 level3:TRUE
 uibusinessinteractioncollection:CWBI013
+uibusinessinteractioncollection:CWBI015
 uibusinessinteractioncollection:CWBI009
 uibusinessinteractioncollection:CWBI011
 objectclass:NDRole
@@ -579,6 +582,8 @@ cn:SEBT005
 
 dn:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Cohort Details
+sector:public
+adminlevel:national
 level1:TRUE
 level2:TRUE
 level3:TRUE
@@ -597,6 +602,8 @@ cn:SEBT011
 
 dn:cn=SEBT012,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Add and Update Cohort
+sector:public
+adminlevel:national
 level1:TRUE
 level2:TRUE
 level3:FALSE
@@ -612,6 +619,7 @@ cn:SEBT012
 dn:cn=SEBT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Cohort Admin
 sector:public
+adminlevel:national
 level1:TRUE
 level2:TRUE
 level3:FALSE
@@ -2604,6 +2612,7 @@ uibusinessinteractioncollection:DMBI107
 uibusinessinteractioncollection:XXBI020
 uibusinessinteractioncollection:CLBI060
 uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI020
 uibusinessinteractioncollection:CLBI004
 uibusinessinteractioncollection:CLBI010
 objectclass:NDRole
@@ -2621,6 +2630,7 @@ uibusinessinteractioncollection:DMBI107
 uibusinessinteractioncollection:XXBI020
 uibusinessinteractioncollection:CLBI060
 uibusinessinteractioncollection:CLBI002
+uibusinessinteractioncollection:CLBI020
 uibusinessinteractioncollection:CLBI004
 uibusinessinteractioncollection:CLBI010
 objectclass:NDRole
@@ -4063,6 +4073,16 @@ uibusinessinteractioncollection:MASBI001
 objectclass:NDRole
 objectclass:top
 cn:MASBT002
+
+dn:cn=MASBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Admin for Supervisions
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:MASBI001
+objectclass:NDRole
+objectclass:top
+cn:MASBT003
 
 dn:cn=MAABT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Allocations Service User
