@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.5.1 at 2026/03/09 17:07:31
+# Role Catalogue generated from RBAC Matrix v6.5.2 at 2026/03/31 15:06:12
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.5.1
+description:RBAC v6.5.2
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -43,13 +43,6 @@ objectclass: Top
 dn:cn=SEBT001,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=SEBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: SEBT001
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=SEBT011,cn=AP Staff,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT011
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -449,13 +442,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT011,cn=Read Only User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT011
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=NSBT010,cn=Read Only User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=NSBT010,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: NSBT010
@@ -667,13 +653,6 @@ objectclass: Top
 dn:cn=SEBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=SEBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: SEBT001
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=SEBT011,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT011
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1327,13 +1306,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT011,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT011
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=NSBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=NSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: NSBT001
@@ -1747,9 +1719,23 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=SPLNBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SPLNBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SPLNBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=RMBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=RMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: RMBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=TCSBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=TCSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: TCSBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -2557,27 +2543,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=SEBT011,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT011
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=SEBT012,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT012,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT012
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=SEBT013,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT013,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT013
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=NSBT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=NSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: NSBT001
@@ -3344,6 +3309,20 @@ objectclass: Top
 dn:cn=ESUPBT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=ESUPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: ESUPBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=SPLNBT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SPLNBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SPLNBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=TCSBT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=TCSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: TCSBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -4443,6 +4422,20 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=SPLNBT001,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SPLNBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SPLNBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=TCSBT001,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=TCSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: TCSBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=Add New Document Approach,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 cn:Add New Document Approach
 objectclass: NDRoleGroup
@@ -4550,13 +4543,6 @@ objectclass: Top
 dn:cn=SEBT001,cn=UPW Operational,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=SEBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: SEBT001
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=SEBT011,cn=UPW Operational,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: SEBT011
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
