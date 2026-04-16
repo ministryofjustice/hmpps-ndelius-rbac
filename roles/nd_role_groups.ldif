@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.5.2 at 2026/03/31 15:06:12
+# Role Catalogue generated from RBAC Matrix v6.5.2.1 at 2026/04/15 16:22:10
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.5.2
+description:RBAC v6.5.2.1
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1684,6 +1684,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=MASBT002,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MASBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MASBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=PDBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=PDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: PDBT001
@@ -3278,6 +3285,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=MASBT002,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MASBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MASBT002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=PDBT001,cn=ICT Admin,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=PDBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: PDBT001
@@ -4383,6 +4397,13 @@ objectclass: Top
 dn:cn=SPGADBT005,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=SPGADBT005,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: SPGADBT005
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MASBT002,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MASBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MASBT002
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
