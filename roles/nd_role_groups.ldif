@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.8.1 at 2026/05/22 08:55:19
+# Role Catalogue generated from RBAC Matrix v6.8.2 at 2026/05/28 10:22:30
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.8.1
+description:RBAC v6.8.2
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1677,13 +1677,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=MAWBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=MAWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: MAWBT001
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=MASBT002,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=MASBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: MASBT002
@@ -2045,13 +2038,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=MAWBT001,cn=External Staff - NSI Caseload,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=MAWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: MAWBT001
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=External Staff - National Search,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 cn:External Staff - National Search
 objectclass: NDRoleGroup
@@ -2239,13 +2225,6 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
-dn:cn=MAWBT001,cn=External Staff - National Search,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=MAWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: MAWBT001
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
 dn:cn=External Staff - Search and NSIs,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 cn:External Staff - Search and NSIs
 objectclass: NDRoleGroup
@@ -2429,13 +2408,6 @@ objectclass: Top
 dn:cn=NIBT0006,cn=External Staff - Search and NSIs,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=NIBT0006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: NIBT0006
-objectclass: NDRoleAssociation
-objectclass: alias
-objectclass: Top
-
-dn:cn=MAWBT001,cn=External Staff - Search and NSIs,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-aliasedobjectname:cn=MAWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-cn: MAWBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
