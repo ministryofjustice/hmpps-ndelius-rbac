@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.8.2 at 2026/05/28 10:22:30
+# Role Catalogue generated from RBAC Matrix v6.8.3 at 2026/06/17 12:07:32
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.8.2
+description:RBAC v6.8.3
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1178,6 +1178,13 @@ objectclass: Top
 dn:cn=RMBT003,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=RMBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: RMBT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=SARBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=SARBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: SARBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
