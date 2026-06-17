@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.8.2 at 2026/05/28 10:22:30
+# Role Catalogue generated from RBAC Matrix v6.8.3 at 2026/06/17 12:07:32
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.8.2
+description:RBAC v6.8.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -1515,6 +1515,7 @@ uibusinessinteractioncollection:WPBI002
 uibusinessinteractioncollection:WPBI004
 uibusinessinteractioncollection:WPBI006
 uibusinessinteractioncollection:WPBI008
+uibusinessinteractioncollection:WPBI009
 uibusinessinteractioncollection:WPBI106
 uibusinessinteractioncollection:WPBI104
 uibusinessinteractioncollection:WPBI105
@@ -4288,6 +4289,16 @@ uibusinessinteractioncollection:RMBI003
 objectclass:NDRole
 objectclass:top
 cn:RMBT003
+
+dn:cn=SARBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:HMPPS Subject Access Report User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:SARBI001
+objectclass:NDRole
+objectclass:top
+cn:SARBT001
 
 dn:cn=EDSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:EM Data Store General User
