@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.8.3 at 2026/06/17 12:07:32
+# Role Catalogue generated from RBAC Matrix v6.8.4 at 2026/07/01 15:40:04
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.8.3
+description:RBAC v6.8.4
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -1105,6 +1105,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=CAS2BT003,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=CAS2BT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: CAS2BT003
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=CAS3BT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: CAS3BT001
@@ -1150,6 +1157,13 @@ objectclass: Top
 dn:cn=ESUPBT001,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=ESUPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: ESUPBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=ESUPBT002,cn=Read Only Mode,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=ESUPBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: ESUPBT002
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
@@ -1680,6 +1694,13 @@ objectclass: Top
 dn:cn=NIBT0002,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=NIBT0002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: NIBT0002
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=MAWBT001,cn=Standard PS User,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=MAWBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: MAWBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top

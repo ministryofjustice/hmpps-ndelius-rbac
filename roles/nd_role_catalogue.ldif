@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.8.3 at 2026/06/17 12:07:32
+# Role Catalogue generated from RBAC Matrix v6.8.4 at 2026/07/01 15:40:04
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.8.3
+description:RBAC v6.8.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -4180,6 +4180,16 @@ objectclass:NDRole
 objectclass:top
 cn:CAS2BT002
 
+dn:cn=CAS2BT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:CAS2 MI Reports Access
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:CAS2BI001
+objectclass:NDRole
+objectclass:top
+cn:CAS2BT003
+
 dn:cn=CAS3BT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Temporary Accommodation Referrer
 level1:FALSE
@@ -4249,6 +4259,16 @@ uibusinessinteractioncollection:ESUPBI001
 objectclass:NDRole
 objectclass:top
 cn:ESUPBT001
+
+dn:cn=ESUPBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:e-Supervision Account Invitations
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:ESUPBI001
+objectclass:NDRole
+objectclass:top
+cn:ESUPBT002
 
 dn:cn=SPLNBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Plan General Access
