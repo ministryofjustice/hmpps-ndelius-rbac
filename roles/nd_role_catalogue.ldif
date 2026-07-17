@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.8.4 at 2026/07/01 15:40:04
+# Role Catalogue generated from RBAC Matrix v6.9.1 at 2026/07/17 09:39:15
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.8.4
+description:RBAC v6.9.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -402,6 +402,7 @@ uibusinessinteractioncollection:DMBI106
 uibusinessinteractioncollection:DMBI107
 uibusinessinteractioncollection:XXBI020
 uibusinessinteractioncollection:SEBI009
+uibusinessinteractioncollection:SEBI009
 uibusinessinteractioncollection:CABI261
 uibusinessinteractioncollection:CABI250
 uibusinessinteractioncollection:SEBI103
@@ -564,6 +565,7 @@ level1:TRUE
 level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:SEBI005
+uibusinessinteractioncollection:SRBI001
 uibusinessinteractioncollection:SEBI111
 uibusinessinteractioncollection:SEBI114
 objectclass:NDRole
@@ -4261,7 +4263,7 @@ objectclass:top
 cn:ESUPBT001
 
 dn:cn=ESUPBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:e-Supervision Account Invitations
+description:Probation Account Service Invitations
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -4371,7 +4373,7 @@ objectclass:top
 cn:HPABT001
 
 dn:cn=VLPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Book a Video Link Access
+description:Book a Video Link (probation)
 level1:FALSE
 level2:FALSE
 level3:FALSE
