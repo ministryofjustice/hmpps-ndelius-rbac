@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.9.2 at 2026/07/31 15:17:59
+# Role Catalogue generated from RBAC Matrix v6.9.3 at 2026/09/11 13:07:13
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.9.2
+description:RBAC v6.9.3
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -581,6 +581,16 @@ uibusinessinteractioncollection:SEBI005
 objectclass:NDRole
 objectclass:top
 cn:SEBT005
+
+dn:cn=SEBT006,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:View Supervision Packages
+level1:TRUE
+level2:FALSE
+level3:TRUE
+uibusinessinteractioncollection:SRBI001
+objectclass:NDRole
+objectclass:top
+cn:SEBT006
 
 dn:cn=SEBT011,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:View Cohort Details
