@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.9.3 at 2026/09/11 13:07:13
+# Role Catalogue generated from RBAC Matrix v6.9.4 at 2026/09/17 13:25:11
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.9.3
+description:RBAC v6.9.4
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -4060,6 +4060,16 @@ uibusinessinteractioncollection:MRDBI001
 objectclass:NDRole
 objectclass:top
 cn:MRDBT008
+
+dn:cn=MRDBT009,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Consider a Recall PPUD User Mapping Admin
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:MRDBI001
+objectclass:NDRole
+objectclass:top
+cn:MRDBT009
 
 dn:cn=IMSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Navigate to Intelligence Management System
