@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.9.4 at 2026/09/17 13:25:11
+# Role Catalogue generated from RBAC Matrix v6.10.1 at 2026/10/29 13:04:57
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.9.4
+description:RBAC v6.10.1
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -3859,6 +3859,17 @@ objectclass:NDRole
 objectclass:top
 cn:LHDCBT003
 
+dn:cn=AALBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Auth Allow List
+sector:public
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:AALBI001
+objectclass:NDRole
+objectclass:top
+cn:AALBT001
+
 dn:cn=CTRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Pathfinder CT Probation
 sector:public
@@ -4252,7 +4263,7 @@ objectclass:top
 cn:CAS3BT004
 
 dn:cn=SASBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Single Accommodation Probation User
+description:Single Accommodation User
 level1:FALSE
 level2:FALSE
 level3:FALSE
