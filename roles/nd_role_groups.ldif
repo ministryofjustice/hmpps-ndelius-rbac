@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.9.4 at 2026/09/17 13:25:11
+# Role Catalogue generated from RBAC Matrix v6.10.1 at 2026/10/29 13:04:57
 
 dn:cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.9.4
+description:RBAC v6.10.1
 objectclass: Top
 objectclass: person
 sn:ndRoleGroups
@@ -4429,6 +4429,13 @@ objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
 
+dn:cn=AALBT001,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=AALBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: AALBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
 dn:cn=MASBT002,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=MASBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: MASBT002
@@ -4481,6 +4488,18 @@ objectclass: Top
 dn:cn=TCSBT001,cn=National Administrator,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
 aliasedobjectname:cn=TCSBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 cn: TCSBT001
+objectclass: NDRoleAssociation
+objectclass: alias
+objectclass: Top
+
+dn:cn=Digital Teams Pre-Prod Access,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+cn:Digital Teams Pre-Prod Access
+objectclass: NDRoleGroup
+objectclass: Top
+
+dn:cn=AALBT001,cn=Digital Teams Pre-Prod Access,cn=ndRoleGroups,cn=Users,dc=pcms,dc=internal
+aliasedobjectname:cn=AALBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+cn: AALBT001
 objectclass: NDRoleAssociation
 objectclass: alias
 objectclass: Top
