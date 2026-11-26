@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.10.2 at 2026/11/25 15:00:29
+# Role Catalogue generated from RBAC Matrix v6.11.2 at 2026/11/26 12:05:40
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.10.2
+description:RBAC v6.11.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -2033,6 +2033,7 @@ uibusinessinteractioncollection:DRGBI007
 uibusinessinteractioncollection:DRGBI008
 uibusinessinteractioncollection:DRGBI009
 uibusinessinteractioncollection:DRGBI010
+uibusinessinteractioncollection:DRGBI020
 objectclass:NDRole
 objectclass:top
 cn:DRGBT02
@@ -4401,6 +4402,26 @@ uibusinessinteractioncollection:EMCMBI001
 objectclass:NDRole
 objectclass:top
 cn:EMCMBT001
+
+dn:cn=EMDIBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:EMDI Support
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:EMDIBI001
+objectclass:NDRole
+objectclass:top
+cn:EMDIBT001
+
+dn:cn=EMDIBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:EMDI Management
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:EMDIBI001
+objectclass:NDRole
+objectclass:top
+cn:EMDIBT002
 
 dn:cn=APRBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Access Appointment Reminders Service
